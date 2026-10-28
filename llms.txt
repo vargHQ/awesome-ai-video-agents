@@ -1,0 +1,66 @@
+# Awesome AI video agents
+
+> A curated list of agent skills, MCP servers, APIs and open-source tools for making video with Claude Code, Codex and Grok, with install commands and examples. Mirror of varg how to (https://varg.ai/how-to); the live pages there are the ones to read.
+
+## Search (one call, no key)
+
+- https://varg.ai/how-to/api/search?q={request}  (markdown)
+- https://api.varg.ai/v2/skills/search?q={request}  (JSON)
+- MCP, no key: https://api.varg.ai/v2/skills/mcp
+
+## Step-by-step tutorials
+
+- [How to make a UGC ad video with AI](https://varg.ai/how-to/make-a-ugc-ad-video.md): A creator-style ad: a person talks to camera about your product, with b-roll, captions and an end card.
+- [How to make video ad variants for testing with AI](https://varg.ai/how-to/make-video-ad-variants-for-testing.md): Ten or more short video ads from one brief, each with a different hook or format, for Meta/TikTok creative testing.
+- [How to turn a product photo into a video with AI](https://varg.ai/how-to/turn-a-product-photo-into-a-video.md): A product shot turned into a short promo: orbit, push-in, exploded view or bullet time, with music.
+- [How to make viral ecommerce videos for TikTok and Reels](https://varg.ai/how-to/make-viral-ecommerce-videos.md): Product videos that sell on TikTok, TikTok Shop, Instagram Reels and Meta ads: the angle, the hook, the format, the person on camera, the rules and the variants.
+- [How to make a TikTok Shop video with AI](https://varg.ai/how-to/make-a-tiktok-shop-video.md): A shoppable or affiliate TikTok Shop video that sells and stays compliant: product in frame from the first second, a real presenter, one number, a cart CTA.
+- [How to edit a product video for TikTok and Reels with AI](https://varg.ai/how-to/edit-a-product-video-for-tiktok.md): Raw product footage (a creator clip, an unboxing, last month's winning ad) recut into a 9:16 ad: hook at second 0, no dead air, captions, one CTA, one file per hook.
+- [How to cut a podcast into short video clips with AI](https://varg.ai/how-to/cut-a-podcast-into-short-video-clips.md): Find the best moments in a long video, cut them, reframe to 9:16 and burn captions.
+- [How to add animated captions to a video with AI](https://varg.ai/how-to/add-animated-captions-to-a-video.md): TikTok-style subtitles burned into an existing video: word highlight, pop words, or designed editorial captions.
+- [How to make a talking avatar video with AI](https://varg.ai/how-to/make-a-talking-avatar-video.md): A person (from a headshot, or generated) speaks your script to camera with lip-sync, in any language.
+- [How to translate and dub a video with AI](https://varg.ai/how-to/translate-and-dub-a-video.md): Your video in another language with your own voice, optionally lip-synced and subtitled.
+- [How to make a faceless YouTube video with AI](https://varg.ai/how-to/make-a-faceless-youtube-video.md): A narrated short or long video with no presenter: script, voiceover, visuals, captions, music.
+- [How to make a text message story video with AI](https://varg.ai/how-to/make-a-text-message-story-video.md): A viral iMessage-style chat drama: bubbles appear with typing, sounds and a cliffhanger.
+- [How to make a Notes app video ad with AI](https://varg.ai/how-to/make-a-notes-app-video-ad.md): A note types itself in a phone notes app, reads like a confession, and turns into an ad.
+- [How to make a SaaS launch video with AI](https://varg.ai/how-to/make-a-saas-launch-video.md): A polished launch film for an app or website: UI cards, device mockups, kinetic type, music.
+- [How to turn release notes into a changelog video with AI](https://varg.ai/how-to/turn-release-notes-into-a-changelog-video.md): Release notes, a PR or a GitHub repo turned into a short video for X or LinkedIn.
+- [How to make an explainer video with AI](https://varg.ai/how-to/make-an-explainer-video.md): A narrated explainer about a product, a topic or a document, with motion graphics or AI visuals.
+- [How to make an AI music video](https://varg.ai/how-to/make-an-ai-music-video.md): A music video for your song: concept, a consistent lead character, shots cut on the beat, lip-sync on vocals.
+- [How to make a lyric video with AI](https://varg.ai/how-to/make-a-lyric-video.md): Lyrics synced to the song: the sung line big and highlighted, karaoke-style, over art or a shader.
+- [How to turn photos into a slideshow video with AI](https://varg.ai/how-to/turn-photos-into-a-slideshow-video.md): Your photos cut to music, with motion, transitions on the beat and titles.
+- [How to make an AI short film](https://varg.ai/how-to/make-an-ai-short-film.md): A multi-shot story with consistent characters: script, storyboard, previz, shots, edit.
+- [How to keep a character consistent in AI video](https://varg.ai/how-to/keep-a-character-consistent-in-ai-video.md): One mascot, trainer or actor that looks identical across many images and clips.
+- [How to make an AI influencer video](https://varg.ai/how-to/make-an-ai-influencer-video.md): A recurring AI character with one look and one format, posting as a creator or a brand face.
+- [How to make exercise demo video loops with AI](https://varg.ai/how-to/make-exercise-demo-video-loops.md): Looping exercise demos for a fitness app: one trainer, many exercises, clean background.
+- [How to make a logo animation with AI](https://varg.ai/how-to/make-a-logo-animation.md): Your logo animated into a short intro or outro: 3D chrome, liquid, shader, glitch or clean motion.
+- [How to make an animated chart video with AI](https://varg.ai/how-to/make-an-animated-chart-video.md): Numbers from a CSV or a report as an animated chart: bar race, line, hero number.
+- [How to make YouTube video thumbnails with AI](https://varg.ai/how-to/make-youtube-video-thumbnails.md): High-CTR thumbnails and vertical covers, in a few options to choose from.
+- [How to make AI product photos and listing images](https://varg.ai/how-to/make-ai-product-photos.md): Marketplace listing images, lifestyle shots and packshots from one product photo.
+- [How to edit your own video footage with AI](https://varg.ai/how-to/edit-your-own-video-footage.md): Cut silences and flubs, reframe 16:9 to 9:16, add captions and b-roll to footage you shot.
+- [How to remake a reference video with AI](https://varg.ai/how-to/remake-a-reference-video.md): Take a reel or ad you like, break it down shot by shot, and remake the format for your brand.
+- [How to add voiceover and music to a video with AI](https://varg.ai/how-to/add-voiceover-and-music-to-a-video.md): A professional voiceover and a fitting music bed added to your video or screen recording.
+- [How to animate a photo into a video with AI](https://varg.ai/how-to/animate-a-photo-into-a-video.md): A still photo brought to life: a subtle smile, blink, camera move or full scene motion.
+- [How to make trending AI video formats](https://varg.ai/how-to/make-trending-ai-video-formats.md): What's going viral now — formats you can make for your brand today, with the skill for each.
+- [How to swap your character into a video with AI](https://varg.ai/how-to/swap-your-character-into-a-video.md): Your character (or person) performs the exact motion of a trending video: dance, gesture, walk, ad performance — motion transfer.
+- [How to make AI b-roll for your video](https://varg.ai/how-to/make-ai-b-roll-for-your-video.md): Cutaway footage for every mention in a voiceover or interview: generated clips, collage or stock-style shots, cut in on time.
+- [How to make TikTok photo carousels with AI](https://varg.ai/how-to/make-tiktok-photo-carousels.md): Swipeable photo slideshows with hook text — the format app founders use for organic growth.
+- [How to make an app demo video with AI](https://varg.ai/how-to/make-an-app-demo-video.md): A polished demo of your app: device mockups, real screens, captions, music — for the App Store, ads or a landing page.
+- [How to make a property listing video with AI](https://varg.ai/how-to/make-a-property-listing-video.md): A listing reel from property photos: gentle camera motion through rooms, captions with price and features, music.
+- [How to change something inside a video with AI](https://varg.ai/how-to/change-something-inside-a-video.md): Swap a product, restyle a scene, change lighting or the look of an existing clip while keeping the motion.
+- [How to make personalized videos at scale with AI](https://varg.ai/how-to/make-personalized-videos-at-scale.md): One template, many versions: each lead's name, company and website in the video, optionally in a cloned voice.
+
+## Shelves
+
+- [Workflows](https://varg.ai/how-to/workflows.md): A brief in, a finished video out: UGC ads, product videos, music videos, talking heads, explainers, Shorts and short dramas, step by step, with the models and the edit chosen for you.
+- [Prompts](https://varg.ai/how-to/prompts.md): The words a video model obeys: camera angles, shot sizes, lighting, characters, hooks and prompt guides for Seedance, Kling, Veo, FLUX and Higgsfield. Your agent writes the prompt with them, or you paste them into the model.
+- [Effects](https://varg.ai/how-to/effects.md): An effect you can see, added to your video: animated titles, captions, transitions, shader backgrounds, logo animations, device mockups and viral camera tricks. Hand your agent the footage or the brief and get the effect.
+- [Styles](https://varg.ai/how-to/styles.md): The look of the whole video: art styles, film looks, color grades and LUTs, caption fonts and style references. Pick a style and every shot your agent makes follows it.
+- [Guides](https://varg.ai/how-to/guides.md): Know-how your agent reads before it works: how to write a script, storyboard, edit and caption, and how to use Remotion, HyperFrames, GSAP, Three.js and FFmpeg.
+- [Models & tools](https://varg.ai/how-to/models.md): Run one model or tool from your agent: Seedance, Veo, Kling, FLUX, GPT Image, Nano Banana, ElevenLabs and 1,200+ more, plus scrapers, trend search and video analysis.
+
+## Machine-readable
+
+- https://varg.ai/how-to/catalog.json
+- https://github.com/vargHQ/awesome-ai-video-agents/blob/main/catalog.json
+- https://github.com/vargHQ/awesome-ai-video-agents/blob/main/AGENTS.md

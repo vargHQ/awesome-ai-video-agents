@@ -1,0 +1,12 @@
+{
+  "name": "awesome-ai-video-agents",
+  "private": true,
+  "type": "module",
+  "description": "A curated list of agent skills, MCP servers, APIs and open-source tools for making video with Claude Code, Codex and Grok, with install commands and examples. Updated daily from varg.ai/how-to.",
+  "scripts": {
+    "sync": "bun scripts/sync.ts",
+    "validate": "bun scripts/validate.ts",
+    "guard": "bun scripts/guard.ts",
+    "check": "bun scripts/validate.ts && bun scripts/guard.ts"
+  }
+}

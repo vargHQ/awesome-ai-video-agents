@@ -1,0 +1,42 @@
+name: Submit a skill, prompt, effect or style
+description: List something you built. A maintainer turns this into a card, or you publish it yourself through MCP.
+title: "[skill] "
+labels: [submission]
+body:
+  - type: input
+    id: repo
+    attributes: { label: Repository or package URL, placeholder: https://github.com/you/your-skill }
+    validations: { required: true }
+  - type: input
+    id: install
+    attributes: { label: Install command, placeholder: npx skills add you/your-skill --skill my-skill -a claude-code }
+    validations: { required: true }
+  - type: input
+    id: summary
+    attributes: { label: One sentence, input → output, description: "e.g. Turns a podcast into 9:16 clips with word-timed captions." }
+    validations: { required: true }
+  - type: dropdown
+    id: shelf
+    attributes: { label: Shelf, options: [workflow, prompt, effect, style, guide, model] }
+    validations: { required: true }
+  - type: checkboxes
+    id: agents
+    attributes:
+      label: Works in
+      options:
+        - label: Claude Code
+        - label: Codex
+        - label: Cursor
+        - label: Gemini CLI
+        - label: OpenClaw
+        - label: Other (say which below)
+  - type: input
+    id: example
+    attributes: { label: Example output URL (a clip or image you have the right to show) }
+  - type: input
+    id: license
+    attributes: { label: License, placeholder: MIT }
+    validations: { required: true }
+  - type: textarea
+    id: notes
+    attributes: { label: Anything else, description: Requirements, cost, what it is not for. }

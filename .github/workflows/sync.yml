@@ -1,0 +1,23 @@
+name: sync
+on:
+  schedule:
+    - cron: "15 7 * * *"   # daily, after the catalog's own daily updates
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun run sync
+      - run: bun run check
+      - name: Commit if changed
+        run: |
+          git config user.name "varg how to sync"
+          git config user.email "bot@varg.ai"
+          git add -A
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "chore(sync): catalog $(date -u +%F)"
+          git push

@@ -1,0 +1,15 @@
+name: Request a how-to tutorial
+description: A kind of video people ask agents for that has no step-by-step page yet.
+title: "[how-to] How to … with AI"
+labels: [tutorial-request]
+body:
+  - type: input
+    id: task
+    attributes: { label: The task, as a person would type it, placeholder: make a real-estate listing video from photos }
+    validations: { required: true }
+  - type: textarea
+    id: refs
+    attributes: { label: Reference videos, description: Links to 1–3 videos that show the format (X, TikTok, YouTube). }
+  - type: textarea
+    id: known
+    attributes: { label: Skills or tools you already know make it }

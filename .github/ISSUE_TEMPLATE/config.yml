@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Publish a skill from your agent (fastest)
+    url: https://varg.ai/how-to/publish
+    about: Connect https://mcp.varg.ai/mcp and say "publish this skill to varg how to", or use the form.
+  - name: Ask a question
+    url: https://github.com/vargHQ/awesome-ai-video-agents/discussions
+    about: How to make a kind of video, which skill to pick, how to run a pipeline in your agent.
+  - name: varg MCP server setup
+    url: https://docs.varg.ai/mcp-server
+    about: Per-client setup for Claude, ChatGPT, Cursor and VS Code.

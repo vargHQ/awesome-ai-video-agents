@@ -1,0 +1,43 @@
+# How to make any video with AI agents: 39 step-by-step tutorials
+
+Each tutorial names the best skill, the alternatives, the 2–4 choices to show the person before spending anything (with example videos) and the numbered steps. The full pages live on [varg.ai/how-to](https://varg.ai/how-to); every one has a markdown twin (add `.md`). Index for agents: <https://varg.ai/how-to/llms.txt>.
+
+- [How to make a UGC ad video with AI](make-a-ugc-ad-video.md): A creator-style ad: a person talks to camera about your product, with b-roll, captions and an end card.
+- [How to make video ad variants for testing with AI](make-video-ad-variants-for-testing.md): Ten or more short video ads from one brief, each with a different hook or format, for Meta/TikTok creative testing.
+- [How to turn a product photo into a video with AI](turn-a-product-photo-into-a-video.md): A product shot turned into a short promo: orbit, push-in, exploded view or bullet time, with music.
+- [How to make viral ecommerce videos for TikTok and Reels](make-viral-ecommerce-videos.md): Product videos that sell on TikTok, TikTok Shop, Instagram Reels and Meta ads: the angle, the hook, the format, the person on camera, the rules and the variants.
+- [How to make a TikTok Shop video with AI](make-a-tiktok-shop-video.md): A shoppable or affiliate TikTok Shop video that sells and stays compliant: product in frame from the first second, a real presenter, one number, a cart CTA.
+- [How to edit a product video for TikTok and Reels with AI](edit-a-product-video-for-tiktok.md): Raw product footage (a creator clip, an unboxing, last month's winning ad) recut into a 9:16 ad: hook at second 0, no dead air, captions, one CTA, one file per hook.
+- [How to cut a podcast into short video clips with AI](cut-a-podcast-into-short-video-clips.md): Find the best moments in a long video, cut them, reframe to 9:16 and burn captions.
+- [How to add animated captions to a video with AI](add-animated-captions-to-a-video.md): TikTok-style subtitles burned into an existing video: word highlight, pop words, or designed editorial captions.
+- [How to make a talking avatar video with AI](make-a-talking-avatar-video.md): A person (from a headshot, or generated) speaks your script to camera with lip-sync, in any language.
+- [How to translate and dub a video with AI](translate-and-dub-a-video.md): Your video in another language with your own voice, optionally lip-synced and subtitled.
+- [How to make a faceless YouTube video with AI](make-a-faceless-youtube-video.md): A narrated short or long video with no presenter: script, voiceover, visuals, captions, music.
+- [How to make a text message story video with AI](make-a-text-message-story-video.md): A viral iMessage-style chat drama: bubbles appear with typing, sounds and a cliffhanger.
+- [How to make a Notes app video ad with AI](make-a-notes-app-video-ad.md): A note types itself in a phone notes app, reads like a confession, and turns into an ad.
+- [How to make a SaaS launch video with AI](make-a-saas-launch-video.md): A polished launch film for an app or website: UI cards, device mockups, kinetic type, music.
+- [How to turn release notes into a changelog video with AI](turn-release-notes-into-a-changelog-video.md): Release notes, a PR or a GitHub repo turned into a short video for X or LinkedIn.
+- [How to make an explainer video with AI](make-an-explainer-video.md): A narrated explainer about a product, a topic or a document, with motion graphics or AI visuals.
+- [How to make an AI music video](make-an-ai-music-video.md): A music video for your song: concept, a consistent lead character, shots cut on the beat, lip-sync on vocals.
+- [How to make a lyric video with AI](make-a-lyric-video.md): Lyrics synced to the song: the sung line big and highlighted, karaoke-style, over art or a shader.
+- [How to turn photos into a slideshow video with AI](turn-photos-into-a-slideshow-video.md): Your photos cut to music, with motion, transitions on the beat and titles.
+- [How to make an AI short film](make-an-ai-short-film.md): A multi-shot story with consistent characters: script, storyboard, previz, shots, edit.
+- [How to keep a character consistent in AI video](keep-a-character-consistent-in-ai-video.md): One mascot, trainer or actor that looks identical across many images and clips.
+- [How to make an AI influencer video](make-an-ai-influencer-video.md): A recurring AI character with one look and one format, posting as a creator or a brand face.
+- [How to make exercise demo video loops with AI](make-exercise-demo-video-loops.md): Looping exercise demos for a fitness app: one trainer, many exercises, clean background.
+- [How to make a logo animation with AI](make-a-logo-animation.md): Your logo animated into a short intro or outro: 3D chrome, liquid, shader, glitch or clean motion.
+- [How to make an animated chart video with AI](make-an-animated-chart-video.md): Numbers from a CSV or a report as an animated chart: bar race, line, hero number.
+- [How to make YouTube video thumbnails with AI](make-youtube-video-thumbnails.md): High-CTR thumbnails and vertical covers, in a few options to choose from.
+- [How to make AI product photos and listing images](make-ai-product-photos.md): Marketplace listing images, lifestyle shots and packshots from one product photo.
+- [How to edit your own video footage with AI](edit-your-own-video-footage.md): Cut silences and flubs, reframe 16:9 to 9:16, add captions and b-roll to footage you shot.
+- [How to remake a reference video with AI](remake-a-reference-video.md): Take a reel or ad you like, break it down shot by shot, and remake the format for your brand.
+- [How to add voiceover and music to a video with AI](add-voiceover-and-music-to-a-video.md): A professional voiceover and a fitting music bed added to your video or screen recording.
+- [How to animate a photo into a video with AI](animate-a-photo-into-a-video.md): A still photo brought to life: a subtle smile, blink, camera move or full scene motion.
+- [How to make trending AI video formats](make-trending-ai-video-formats.md): What's going viral now — formats you can make for your brand today, with the skill for each.
+- [How to swap your character into a video with AI](swap-your-character-into-a-video.md): Your character (or person) performs the exact motion of a trending video: dance, gesture, walk, ad performance — motion transfer.
+- [How to make AI b-roll for your video](make-ai-b-roll-for-your-video.md): Cutaway footage for every mention in a voiceover or interview: generated clips, collage or stock-style shots, cut in on time.
+- [How to make TikTok photo carousels with AI](make-tiktok-photo-carousels.md): Swipeable photo slideshows with hook text — the format app founders use for organic growth.
+- [How to make an app demo video with AI](make-an-app-demo-video.md): A polished demo of your app: device mockups, real screens, captions, music — for the App Store, ads or a landing page.
+- [How to make a property listing video with AI](make-a-property-listing-video.md): A listing reel from property photos: gentle camera motion through rooms, captions with price and features, music.
+- [How to change something inside a video with AI](change-something-inside-a-video.md): Swap a product, restyle a scene, change lighting or the look of an existing clip while keeping the motion.
+- [How to make personalized videos at scale with AI](make-personalized-videos-at-scale.md): One template, many versions: each lead's name, company and website in the video, optionally in a cloned voice.
