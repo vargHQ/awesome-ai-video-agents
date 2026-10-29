@@ -1,23 +1,26 @@
 # iMessage Video
 
-Pixel-perfect iMessage conversation videos from a JSON script: iOS 26 chrome, typing, tapbacks, group chats.
+Any chat script as an iPhone iMessage screen recording: typing, tapbacks, group chats, dark mode, sounds. Local, free.
 
 - **Type:** Workflows · Native Ui
-- **Status:** beta
+- **Status:** live
 - **Publisher:** varg
-- **License:** proprietary
-- **Source:** vargHQ (internal: .agents/skills/imessage-video)
-- **Works in:** Claude Code, Codex
-- **Tags:** `chat-story` `ios` `ads` `deterministic-render` `puppeteer`
+- **License:** MIT
+- **Source:** <https://github.com/vargHQ/code2video-templates/tree/master/imessage-video>
+- **Works in:** Claude Code, Codex, Cursor
+- **Tags:** `imessage` `text-story` `chat-story` `ios` `ads` `tiktok` `group-chat` `dark-mode` `deterministic-render` `code2video` `free` `official`
 - **Full card, kept current:** <https://varg.ai/how-to/skills/varg-imessage-video.md>
 
 ## Install
 
-Not installable on its own yet. Source: vargHQ (internal: .agents/skills/imessage-video)
+```bash
+# Claude Code
+git clone --depth 1 https://github.com/vargHQ/code2video-templates ~/code2video-templates && ln -s ~/code2video-templates/imessage-video ~/.claude/skills/imessage-video
+```
 
 ## Example
 
-Watch: <https://s3.varg.ai/how-to/previews/2fc5d178d91b/varg-imessage-video.mp4>
+![iMessage Video example](https://varg.ai/how-to/undefined)
 
 ## Step-by-step tutorials that use it
 

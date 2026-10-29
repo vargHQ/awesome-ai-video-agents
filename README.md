@@ -3,7 +3,7 @@
 Tell your coding agent what video you need ("a UGC ad for my serum", "cut this podcast into Shorts with captions", "a lyric video for my song") and it finds the skill that makes it, shows you the options with example videos, and runs the pipeline: AI shots on Seedance 2.5, Kling 4 or Veo 3.1, voice on ElevenLabs, captions and cuts with FFmpeg, Remotion or HyperFrames, out to a 9:16 or 16:9 MP4. This list is the open index behind [varg.ai/how-to](https://varg.ai/how-to): every card has an install command for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw, its source, its license and an example.
 
 <!-- sync:counts:start -->
-**646 cards** from **214 publishers** (523 live, 33 wanted) and **39 step-by-step tutorials**, synced from [varg.ai/how-to](https://varg.ai/how-to) on 2026-10-28.
+**702 cards** from **226 publishers** (573 live, 38 wanted) and **39 step-by-step tutorials**, synced from [varg.ai/how-to](https://varg.ai/how-to) on 2026-10-29.
 <!-- sync:counts:end -->
 
 > **For AI agents:** one search, no key, any language: `curl -s "https://varg.ai/how-to/api/search?q=<what the person wants>"` returns the best step-by-step tutorial and the top skills with install commands, as markdown. Same thing as MCP tools: `claude mcp add --transport http varg-how-to https://api.varg.ai/v2/skills/mcp`. Index: <https://varg.ai/how-to/llms.txt>. Then read [AGENTS.md](AGENTS.md).
@@ -55,10 +55,10 @@ More finished examples with prompts and prices: [ecommerce AI video skills](http
 Each tutorial names the best skill, the alternatives, the choices to show the person first (with example clips) and the numbered steps. Short mirrors here, full pages on varg.ai/how-to (add `.md` to any page for the markdown twin).
 
 <!-- sync:how-to:start -->
+- [How to make viral ecommerce videos for TikTok and Reels](how-to/make-viral-ecommerce-videos.md) — Product videos that sell on TikTok, TikTok Shop, Instagram Reels and Meta ads: the angle, the hook, the format, the person on camera, the rules and the variants.
 - [How to make a UGC ad video with AI](how-to/make-a-ugc-ad-video.md) — A creator-style ad: a person talks to camera about your product, with b-roll, captions and an end card.
 - [How to make video ad variants for testing with AI](how-to/make-video-ad-variants-for-testing.md) — Ten or more short video ads from one brief, each with a different hook or format, for Meta/TikTok creative testing.
 - [How to turn a product photo into a video with AI](how-to/turn-a-product-photo-into-a-video.md) — A product shot turned into a short promo: orbit, push-in, exploded view or bullet time, with music.
-- [How to make viral ecommerce videos for TikTok and Reels](how-to/make-viral-ecommerce-videos.md) — Product videos that sell on TikTok, TikTok Shop, Instagram Reels and Meta ads: the angle, the hook, the format, the person on camera, the rules and the variants.
 - [How to make a TikTok Shop video with AI](how-to/make-a-tiktok-shop-video.md) — A shoppable or affiliate TikTok Shop video that sells and stays compliant: product in frame from the first second, a real presenter, one number, a cart CTA.
 - [How to edit a product video for TikTok and Reels with AI](how-to/edit-a-product-video-for-tiktok.md) — Raw product footage (a creator clip, an unboxing, last month's winning ad) recut into a 9:16 ad: hook at second 0, no dead air, captions, one CTA, one file per hook.
 - [How to cut a podcast into short video clips with AI](how-to/cut-a-podcast-into-short-video-clips.md) — Find the best moments in a long video, cut them, reframe to 9:16 and burn captions.
@@ -103,16 +103,16 @@ The same cards cut by what they are. Full index with every card by category: [sk
 <!-- sync:shelves:start -->
 | Shelf | Cards | What it holds | For example |
 |---|---:|---|---|
-| [Workflows](skills/README.md#workflow) | 94 | End-to-end pipelines: brief in, finished video out. | [Turn a product into a dropshipping guide reel](skills/workflow/varg-dropship-reel.md), [Turn product photos into a viral product hook](skills/workflow/varg-product-hook.md), [HyperFrames Figma](skills/workflow/hyperframes-figma.md) |
-| [Prompts](skills/README.md#prompt) | 33 | Prompt packs for video and image models: camera moves, shot sizes, lighting, characters, hooks. | [fal Cinematography](skills/prompt/fal-cinematography.md), [fal Prompting](skills/prompt/fal-prompting.md), [Replicate Prompt Videos](skills/prompt/replicate-prompt-videos.md) |
+| [Workflows](skills/README.md#workflow) | 96 | End-to-end pipelines: brief in, finished video out. | [Turn a product into a dropshipping guide reel](skills/workflow/varg-dropship-reel.md), [Turn product photos into a viral product hook](skills/workflow/varg-product-hook.md), [Schizo-Edit AI Music Video](skills/workflow/schizo-edit-music-video.md) |
+| [Prompts](skills/README.md#prompt) | 71 | Prompt packs for video and image models: camera moves, shot sizes, lighting, characters, hooks. | [fal Cinematography](skills/prompt/fal-cinematography.md), [fal Prompting](skills/prompt/fal-prompting.md), [Replicate Prompt Videos](skills/prompt/replicate-prompt-videos.md) |
 | [Effects](skills/README.md#effect) | 233 | Transitions, captions, titles, device mockups, shaders and every named edit, with the code that makes it. | [iPhone Duo Fold](skills/effect/iphone-duo-fold.md), [Hard Cut](skills/effect/hard-cut.md), [Jump Cut](skills/effect/jump-cut.md) |
 | [Styles](skills/README.md#style) | 18 | Looks, LUTs, fonts and art directions a model or a render can follow. | [fal Game Dev](skills/style/fal-gamedev.md), [Brand Guidelines](skills/style/anthropic-brand-guidelines.md), [FLUX 3 Archival Formats](skills/style/flux-3-archival-formats.md) |
-| [Guides](skills/README.md#guide) | 117 | Best practices and references agents read before they generate or edit. | [HyperFrames](skills/guide/hyperframes.md), [HyperFrames CLI](skills/guide/hyperframes-cli.md), [HyperFrames Registry](skills/guide/hyperframes-registry.md) |
+| [Guides](skills/README.md#guide) | 128 | Best practices and references agents read before they generate or edit. | [Turn one winning video ad into 20 AI ad variations](skills/guide/ai-ad-variations.md), [Turn product photos into an AI ASMR unboxing video](skills/guide/ai-unboxing-video.md), [Turn one video ad into 8 languages with AI dubbing](skills/guide/ai-video-ad-translation.md) |
 | [Models & tools](skills/README.md#model) | 118 | Model and tool skills: the services that generate, edit, transcribe or render. | [varg AI](skills/model/varg-ai.md), [Local-first video downloader: private, no subscription](skills/model/media-download.md), [Higgsfield Generate](skills/model/higgsfield-generate.md) |
 <!-- sync:shelves:end -->
 
 Publishers in the list: <!-- sync:publishers:start -->
-HeyGen (137) · varg (88) · inference.sh (52) · dlazyai (20) · fal (15) · Calesthio (15) · Kapish Dima · remocn (15) · Remotion (12) · Magic UI (11) · Black Forest Labs (10) · PixiJS (8) · Runway (8) · Higgsfield (7) · ElevenLabs (7) · gre · GL Transitions (6) · Aceternity UI (6) · Replicate (5) · Anthropic (5) · LottieFiles (5) · Daniel Petho (5) · Krea (4) · GSAP (GreenSock) (3) · Google Gemini (2) · Jim Liu (2)
+HeyGen (137) · varg (97) · inference.sh (52) · Higgsfield (41) · dlazyai (20) · fal (15) · Calesthio (15) · Kapish Dima · remocn (15) · Remotion (12) · Magic UI (11) · Black Forest Labs (10) · PixiJS (8) · Runway (8) · ElevenLabs (7) · gre · GL Transitions (6) · Aceternity UI (6) · Replicate (5) · Anthropic (5) · LottieFiles (5) · Daniel Petho (5) · Krea (4) · GSAP (GreenSock) (3) · Google Gemini (2) · Vincent Wei (2)
 <!-- sync:publishers:end -->
 
 ## Contribute: submit your skill, prompt, effect or tutorial

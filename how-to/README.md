@@ -2,10 +2,10 @@
 
 Each tutorial names the best skill, the alternatives, the 2–4 choices to show the person before spending anything (with example videos) and the numbered steps. The full pages live on [varg.ai/how-to](https://varg.ai/how-to); every one has a markdown twin (add `.md`). Index for agents: <https://varg.ai/how-to/llms.txt>.
 
+- [How to make viral ecommerce videos for TikTok and Reels](make-viral-ecommerce-videos.md): Product videos that sell on TikTok, TikTok Shop, Instagram Reels and Meta ads: the angle, the hook, the format, the person on camera, the rules and the variants.
 - [How to make a UGC ad video with AI](make-a-ugc-ad-video.md): A creator-style ad: a person talks to camera about your product, with b-roll, captions and an end card.
 - [How to make video ad variants for testing with AI](make-video-ad-variants-for-testing.md): Ten or more short video ads from one brief, each with a different hook or format, for Meta/TikTok creative testing.
 - [How to turn a product photo into a video with AI](turn-a-product-photo-into-a-video.md): A product shot turned into a short promo: orbit, push-in, exploded view or bullet time, with music.
-- [How to make viral ecommerce videos for TikTok and Reels](make-viral-ecommerce-videos.md): Product videos that sell on TikTok, TikTok Shop, Instagram Reels and Meta ads: the angle, the hook, the format, the person on camera, the rules and the variants.
 - [How to make a TikTok Shop video with AI](make-a-tiktok-shop-video.md): A shoppable or affiliate TikTok Shop video that sells and stays compliant: product in frame from the first second, a real presenter, one number, a cart CTA.
 - [How to edit a product video for TikTok and Reels with AI](edit-a-product-video-for-tiktok.md): Raw product footage (a creator clip, an unboxing, last month's winning ad) recut into a 9:16 ad: hook at second 0, no dead air, captions, one CTA, one file per hook.
 - [How to cut a podcast into short video clips with AI](cut-a-podcast-into-short-video-clips.md): Find the best moments in a long video, cut them, reframe to 9:16 and burn captions.

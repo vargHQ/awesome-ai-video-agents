@@ -1,12 +1,12 @@
-# Deadpan Satire Travel Ad
+# How to make a deadpan satirical commercial with AI
 
-A cheerful tour-guide ad cut against escalating chaos: the subtitles stay sunny while the city burns.
+A straight-faced fake commercial for an absurd place or product: ironic script, period look, subtitle gag, slogan card.
 
 - **Type:** Wanted · Cinematic
 - **Status:** wanted
 - **Publisher:** Wytse Koetse
 - **Source:** <https://x.com/Wytsekoetse/status/2112211697008075021>
-- **Tags:** `satire` `comedy` `fake-ad` `seedance` `subtitles` `multi-shot`
+- **Tags:** `how-to` `fake-ad` `parody` `commercial` `infomercial` `satire` `comedy` `seedance` `subtitles` `multi-shot`
 - **Full card, kept current:** <https://varg.ai/how-to/skills/want-deadpan-satire-travel-ad.md>
 
 ## Install

@@ -14,9 +14,9 @@ What's going viral now — formats you can make for your brand today, with the s
 3. **[Gooseworks Video (Apple Notes Ads)](../skills/workflow/gooseworks-apple-notes-ads.md)** (`gooseworks-apple-notes-ads`, Gooseworks, live) — Video ads in chat from a reference ad or a ready style, including the viral HTML-only Apple Notes typing ad.
    - Claude Code: `npx gooseworks@latest install --claude --mcp`
    - Example: <https://s3.varg.ai/how-to/previews/d146add52283/gooseworks-apple-notes-ads.mp4>
-4. **[iMessage Video](../skills/workflow/varg-imessage-video.md)** (`varg-imessage-video`, varg, beta) — Pixel-perfect iMessage conversation videos from a JSON script: iOS 26 chrome, typing, tapbacks, group chats.
-   - Not installable on its own yet
-   - Example: <https://s3.varg.ai/how-to/previews/2fc5d178d91b/varg-imessage-video.mp4>
+4. **[iMessage Video](../skills/workflow/varg-imessage-video.md)** (`varg-imessage-video`, varg, live) — Any chat script as an iPhone iMessage screen recording: typing, tapbacks, group chats, dark mode, sounds. Local, free.
+   - Claude Code: `git clone --depth 1 https://github.com/vargHQ/code2video-templates ~/code2video-templates && ln -s ~/code2video-templates/imessage-video ~/.claude/skills/imessage-video`
+   - Example: <https://varg.ai/how-to/undefined>
 5. **[Awesome Seedance Skills](../skills/prompt/awesome-seedance-skills.md)** (`awesome-seedance-skills`, LearnPrompt, live) — Evidence-led Seedance 2.5/2.0 skills: a production workflow plus genre templates distilled from 934 verified cases.
    - Claude Code: `npx skills add LearnPrompt/awesome-seedance --skill seedance-production-workflow`
 6. **[FLUX 3 Archival Formats](../skills/style/flux-3-archival-formats.md)** (`flux-3-archival-formats`, Black Forest Labs, live) — Give FLUX 3 video a period look by naming the recording format and its artifacts, not a mood.

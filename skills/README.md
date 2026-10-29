@@ -1,16 +1,16 @@
-# 646 AI video skills for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw
+# 702 AI video skills for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw
 
 Every card has its install command per agent, its source, license and an example. Click a shelf.
 
 | Shelf | Cards | What it holds |
 |---|---:|---|
-| [Workflows](#workflow) | 94 | End-to-end pipelines: brief in, finished video out. |
-| [Prompts](#prompt) | 33 | Prompt packs for video and image models: camera moves, shot sizes, lighting, characters, hooks. |
+| [Workflows](#workflow) | 96 | End-to-end pipelines: brief in, finished video out. |
+| [Prompts](#prompt) | 71 | Prompt packs for video and image models: camera moves, shot sizes, lighting, characters, hooks. |
 | [Effects](#effect) | 233 | Transitions, captions, titles, device mockups, shaders and every named edit, with the code that makes it. |
 | [Styles](#style) | 18 | Looks, LUTs, fonts and art directions a model or a render can follow. |
-| [Guides](#guide) | 117 | Best practices and references agents read before they generate or edit. |
+| [Guides](#guide) | 128 | Best practices and references agents read before they generate or edit. |
 | [Models & tools](#model) | 118 | Model and tool skills: the services that generate, edit, transcribe or render. |
-| [Wanted](#wanted) | 33 | Formats people ask for that no skill makes yet. Build one and submit it. |
+| [Wanted](#wanted) | 38 | Formats people ask for that no skill makes yet. Build one and submit it. |
 
 ## Workflows
 
@@ -50,6 +50,7 @@ End-to-end pipelines: brief in, finished video out. On varg how to: <https://var
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [Day in My Life](workflow/hyperframes-day-in-my-life.md) | A 60–75 s hand-drawn ink film of your agent's day with you, built from local Claude Code history, scored for strings. | HeyGen | Claude Code |
+| [Higgsfield Code-Based Films](workflow/higgsfield-code-based-films.md) | Short animated films drawn entirely by code and rendered by Higgsfield's own WebGPU path tracer on your GPU. | Higgsfield | Claude Code, Codex, Cursor |
 | [Session Story](workflow/hyperframes-session-story.md) | A 40–70 s watercolor film of a typical session with your agent, told in your real messages, with its own score. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
 | [Story to Hand-drawn Video](workflow/story-to-handdrawn-video.md) | Chinese stories or ordered images into silent hand-drawn diary-comic animations, with a curated 30-style menu. | gnipbao | Claude Code, Codex |
 
@@ -157,6 +158,7 @@ End-to-end pipelines: brief in, finished video out. On varg how to: <https://var
 |---|---|---|---|
 | [Motion Graphics Music Video](workflow/motion-graphics-music-video.md) | Animated character music videos from your song and a prompt: storyboard, fal generation, p5 motion graphics, VFX. | Francesco Canessa | Claude Code |
 | [Prod by Claude](workflow/hyperframes-prod-by-claude.md) | A square video of a Strudel live-coding track where every code token lights up on the note it plays. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
+| [Schizo-Edit AI Music Video](workflow/schizo-edit-music-video.md) | A 16 s vertical AI music video cut 3–4 times per beat: generated stills and clips, one effect per shot, the title built letter by letter. | varg | Claude Code |
 | [Turn a song into an AI music video](workflow/varg-music-video.md) | Direct an AI music video the way top X creators do: song map, beat-grid storyboard, stills first, Seedance, lip-sync. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 
 ### Native Ui
@@ -164,7 +166,7 @@ End-to-end pipelines: brief in, finished video out. On varg how to: <https://var
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [Gooseworks Video (Apple Notes Ads)](workflow/gooseworks-apple-notes-ads.md) | Video ads in chat from a reference ad or a ready style, including the viral HTML-only Apple Notes typing ad. | Gooseworks | Claude Code, Codex, Cursor |
-| [iMessage Video](workflow/varg-imessage-video.md) | Pixel-perfect iMessage conversation videos from a JSON script: iOS 26 chrome, typing, tapbacks, group chats. | varg | — |
+| [iMessage Video](workflow/varg-imessage-video.md) | Any chat script as an iPhone iMessage screen recording: typing, tapbacks, group chats, dark mode, sounds. Local, free. | varg | Claude Code |
 
 ### Product
 
@@ -224,6 +226,19 @@ Prompt packs for video and image models: camera moves, shot sizes, lighting, cha
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [Ad Hook Styles](prompt/varg-studio-ad-hooks.md) | Studio's 12 ad hook styles with copy templates, brand-kit gates and the Hook Lab recipe for new 3 s openers. | varg | — |
+| [Did We Have A Choice? (Higgsfield Open-Source Commercial)](prompt/higgsfield-open-did-we-have-a-choice.md) | Higgsfield's 79 s documentary-style ad: humanlike animals caught in quiet everyday moments in muted city interiors. | Higgsfield | — |
+| [Inside AI (Higgsfield Open-Source Commercial)](prompt/higgsfield-open-inside-ai.md) | Higgsfield's 108 s comedy ad about what happens inside an AI asked how to ask a girl out, with every prompt public. | Higgsfield | — |
+| [Top Up (Higgsfield Open-Source Cinematic Ad)](prompt/higgsfield-open-top-up.md) | Higgsfield's 106 s soda ad breakdown: a drained athlete becomes a robot gladiator who must run dry to win. | Higgsfield | — |
+| [Untold Stories (Higgsfield Open-Source Commercial)](prompt/higgsfield-open-untold-stories.md) | Higgsfield's 92 s music-driven ad: a notebook, a photo and a toy plane open onto a battle, a duel and a space chase. | Higgsfield | — |
+
+### Animation
+
+| Skill | What it does | By | Install |
+|---|---|---|---|
+| [Anime Production (Higgsfield Open-Source Launch Video)](prompt/higgsfield-open-anime-production.md) | Higgsfield's 46 s tutorial-launch: a full anime sequence built with Claude and Seedream 5.0 Pro via the Higgsfield MCP. | Higgsfield | — |
+| [How to make motion graphics videos in 15 AI styles](prompt/motion-design-styles-15.md) | 15 ten-second motion-design films, one style each, with the full prompt, source code and a review rubric. | Vincent Wei | — |
+| [How to make motion graphics videos with Claude Code](prompt/awesome-opus-5-5-videos.md) | 703 prompts for motion graphics videos Claude Code writes as code (explainers, 3D, games), each linked to its post. | yihui-dev | — |
+| [If You Stop Loving Me, I'll Die (Higgsfield Open-Source Animated Short)](prompt/higgsfield-open-if-you-stop-loving-me-ill-die.md) | Higgsfield's 5 min deadpan silent cartoon: Tolik dies at every refusal, and one morning his wife walks out. | Higgsfield | — |
 
 ### Camera
 
@@ -254,8 +269,29 @@ Prompt packs for video and image models: camera moves, shot sizes, lighting, cha
 
 | Skill | What it does | By | Install |
 |---|---|---|---|
+| [4K Blockbuster (Higgsfield Open-Source Short Film)](prompt/higgsfield-open-4k-blockbuster.md) | Higgsfield's 3 min 4K action short: a guy trapped in his little sister's AI generations wakes in a new one each death. | Higgsfield | — |
+| [Adiliada (Higgsfield Open-Source Short Film)](prompt/higgsfield-open-adiliada.md) | Higgsfield's 6 min pitch-black sci-fi comedy: every time Adil dies he is reborn as himself in another universe. | Higgsfield | — |
+| [Anerneq (Higgsfield Open-Source Short Film)](prompt/higgsfield-open-anerneq.md) | Higgsfield's 20 min Arctic drama: a young huntress leads her failing father across 1920s Chukotka. | Higgsfield | — |
 | [Cinematic Grammar](prompt/craft-cinematic-grammar.md) | Write one shot spec, get the exact prompt for Veo, Kling, Seedance, Hailuo, Luma or Runway. | varg | — |
+| [Cully Hill Boys (Higgsfield Open-Source Feature Film)](prompt/higgsfield-open-cully-hill-boys.md) | Higgsfield's fully AI-made 1 h 55 min action-comedy feature: 473,214 generations, every prompt and asset public. | Higgsfield | — |
 | [FLUX 3 Cinematic Inserts](prompt/flux-3-cinematic-inserts.md) | Write FLUX 3 prompts for standalone cinematic shots: shot craft, camera, continuity and review. | Black Forest Labs | Claude Code, Codex, Cursor, Gemini CLI |
+| [Gothic Beach (Higgsfield Open-Source Short)](prompt/higgsfield-open-gothic-beach.md) | Higgsfield's 37 s surreal short: a gothic girl on a sunset beach draws the soul from everything she touches. | Higgsfield | — |
+| [Hell Grind (Higgsfield Open-Source Feature Film)](prompt/higgsfield-open-hell-grind.md) | Higgsfield's 96 min supernatural action feature: four street kids touch a nameless artifact and gain powers. | Higgsfield | — |
+| [Higgsfield Open-Source AI Films: Every Prompt and Asset](prompt/higgsfield-open-source-films.md) | 33 AI films Higgsfield open-sourced, from a 2 h feature to 15 s spots, each with every prompt, model and asset public. | Higgsfield | — |
+| [Huntress's Tale (Higgsfield Open-Source Dark Fantasy Short)](prompt/higgsfield-open-huntress-tale.md) | Higgsfield's 67 s gothic dark-fantasy short: a porcelain huntress and a silver fairy in misted, flooded vaults. | Higgsfield | — |
+| [Kok Boru (Higgsfield Open-Source Short Film)](prompt/higgsfield-open-kok-boru.md) | Higgsfield's 15 min film about Kok Boru, the horseback game of the Central Asian steppe, plus its 20 s teaser. | Higgsfield | — |
+| [MADSEASON (Open-Source Fashion Film, Higgsfield Selected)](prompt/higgsfield-open-madseason.md) | Higgsfield Selected #1: a 2 min couture fashion film after Diaghilev and '90s fashion, with every prompt public. | dinitrobenzoll | — |
+| [Oneiric (Higgsfield Open-Source Short Film)](prompt/higgsfield-open-oneiric.md) | Higgsfield's 20 min anthology short: four students pick one day anywhere in time, each played as its own genre. | Higgsfield | — |
+| [Passport Rush (Higgsfield Open-Source Short Film)](prompt/higgsfield-open-passport-rush.md) | Higgsfield's 5 min comedy: minutes from boarding, a woman dashes through an absurd apocalypse for her passport. | Higgsfield | — |
+| [Red Flag (Higgsfield Open-Source Short Film)](prompt/higgsfield-open-red-flag.md) | Higgsfield's 2 min Hong Kong neo-noir: the midnight burglar is her boyfriend, and she's a martial-arts champion. | Higgsfield | — |
+| [Rewind Club (Higgsfield Open-Source Montage)](prompt/higgsfield-open-rewind-club.md) | A 15 s 2000s romcom montage from Higgsfield Soul: warm, grainy 35 mm close-ups of shy, glittering teen moments. | Higgsfield | — |
+| [Seedance 2.0 4K Showcase (Higgsfield Open-Source Reel)](prompt/higgsfield-open-seedance-2-4k-showcase.md) | Higgsfield's reel of native 4K Seedance 2.0 renders for cinematic and commercial use, with every prompt. | Higgsfield | — |
+| [Space Chores (Higgsfield Open-Source Micro Short)](prompt/higgsfield-open-space-chores.md) | A 22 s sci-fi gag from Higgsfield Soul: a woman in an orbital cupola presses one key and an asteroid hits Earth. | Higgsfield | — |
+| [The Trigger (Higgsfield Open-Source Short Film)](prompt/higgsfield-open-the-trigger.md) | Higgsfield's 9 min neo-noir thriller: an ageing hitman's next target is the soldier who once saved his life. | Higgsfield | — |
+| [Ultra Realistic TV (Higgsfield Open-Source Short Film)](prompt/higgsfield-open-ultra-realistic-tv.md) | Higgsfield's 65 s Seedance 2.0 4K short: a remote pulls a guy into the impossibly real worlds on his TV. | Higgsfield | — |
+| [Vengeance Is Mine (Higgsfield Open-Source Western)](prompt/higgsfield-open-vengeance-is-mine.md) | Higgsfield's 27 min supernatural Western: a silent stranger bullets can't stop walks into a Texas town and kills. | Higgsfield | — |
+| [Zephyr (Higgsfield Open-Source Series)](prompt/higgsfield-open-zephyr.md) | Higgsfield's photoreal mecha series: a squad of glamorous heroines defends their city from an alien bug invasion. | Higgsfield | — |
+| [Zephyr: Special (Higgsfield Open-Source Episode)](prompt/higgsfield-open-zephyr-special.md) | Higgsfield's 5 min Zephyr special: a mysterious guest pilot out-fights the elite mech squad to save one of them. | Higgsfield | — |
 
 ### Image
 
@@ -263,11 +299,24 @@ Prompt packs for video and image models: camera moves, shot sizes, lighting, cha
 |---|---|---|---|
 | [Douyin Cover Builder](prompt/douyin-cover-builder.md) | Writes image-model prompts for Douyin covers: bold title, highlighted keywords, your face bottom right | 0x00000003 | OpenClaw |
 
+### Launch
+
+| Skill | What it does | By | Install |
+|---|---|---|---|
+| [Higgsfield Academy (Higgsfield Open-Source Promo)](prompt/higgsfield-open-higgsfield-academy.md) | Higgsfield's 64 s promo for Higgsfield Academy, made almost entirely with Seedance 2.0. | Higgsfield | — |
+| [Seed Audio 1.0 Launch (Higgsfield Open-Source Video)](prompt/higgsfield-open-seed-audio-launch.md) | Higgsfield's 106 s launch video for Seed Audio 1.0 (voice cloning, cinematic sound): bold motion design, comedic tone. | Higgsfield | — |
+
 ### Lighting
 
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [Lighting Setups](prompt/craft-lighting-setups.md) | 56 lighting setups — golden hour to chiaroscuro, rain and fog — each with a named source, direction and quality. | varg | — |
+
+### Music
+
+| Skill | What it does | By | Install |
+|---|---|---|---|
+| [Nala: Heads Drop (Higgsfield Open-Source Music Video)](prompt/higgsfield-open-nala-heads-drop.md) | Higgsfield's 50 s AI music video for "Head Up" by Nala: every frame, character and scene generated. | Higgsfield | — |
 
 ### Prompting
 
@@ -279,6 +328,8 @@ Prompt packs for video and image models: camera moves, shot sizes, lighting, cha
 | [FLUX 3 Prompt Doctor](prompt/flux-3-prompt-doctor.md) | Diagnose a FLUX 3 video brief before spending: resolve missing, conflicting or schema-changing asks. | Black Forest Labs | Claude Code, Codex, Cursor, Gemini CLI |
 | [FLUX Image Best Practices](prompt/flux-image-best-practices.md) | Prompt FLUX image models well: structure, JSON prompts, hex colors, typography and multi-reference edits. | Black Forest Labs | Claude Code, Codex, Cursor, Gemini CLI |
 | [Higgsfield Prompt Skill (O-Side Media)](prompt/higgsfield-prompt-skill-oside.md) | Independent 36-skill prompt pack for Higgsfield: model picks, camera presets, Soul ID, Cinema Studio, Seedance 2.5. | O-Side Media | Claude Code |
+| [How to find Nano Banana Pro prompts for AI images](prompt/nano-banana-pro-prompt-libraries.md) | Two open prompt libraries for Nano Banana Pro, organized by look, with example outputs to copy from. | YouMind OpenLab | — |
+| [How to make AI images with GPT Image 2 in Claude Code](prompt/gpt-image-2-skill-wuyoscar.md) | Two agent skills and a CLI for GPT Image 2/2.5: generate and edit images, and pull the prompt out of a reference image. | Wuyoscar | Claude Code |
 | [Model Prompt Adapters](prompt/craft-model-adapters.md) | Dated syntax adapters for Veo / Gemini Omni, Kling 3, Seedance 2.x, Hailuo 2.3, Luma Ray and Runway Gen-4.5. | varg | — |
 | [Reference Breakdown](prompt/craft-reference-breakdown.md) | Turn a frame you have rights to into a shot spec — size, angle, lens, light, palette — plus prompt variants. | varg | — |
 | [Replicate Prompt Images](prompt/replicate-prompt-images.md) | Write better image prompts and edits: photographic language, lighting, text rendering, consistent characters. | Replicate | Claude Code, Codex, Cursor, Gemini CLI |
@@ -291,6 +342,15 @@ Prompt packs for video and image models: camera moves, shot sizes, lighting, cha
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [FLUX 3 Audio & Dialogue](prompt/flux-3-audio-dialogue.md) | Direct FLUX 3's generated sound: dialogue, voiceover, ambience, effects, music, silence and timing. | Black Forest Labs | Claude Code, Codex, Cursor, Gemini CLI |
+
+### Story
+
+| Skill | What it does | By | Install |
+|---|---|---|---|
+| [Cat Story (Higgsfield Open-Source Short Series)](prompt/higgsfield-open-cat-story.md) | Higgsfield's 64 s dreamy K-drama series about being loved by someone you've never truly seen: a white cat. | Higgsfield | — |
+| [One More Time (Higgsfield Open-Source Romcom Short)](prompt/higgsfield-open-one-more-time.md) | A 2000s-style K-drama romcom from Higgsfield Soul: a girl secretly rewinds time on a first date, again and again. | Higgsfield | — |
+| [The Dusk (Higgsfield Open-Source Drama Episode)](prompt/higgsfield-open-dusk.md) | Higgsfield's 88 s muted, grainy school drama: a pale boy's quiet warning and a guarded girl's wary silence. | Higgsfield | — |
+| [The New Girl (Higgsfield Open-Source J-Drama Episode)](prompt/higgsfield-open-the-new-girl.md) | Higgsfield's 77 s J-drama school episode: Haruka's ordinary first day at a new school is about to change. | Higgsfield | — |
 
 ## Effects
 
@@ -723,7 +783,11 @@ Best practices and references agents read before they generate or edit. On varg 
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [TikTok Selling Video Guide](guide/tiktok-short-video.md) | Guide to TikTok product-selling videos: formats, 3-second hooks, shooting, editing, hashtags, metrics | zhenyangze | OpenClaw |
+| [Turn a product into an AI singing mascot jingle ad](guide/singing-mascot-jingle-ad.md) | The product becomes a claymation mascot that sings a 15-30 s brand jingle: Nano Banana character, Lyria jingle, Seedance 2.5 singing to the song. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
+| [Turn an AI video ad into a TikTok Shop and Meta compliance report](guide/tiktok-shop-ad-compliance-check.md) | Checks an AI ad against TikTok Shop, Meta, YouTube, FTC, New York and EU AI Act rules: pass / fix / block per claim with sources. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Turn one winning ad into a creative testing plan](guide/ad-creative-testing.md) | How many ads to test, what to change, when to judge, kill or scale — concepts Meta sees as different. | varg | Claude Code, Codex, Cursor |
+| [Turn one winning video ad into 20 AI ad variations](guide/ai-ad-variations.md) | Scales a winning video ad into 20 Andromeda-safe variants: new concepts plus single-variable hook swaps, with a tested FFmpeg script and a test plan. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
+| [Turn winning competitor ads into new AI video ad angles](guide/competitor-ad-remix.md) | Breaks down winning ads from the Meta Ad Library or TikTok Creative Center and turns them into 10-20 original concepts for your product. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Video Ad Specs](guide/inference-sh-video-ad-specs.md) | Build video ads to each platform's exact specs: TikTok, Instagram, YouTube, Facebook and LinkedIn. | inference.sh | Claude Code, Codex, Cursor, Gemini CLI |
 | [Video Script Generator](guide/video-script-generator.md) | Writes a short-video script and shot list as YAML/JSON from pain-solution, before-after or plot-twist templates | oliviapp8 | OpenClaw |
 
@@ -795,6 +859,7 @@ Best practices and references agents read before they generate or edit. On varg 
 | [OpenMontage Localization & Dub](guide/openmontage-localization-dub.md) | Transcript-first translation of an existing video into subtitles, dubbed audio and optional lip-synced language variants | Calesthio | Claude Code |
 | [pyVideoTrans](guide/pyvideotrans.md) | Full video translation: ASR, subtitle translation, multi-voice dubbing and muxing, with a headless CLI. | jianchang512 | Claude Code |
 | [Sync. lipsync MCP](guide/sync-lipsync.md) | Official MCP for the sync. lipsync API: re-time mouths in existing footage to new or translated audio. | sync. | Claude Code |
+| [Turn one video ad into 8 languages with AI dubbing](guide/ai-video-ad-translation.md) | Localizes a winning video ad for TikTok Shop and Meta markets: transcreated script, same voice, lip-sync only where faces talk, re-cut on the new words. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [VideoLingo](guide/videolingo.md) | One-click subtitle cutting, translation, alignment and dubbing with Netflix-style subtitle rules. | Huanshere | Claude Code |
 
 ### Edit Services
@@ -860,6 +925,12 @@ Best practices and references agents read before they generate or edit. On varg 
 | [PixiJS Text](guide/pixijs-scene-text.md) | Render and animate text in PixiJS v8: canvas Text, BitmapText, HTMLText and per-character SplitText. | PixiJS | Claude Code, Codex, Cursor, Gemini CLI |
 | [Title & Kinetic Typography Direction](guide/calesthio-title-kinetic-typography.md) | Typography direction for video: text jobs, hierarchy, reveal-hold-exit timing, safe zones, contrast, font licensing. | Calesthio | Claude Code, Codex, Cursor |
 
+### Launch
+
+| Skill | What it does | By | Install |
+|---|---|---|---|
+| [Opus 5.5 Motion Studio Harness](guide/opus-5-5-motion-studio-harness.md) | Eight .md files that turn Claude Code + Remotion into a launch-film studio: brief, style, storyboard, motion, sound, render. | beamnxw | Claude Code |
+
 ### Logos
 
 | Skill | What it does | By | Install |
@@ -877,12 +948,21 @@ Best practices and references agents read before they generate or edit. On varg 
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [Product Photography](guide/inference-sh-product-photography.md) | Apply packshot conventions to AI product photos: angles, backgrounds, shadows, hero shots, store specs. | inference.sh | Claude Code, Codex, Cursor, Gemini CLI |
+| [Turn a flat-lay photo into an AI virtual try-on video](guide/ai-virtual-try-on-video.md) | Clothing flat-lay to a model wearing it and a fit-check video: Bria virtual try-on still, Kling 4 motion, honest size captions. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
+| [Turn product photos into AI video that keeps the logo and shape](guide/consistent-product-ai-video.md) | Stops logos, labels and shapes from warping in AI product video: lock sheet, multi-angle references, camera-risk ladder, drift check. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
+| [Turn product photos into an AI ASMR unboxing video](guide/ai-unboxing-video.md) | Hands-only ASMR unboxing from a box and a product photo: timed VISUAL / ACTION / SOUND blocks on Seedance 2.5 with native sound, no music. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 
 ### Research
 
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [Head of Content](guide/head-of-content.md) | TikTok, Instagram, YouTube and X outlier research, hook analysis and a content plan. | Brad Bonanno | — |
+
+### Sfx
+
+| Skill | What it does | By | Install |
+|---|---|---|---|
+| [How to make video sound effects in code with earshot](guide/earshot.md) | Open-source CLI and MCP server: make free UI and motion sound effects in code and let an agent hear them. | Leon Lin | Claude Code |
 
 ### Shaders
 
@@ -924,6 +1004,7 @@ Best practices and references agents read before they generate or edit. On varg 
 |---|---|---|---|
 | [fal genmedia Workflow](guide/fal-genmedia-workflow.md) | Design multi-step media pipelines with genmedia: generate, edit, add audio and subtitles, batch, deliver. | fal | Claude Code, Codex, Cursor, Gemini CLI |
 | [fal Workflow](guide/fal-workflow.md) | Author fal workflow JSON that chains models, or orchestrate the same pipeline locally with genmedia. | fal | Claude Code, Codex, Cursor, Gemini CLI |
+| [How to make motion graphics videos with 20 open-source tools](guide/open-source-motion-studio-repos.md) | 20 open-source repos that make a coding agent a motion studio: Remotion, HyperFrames, Three.js, Tone.js, FFmpeg. | eigen | — |
 | [HyperFrames CLI](guide/hyperframes-cli.md) | Drive the HyperFrames CLI: scaffold, check, preview, snapshot, edit the timeline, render locally or in the cloud. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
 | [HyperFrames Media Use](guide/hyperframes-media-use.md) | Find or make every asset a video needs: music, SFX, voiceover, images, logos, avatars, transcripts, grades. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
 | [HyperFrames Registry](guide/hyperframes-registry.md) | Pull any of ~450 ready-made blocks into a video as editable source: transitions, titles, captions, charts, 3D. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
@@ -1154,6 +1235,7 @@ Formats people ask for that no skill makes yet. Build one and submit it. On varg
 
 | Skill | What it does | By | Install |
 |---|---|---|---|
+| [How to make a 30-second uncut anime shot with AI video](wanted/want-uncut-anime-shot.md) | One 30-second anime scene with no cuts: three character sheets and a timed prompt keep faces and outfits on model. | Shami | — |
 | [Kids' Counting Song Cartoon](wanted/want-kids-counting-song.md) | A cute 3D mascot sings a counting song: words light up, numbers pop, a 1–5 board fills, every scene an ad slot. | Archive | — |
 
 ### Art Direction
@@ -1176,10 +1258,10 @@ Formats people ask for that no skill makes yet. Build one and submit it. On varg
 
 | Skill | What it does | By | Install |
 |---|---|---|---|
-| [Deadpan Satire Travel Ad](wanted/want-deadpan-satire-travel-ad.md) | A cheerful tour-guide ad cut against escalating chaos: the subtitles stay sunny while the city burns. | Wytse Koetse | — |
 | [Earth Zoom-Out](wanted/want-earth-zoom-out.md) | One unbroken pull-back from a subject to orbit and beyond, often all the way back home again. | AI Video Explorer | — |
 | [Fake AAA Gameplay Trailer](wanted/want-gameplay-concept-trailer.md) | Thirty seconds of "gameplay" from a game that does not exist: third-person HUD, minimap, puzzle and boss fight. | Amira Zairi | — |
 | [Frame-Break Pop-Out Shot](wanted/want-frame-break-pop-out.md) | A character bursts past the black letterbox bars, with fists, blades or sneakers popping out of the frame. | Kōda | — |
+| [How to make a deadpan satirical commercial with AI](wanted/want-deadpan-satire-travel-ad.md) | A straight-faced fake commercial for an absurd place or product: ironic script, period look, subtitle gag, slogan card. | Wytse Koetse | — |
 | [Multi-Angle Reshoot from One Take](wanted/want-multi-angle-reshoot.md) | Feed in one clip and get new camera angles of the same performance: coverage that was never filmed. | Scenario | — |
 | [Squish and Inflate Gags](wanted/want-squish-inflate-gags.md) | Any object or photo gets crushed, melted, inflated or revealed as cake: a one-tap physics gag. | Pika | — |
 | [Surreal AI Edit Director](wanted/want-surreal-edit-director.md) | A fashion portrait "edited" by a giant cursor: faces stretch, inflate and turn to chrome, one gag per shot. | ibexdream | — |
@@ -1219,11 +1301,19 @@ Formats people ask for that no skill makes yet. Build one and submit it. On varg
 |---|---|---|---|
 | [Floating UI Cards Promo](wanted/want-floating-ui-cards-promo.md) | A SaaS promo told through floating UI cards (social post, live pill, feature chip) over a halftone backdrop. | varg inspiration board | — |
 
+### Lighting
+
+| Skill | What it does | By | Install |
+|---|---|---|---|
+| [How to light an AI video scene from a reference image](wanted/want-lighting-reference-scene.md) | Character sheets fix who appears; a third image fixes only the light and colour. A 30 s scene with one amber key light. | Mr.Iancu | — |
+
 ### Music
 
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [Apple Music Lyric Video](wanted/want-apple-music-lyric-video.md) | A phone lyric screen: the sung line big and bold, the rest dimmed and blurred, synced word by word to a song. | Jeff Guo | — |
+| [How to make a slopcore AI music video](wanted/want-slopcore-music-video.md) | A deliberately lo-fi AI music video: a catchy generated song, plastic-looking stills, clips cut on the beat. | Mark Soares | — |
+| [How to make an AI singer music video with lip-sync](wanted/want-ai-singer-music-video.md) | AI singer music video: the agent writes lyrics, a model makes the song, a generated singer lip-syncs it. | Mo Alani | — |
 
 ### Native Ui
 
@@ -1245,4 +1335,5 @@ Formats people ask for that no skill makes yet. Build one and submit it. On varg
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [Faceless Mannequin Rep-Counter Loop](wanted/want-mannequin-rep-counter-loop.md) | A faceless 3D mannequin throws a combo while an on-screen counter ticks with every rep, in a 6-second loop. | Sulfur | — |
+| [How to make a weekly news recap video with AI](wanted/want-weekly-news-recap-video.md) | An agent ranks the week's news, writes the script, makes stills, clips, voice and music, and cuts a 45–60 s recap. | vittorio | — |
 

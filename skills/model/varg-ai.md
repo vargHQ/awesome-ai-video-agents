@@ -33,10 +33,10 @@ Watch: <https://s3.varg.ai/how-to/previews/7df061df8dcb/varg-ai.mp4>
 
 ## Step-by-step tutorials that use it
 
+- [How to make viral ecommerce videos for TikTok and Reels](../../how-to/make-viral-ecommerce-videos.md): Product videos that sell on TikTok, TikTok Shop, Instagram Reels and Meta ads: the angle, the hook, the format, the person on camera, the rules and the variants.
 - [How to make a UGC ad video with AI](../../how-to/make-a-ugc-ad-video.md): A creator-style ad: a person talks to camera about your product, with b-roll, captions and an end card.
 - [How to make video ad variants for testing with AI](../../how-to/make-video-ad-variants-for-testing.md): Ten or more short video ads from one brief, each with a different hook or format, for Meta/TikTok creative testing.
 - [How to turn a product photo into a video with AI](../../how-to/turn-a-product-photo-into-a-video.md): A product shot turned into a short promo: orbit, push-in, exploded view or bullet time, with music.
-- [How to make viral ecommerce videos for TikTok and Reels](../../how-to/make-viral-ecommerce-videos.md): Product videos that sell on TikTok, TikTok Shop, Instagram Reels and Meta ads: the angle, the hook, the format, the person on camera, the rules and the variants.
 - [How to make a talking avatar video with AI](../../how-to/make-a-talking-avatar-video.md): A person (from a headshot, or generated) speaks your script to camera with lip-sync, in any language.
 - [How to translate and dub a video with AI](../../how-to/translate-and-dub-a-video.md): Your video in another language with your own voice, optionally lip-synced and subtitled.
 - [How to make a faceless YouTube video with AI](../../how-to/make-a-faceless-youtube-video.md): A narrated short or long video with no presenter: script, voiceover, visuals, captions, music.
