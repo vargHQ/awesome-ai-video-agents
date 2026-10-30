@@ -1,6 +1,6 @@
 {
  "site": "https://varg.ai/how-to",
- "generatedAt": "2026-10-29T06:51:48.644Z",
+ "generatedAt": "2026-10-30T06:40:27.825Z",
  "search": {
   "markdown": "https://varg.ai/how-to/api/search?q={query}",
   "json": "https://varg.ai/how-to/api/search.json?q={query}"
@@ -1919,7 +1919,7 @@
    ],
    "url": "https://varg.ai/how-to/skills/varg-imessage-video",
    "md": "https://varg.ai/how-to/skills/varg-imessage-video.md",
-   "example": "https://varg.ai/how-to/undefined"
+   "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_613ca599d935.mp4"
   },
   {
    "slug": "varg-templates-section",
@@ -8825,6 +8825,677 @@
    "md": "https://varg.ai/how-to/skills/firecrawl-mcp.md"
   },
   {
+   "slug": "adobe-firefly-run-workflow",
+   "name": "Adobe Firefly Run Workflow",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "banners",
+    "localization",
+    "retargeting",
+    "firefly",
+    "adobe"
+   ],
+   "summary": "Adobe plugin for Firefly Creative Production workflows: product banners at scale, retargeting, localization.",
+   "publisher": "Adobe",
+   "source": "https://github.com/adobe/skills/tree/main/plugins/creative-cloud/run-workflow",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "claude plugin marketplace add adobe/skills && claude plugin install run-workflow@adobe-skills",
+    "codex": "npx skills add adobe/skills --skill run-workflow -a codex",
+    "mcp": "https://run-workflow.adobe.io/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/adobe-firefly-run-workflow",
+   "md": "https://varg.ai/how-to/skills/adobe-firefly-run-workflow.md"
+  },
+  {
+   "slug": "adobe-for-creativity-social-variations",
+   "name": "Adobe for Creativity Skills",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "social-variations",
+    "resize",
+    "adobe-express",
+    "quick-cut",
+    "adobe"
+   ],
+   "summary": "Adobe's skills for its Claude connector: social crops of images and video, Express-template designs, Quick Cut reels.",
+   "publisher": "Adobe",
+   "source": "https://github.com/adobe/skills/tree/main/plugins/creative-cloud/adobe-for-creativity/skills",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-ai": "Settings → Connectors → Browse → Adobe for creativity (sign in with an Adobe ID)"
+   },
+   "agents": [
+    "claude-ai"
+   ],
+   "url": "https://varg.ai/how-to/skills/adobe-for-creativity-social-variations",
+   "md": "https://varg.ai/how-to/skills/adobe-for-creativity-social-variations.md"
+  },
+  {
+   "slug": "amazon-ads-mcp",
+   "name": "Amazon Ads MCP (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "amazon-ads",
+    "mcp",
+    "official",
+    "sponsored-products",
+    "reporting"
+   ],
+   "summary": "Amazon's hosted Ads MCP: Sponsored Products campaigns, reports, budgets, accounts and AMC queries from chat.",
+   "publisher": "Amazon Ads",
+   "source": "https://advertising.amazon.com/API/docs/en-us/mcp/mcp-overview",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "claude mcp add --transport http amzn-ads-mcp https://advertising-ai.amazon.com/mcp --client-id <your-client-id> --callback-port <your-callback-port>",
+    "claude-ai": "Settings → Connectors → Add custom connector → https://advertising-ai.amazon.com/mcp",
+    "mcp": "https://advertising-ai.amazon.com/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "mcp",
+    "claude-ai"
+   ],
+   "url": "https://varg.ai/how-to/skills/amazon-ads-mcp",
+   "md": "https://varg.ai/how-to/skills/amazon-ads-mcp.md"
+  },
+  {
+   "slug": "anthropic-marketing-plugin",
+   "name": "Anthropic Marketing Plugin",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "campaign-planning",
+    "competitive-brief",
+    "brand-voice",
+    "performance-report",
+    "anthropic"
+   ],
+   "summary": "Anthropic's marketing plugin: campaign plans with channels and budgets, competitive briefs, brand review and performance reports.",
+   "publisher": "Anthropic",
+   "source": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "claude plugin marketplace add anthropics/knowledge-work-plugins && claude plugin install marketing@knowledge-work-plugins"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/anthropic-marketing-plugin",
+   "md": "https://varg.ai/how-to/skills/anthropic-marketing-plugin.md"
+  },
+  {
+   "slug": "arcads-ads-plugin",
+   "name": "Arcads Ads Plugin",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "ai-actors",
+    "hook-clone",
+    "static-to-video",
+    "ad-library",
+    "arcads"
+   ],
+   "summary": "Official Arcads plugin: 17 ad skills (AI-actor UGC, hook clones, product swaps, static-to-video, ad spy).",
+   "publisher": "Arcads",
+   "source": "https://github.com/arcads-ai/skills/tree/main/skills",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add arcads-ai/skills -a claude-code && claude mcp add --transport http arcads https://mcp.arcads.ai",
+    "mcp": "https://mcp.arcads.ai"
+   },
+   "agents": [
+    "claude-code",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/arcads-ads-plugin",
+   "md": "https://varg.ai/how-to/skills/arcads-ads-plugin.md"
+  },
+  {
+   "slug": "atria-ad-intelligence",
+   "name": "Atria Ad Intelligence",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "ad-library",
+    "swipe-file",
+    "competitor-research",
+    "reporting",
+    "atria"
+   ],
+   "summary": "Official Atria plugin: search the ad library, tear down competitors, build swipe files, weekly account reports.",
+   "publisher": "Atria",
+   "source": "https://github.com/JoinScenius/atria-plugins/tree/main/plugins/atria",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add JoinScenius/atria-plugins && claude plugin install atria@atria",
+    "codex": "codex plugin marketplace add JoinScenius/atria-plugins && codex plugin add atria@atria"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/atria-ad-intelligence",
+   "md": "https://varg.ai/how-to/skills/atria-ad-intelligence.md"
+  },
+  {
+   "slug": "canva-skills-mcp",
+   "name": "Canva Skills + MCP (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "static-ads",
+    "resize",
+    "bulk-create",
+    "brand-check",
+    "canva"
+   ],
+   "summary": "Official Canva plugin: resize a design to every social format, bulk-create from CSV, brand-check, edit via Canva MCP.",
+   "publisher": "Canva",
+   "source": "https://github.com/canva-sdks/canva-skills/tree/main/plugins/canva/skills",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "claude plugin marketplace add canva-sdks/canva-skills && claude plugin install canva@canva-skills",
+    "codex": "codex plugin marketplace add canva-sdks/canva-skills && codex plugin add canva@canva-skills && codex mcp login canva",
+    "cursor": "npx skills add canva-sdks/canva-skills -a cursor",
+    "mcp": "https://mcp.canva.com/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/canva-skills-mcp",
+   "md": "https://varg.ai/how-to/skills/canva-skills-mcp.md"
+  },
+  {
+   "slug": "creatify-ad-agent",
+   "name": "Creatify Ad Agent",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "product-video",
+    "url-to-video",
+    "creatify",
+    "ad-agent"
+   ],
+   "summary": "Official Creatify plugin: product URL to a finished AI video ad, judged shot by shot, shipped as MP4.",
+   "publisher": "Creatify",
+   "source": "https://github.com/creatify-ai/creatify-ad-agent-skill/tree/main/ad-agent",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add creatify-ai/creatify-ad-agent-skill && claude plugin install creatify-ad-agent@creatify-ad-agent",
+    "codex": "codex plugin marketplace add https://github.com/creatify-ai/creatify-ad-agent-skill.git --ref main && codex plugin add creatify-ad-agent@creatify-ad-agent"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/creatify-ad-agent",
+   "md": "https://varg.ai/how-to/skills/creatify-ad-agent.md"
+  },
+  {
+   "slug": "creatify-static-ad-concept-generator",
+   "name": "Static Ad Concept Generator",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "static-ads",
+    "ad-concepts",
+    "angles",
+    "creatify"
+   ],
+   "summary": "Static ad concepts from 320+ templates: 16 universal angles plus category-specific formats (Creatify).",
+   "publisher": "Creatify",
+   "source": "https://github.com/creatify-ai/static-ad-concept-generator",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add creatify-ai/static-ad-concept-generator -a claude-code",
+    "codex": "npx skills add creatify-ai/static-ad-concept-generator -a codex"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/creatify-static-ad-concept-generator",
+   "md": "https://varg.ai/how-to/skills/creatify-static-ad-concept-generator.md"
+  },
+  {
+   "slug": "creatify-video-ad-reverse-engineer",
+   "name": "Video Ad Reverse Engineer",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "ad-breakdown",
+    "competitor-ads",
+    "templates",
+    "creatify"
+   ],
+   "summary": "Break a competitor video ad into a reusable template: 12-format catalog and a 7-step teardown (Creatify).",
+   "publisher": "Creatify",
+   "source": "https://github.com/creatify-ai/video-ad-reverse-engineer",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add creatify-ai/video-ad-reverse-engineer -a claude-code",
+    "codex": "npx skills add creatify-ai/video-ad-reverse-engineer -a codex"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/creatify-video-ad-reverse-engineer",
+   "md": "https://varg.ai/how-to/skills/creatify-video-ad-reverse-engineer.md"
+  },
+  {
+   "slug": "cut30-agent-video-style-kit",
+   "name": "Agent Video Style Kit",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "captions",
+   "tags": [
+    "style-guide",
+    "captions",
+    "titles",
+    "subtitles",
+    "short-form",
+    "safe-zones",
+    "9:16",
+    "16:9",
+    "brand-kit",
+    "agent-context",
+    "code2video",
+    "cut30",
+    "free"
+   ],
+   "summary": "Cut30's title and caption style kit for 9:16 and 16:9: JSON your agent reads plus an HTML preview. Runnable in varg's code2video templates.",
+   "publisher": "Cut30",
+   "source": "https://cut30.co/guides/agent-video-style-kit",
+   "license": "Cut30 terms: use and customize for personal or commercial videos, keep Cut30 attribution on the kit page",
+   "install": {
+    "claude-code": "git clone --depth 1 https://github.com/vargHQ/code2video-templates ~/code2video-templates && ln -s ~/code2video-templates/agent-video-style-kit ~/.claude/skills/agent-video-style-kit",
+    "setup-prompt": "Paste Cut30's setup prompt from https://cut30.co/guides/agent-video-style-kit into your agent (downloads https://cut30.co/agent-video-style-kit/agent-video-style-kit.zip and verifies its SHA-256)."
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/cut30-agent-video-style-kit",
+   "md": "https://varg.ai/how-to/skills/cut30-agent-video-style-kit.md",
+   "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_8eb82edbc04b.mp4"
+  },
+  {
+   "slug": "elevenlabs-plugin-creative-studio",
+   "name": "ElevenLabs Plugin + Hosted MCP",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "voiceover",
+    "music",
+    "mcp",
+    "official",
+    "elevenlabs"
+   ],
+   "summary": "Official ElevenLabs plugin on its hosted OAuth MCP: voiceovers, music, images and video via creative_* tools.",
+   "publisher": "ElevenLabs",
+   "source": "https://github.com/elevenlabs/plugin",
+   "license": "unknown",
+   "install": {
+    "claude-code": "claude plugin marketplace add elevenlabs/plugin && claude plugin install elevenlabs@elevenlabs",
+    "codex": "codex plugin marketplace add elevenlabs/plugin",
+    "mcp": "https://api.elevenlabs.io/v1/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/elevenlabs-plugin-creative-studio",
+   "md": "https://varg.ai/how-to/skills/elevenlabs-plugin-creative-studio.md"
+  },
+  {
+   "slug": "foreplay-ad-library-mcp",
+   "name": "Foreplay Ad Library MCP",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "ad-library",
+    "swipe-file",
+    "competitor-research",
+    "mcp",
+    "foreplay"
+   ],
+   "summary": "Foreplay's MCP: 200M+ ads with transcripts, hooks, run time and landing pages, plus your boards and swipe files.",
+   "publisher": "Foreplay",
+   "source": "https://www.foreplay.co/post/ad-library-mcp",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "claude mcp add --transport http foreplay https://public.api.foreplay.co/mcp",
+    "claude-ai": "Settings → Connectors → Add custom connector → https://public.api.foreplay.co/mcp",
+    "mcp": "https://public.api.foreplay.co/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "mcp",
+    "claude-ai"
+   ],
+   "url": "https://varg.ai/how-to/skills/foreplay-ad-library-mcp",
+   "md": "https://varg.ai/how-to/skills/foreplay-ad-library-mcp.md"
+  },
+  {
+   "slug": "gomarble-facebook-ads-mcp",
+   "name": "GoMarble Facebook Ads MCP",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "meta-ads",
+    "mcp",
+    "self-hosted",
+    "insights"
+   ],
+   "summary": "Self-hosted Meta Ads MCP for reading campaigns, ad sets, ads and insights with your own token.",
+   "publisher": "GoMarble",
+   "source": "https://github.com/gomarble-ai/facebook-ads-mcp-server",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx -y @smithery/cli install @gomarble-ai/facebook-ads-mcp-server --client claude"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/gomarble-facebook-ads-mcp",
+   "md": "https://varg.ai/how-to/skills/gomarble-facebook-ads-mcp.md"
+  },
+  {
+   "slug": "google-ads-api-skills",
+   "name": "Google Ads API Skills (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "google-ads",
+    "official",
+    "mcp-setup",
+    "diagnostics"
+   ],
+   "summary": "Google's own Google Ads skills: set up the Ads MCP, API quickstart, diagnose lost conversions and impression share.",
+   "publisher": "Google",
+   "source": "https://github.com/google/skills/tree/main/skills/ads",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "npx skills add google/skills --skill google-ads-api-mcp-setup -a claude-code",
+    "codex": "npx skills add google/skills --skill google-ads-api-mcp-setup -a codex",
+    "cursor": "npx skills add google/skills --skill google-ads-api-mcp-setup -a cursor",
+    "gemini-cli": "npx skills add google/skills --skill google-ads-api-mcp-setup -a gemini-cli"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/google-ads-api-skills",
+   "md": "https://varg.ai/how-to/skills/google-ads-api-skills.md"
+  },
+  {
+   "slug": "google-ads-mcp",
+   "name": "Google Ads MCP (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "google-ads",
+    "youtube-ads",
+    "mcp",
+    "official",
+    "reporting"
+   ],
+   "summary": "Google's open-source Google Ads MCP: list accounts, look up fields, run GAQL reports, including YouTube campaigns.",
+   "publisher": "Google Ads API team",
+   "source": "https://github.com/googleads/google-ads-mcp",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "claude mcp add google-ads-mcp -e GOOGLE_PROJECT_ID=<project> -e GOOGLE_ADS_DEVELOPER_TOKEN=<token> -- pipx run --spec git+https://github.com/googleads/google-ads-mcp.git google-ads-mcp"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/google-ads-mcp",
+   "md": "https://varg.ai/how-to/skills/google-ads-mcp.md"
+  },
+  {
+   "slug": "gooseworks-static-ads",
+   "name": "GooseWorks Static Ads",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "static-ads",
+    "concept-board",
+    "ad-copy",
+    "rejected-ad-fix",
+    "gooseworks"
+   ],
+   "summary": "Static image ads from your brand's real facts: concept board before any render, prompts, review, copy and rejected-ad fixes.",
+   "publisher": "GooseWorks",
+   "source": "https://github.com/gooseworks-ai/goose-skills/tree/main/skills/marketing/make-static-ads",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx gooseworks@latest install --claude --mcp",
+    "claude-ai": "Settings → Connectors → Add custom connector → https://mcp.gooseworks.ai/mcp",
+    "codex": "npx gooseworks@latest install --codex --mcp",
+    "cursor": "npx gooseworks@latest install --cursor --mcp",
+    "mcp": "https://mcp.gooseworks.ai/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "cursor",
+    "codex",
+    "mcp",
+    "claude-ai"
+   ],
+   "url": "https://varg.ai/how-to/skills/gooseworks-static-ads",
+   "md": "https://varg.ai/how-to/skills/gooseworks-static-ads.md"
+  },
+  {
+   "slug": "gooseworks-video-ad-script",
+   "name": "GooseWorks Video Ad Script",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "ad-script",
+    "video-ads",
+    "angles",
+    "ugc",
+    "gooseworks"
+   ],
+   "summary": "Short-form video ad script from a researched angle and a reference: words, product proof and sound planned before review.",
+   "publisher": "GooseWorks",
+   "source": "https://github.com/gooseworks-ai/goose-skills/tree/main/skills/video/write-video-ad-script",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add gooseworks-ai/goose-skills --skill write-video-ad-script -a claude-code",
+    "codex": "npx skills add gooseworks-ai/goose-skills --skill write-video-ad-script -a codex",
+    "cursor": "npx skills add gooseworks-ai/goose-skills --skill write-video-ad-script -a cursor"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/gooseworks-video-ad-script",
+   "md": "https://varg.ai/how-to/skills/gooseworks-video-ad-script.md"
+  },
+  {
+   "slug": "hedra-mcp",
+   "name": "Hedra MCP (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "talking-avatar",
+    "voice",
+    "mcp",
+    "hedra"
+   ],
+   "summary": "Hedra's hosted MCP: talking-avatar video, images, speech, music and SFX from Claude Code, Codex, Cursor or ChatGPT.",
+   "publisher": "Hedra",
+   "source": "https://www.hedra.com/docs/pages/developer/v3/mcp",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "claude mcp add --transport http hedra https://mcp.hedra.com",
+    "codex": "codex mcp add hedra --url https://mcp.hedra.com",
+    "mcp": "https://mcp.hedra.com"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/hedra-mcp",
+   "md": "https://varg.ai/how-to/skills/hedra-mcp.md"
+  },
+  {
+   "slug": "heygen-avatar-video-skills",
+   "name": "HeyGen Avatar Video Skills",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "avatar",
+    "presenter",
+    "translation",
+    "lip-sync",
+    "heygen"
+   ],
+   "summary": "Official HeyGen skills: create your avatar, make presenter videos with the v3 Video Agent, translate with lip-sync.",
+   "publisher": "HeyGen",
+   "source": "https://github.com/heygen-com/skills",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add heygen-com/skills -a claude-code && claude mcp add --transport http heygen https://mcp.heygen.com/mcp/v1/",
+    "codex": "npx skills add heygen-com/skills -a codex",
+    "cursor": "npx skills add heygen-com/skills -a cursor",
+    "gemini-cli": "npx skills add heygen-com/skills -a gemini-cli"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/heygen-avatar-video-skills",
+   "md": "https://varg.ai/how-to/skills/heygen-avatar-video-skills.md"
+  },
+  {
+   "slug": "heygen-cli",
+   "name": "HeyGen CLI",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "avatar",
+    "batch",
+    "translation",
+    "cli",
+    "heygen"
+   ],
+   "summary": "Official HeyGen CLI built for agents: avatar videos, translations and bulk jobs as JSON commands.",
+   "publisher": "HeyGen",
+   "source": "https://github.com/heygen-com/heygen-cli",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "curl -fsSL https://static.heygen.ai/cli/install.sh | bash",
+    "codex": "curl -fsSL https://static.heygen.ai/cli/install.sh | bash"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/heygen-cli",
+   "md": "https://varg.ai/how-to/skills/heygen-cli.md"
+  },
+  {
+   "slug": "higgsfield-cli-marketing-studio",
+   "name": "Higgsfield CLI (Marketing Studio)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "higgsfield",
+    "marketing-studio",
+    "virality-predictor",
+    "cli",
+    "ugc"
+   ],
+   "summary": "Official Higgsfield CLI: 40+ image and video models plus marketing-studio branded ads and a Virality Predictor.",
+   "publisher": "Higgsfield AI",
+   "source": "https://github.com/higgsfield-ai/cli",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npm install -g @higgsfield/cli",
+    "codex": "npm install -g @higgsfield/cli",
+    "cursor": "npm install -g @higgsfield/cli",
+    "openclaw": "npm install -g @higgsfield/cli",
+    "gemini-cli": "npm install -g @higgsfield/cli"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw"
+   ],
+   "url": "https://varg.ai/how-to/skills/higgsfield-cli-marketing-studio",
+   "md": "https://varg.ai/how-to/skills/higgsfield-cli-marketing-studio.md"
+  },
+  {
    "slug": "higgsfield-code-based-films",
    "name": "Higgsfield Code-Based Films",
    "type": "skill",
@@ -9922,6 +10593,589 @@
    "url": "https://varg.ai/how-to/skills/higgsfield-open-zephyr-special",
    "md": "https://varg.ai/how-to/skills/higgsfield-open-zephyr-special.md",
    "example": "https://static.higgsfield.ai/og/v4/project/cee8c1f3-75a0-4722-970d-c78bd1d23bff-2yx6xp.jpg"
+  },
+  {
+   "slug": "hyper-marketing-skills",
+   "name": "Hyper Marketing Skills",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "ad-library",
+    "ad-creative",
+    "meta-ads",
+    "tiktok-ads",
+    "google-ads"
+   ],
+   "summary": "Marketing skills on the Hyper MCP: Meta Ads Library research, ad creative generation, Meta/TikTok/Google/OpenAI Ads.",
+   "publisher": "HyperFX",
+   "source": "https://github.com/hyperfx-ai/marketing-skills/tree/main/skills/meta-ads-library",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add hyperfx-ai/marketing-skills -a claude-code",
+    "codex": "npx skills add hyperfx-ai/marketing-skills -a codex",
+    "cursor": "npx skills add hyperfx-ai/marketing-skills -a cursor"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/hyper-marketing-skills",
+   "md": "https://varg.ai/how-to/skills/hyper-marketing-skills.md"
+  },
+  {
+   "slug": "langchain-paid-media-agent",
+   "name": "LangChain Paid Media Agent",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "paid-media",
+    "reporting",
+    "multi-platform",
+    "deep-agents",
+    "langchain"
+   ],
+   "summary": "Open-source paid-media agent: cross-channel analysis, weekly reports and proposed changes across six ad platforms.",
+   "publisher": "LangChain",
+   "source": "https://github.com/langchain-ai/paid-media-agent",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "git clone https://github.com/langchain-ai/paid-media-agent.git && cd paid-media-agent && uv sync && uv run paid-media-agent setup"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/langchain-paid-media-agent",
+   "md": "https://varg.ai/how-to/skills/langchain-paid-media-agent.md"
+  },
+  {
+   "slug": "magnific-plugin",
+   "name": "Magnific Plugin (formerly Freepik)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "video-ad",
+    "ad-campaign",
+    "product-imagery",
+    "magnific",
+    "freepik"
+   ],
+   "summary": "Official Magnific plugin: video-ad, ad-campaign and product-imagery skills on the hosted Magnific MCP.",
+   "publisher": "Magnific (formerly Freepik)",
+   "source": "https://github.com/freepik-company/magnific-plugin/tree/main/skills",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add freepik-company/magnific-plugin && claude plugin install magnific@magnific",
+    "codex": "git clone https://github.com/freepik-company/magnific-plugin && cp -R magnific-plugin/skills/* ~/.codex/skills/",
+    "gemini-cli": "gemini extensions install https://github.com/freepik-company/magnific-plugin",
+    "mcp": "https://mcp.magnific.com/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "gemini-cli",
+    "codex",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/magnific-plugin",
+   "md": "https://varg.ai/how-to/skills/magnific-plugin.md"
+  },
+  {
+   "slug": "makeugc-mcp",
+   "name": "MakeUGC MCP (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "ai-actors",
+    "product-in-hand",
+    "mcp",
+    "makeugc"
+   ],
+   "summary": "MakeUGC's hosted MCP: AI-actor UGC ads, product-in-hand, ad remakes and video/image models from your agent.",
+   "publisher": "MakeUGC",
+   "source": "https://makeugc.ai/docs/api/v1/mcp",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "claude mcp add --transport http makeugc https://mcp.makeugc.ai --header \"X-API-Key: YOUR_MAKEUGC_API_KEY\"",
+    "claude-ai": "Settings → Connectors → Add custom connector → https://mcp.makeugc.ai",
+    "mcp": "https://mcp.makeugc.ai"
+   },
+   "agents": [
+    "claude-code",
+    "mcp",
+    "claude-ai"
+   ],
+   "url": "https://varg.ai/how-to/skills/makeugc-mcp",
+   "md": "https://varg.ai/how-to/skills/makeugc-mcp.md"
+  },
+  {
+   "slug": "meta-ads-cli",
+   "name": "Meta Ads CLI (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "meta-ads",
+    "cli",
+    "official",
+    "bulk-upload",
+    "insights"
+   ],
+   "summary": "Meta's official ads CLI for coding agents: campaigns, ad sets, creatives, DCO, insights, datasets; new ads start paused.",
+   "publisher": "Meta",
+   "source": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "pip install meta-ads",
+    "codex": "pip install meta-ads",
+    "openclaw": "pip install meta-ads"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "openclaw"
+   ],
+   "url": "https://varg.ai/how-to/skills/meta-ads-cli",
+   "md": "https://varg.ai/how-to/skills/meta-ads-cli.md"
+  },
+  {
+   "slug": "meta-ads-mcp",
+   "name": "Meta Ads MCP (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "meta-ads",
+    "mcp",
+    "official",
+    "reporting",
+    "ab-tests"
+   ],
+   "summary": "Meta's own hosted ads MCP: reporting, ad creation, catalogs, A/B tests, conversion lift, signals and activity logs.",
+   "publisher": "Meta",
+   "source": "https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "claude mcp add --transport http --client-id <META_APP_ID> meta-ads https://mcp.facebook.com/ads",
+    "mcp": "https://mcp.facebook.com/ads"
+   },
+   "agents": [
+    "claude-code",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/meta-ads-mcp",
+   "md": "https://varg.ai/how-to/skills/meta-ads-mcp.md"
+  },
+  {
+   "slug": "microsoft-advertising-mcp",
+   "name": "Microsoft Advertising MCP (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "microsoft-ads",
+    "bing-ads",
+    "mcp",
+    "official",
+    "read-only"
+   ],
+   "summary": "Microsoft's hosted read-only Ads MCP: accounts, campaigns, ad groups, ads, keywords and asset groups for audits.",
+   "publisher": "Microsoft Advertising",
+   "source": "https://learn.microsoft.com/en-us/advertising/guides/mcp-setup?view=bingads-13",
+   "license": "proprietary",
+   "install": {
+    "claude-ai": "Settings → Connectors → Add custom connector → https://partner.api.bingads.microsoft.com/ext/mcp/vnext (your own Entra OAuth client ID)",
+    "mcp": "https://partner.api.bingads.microsoft.com/ext/mcp/vnext"
+   },
+   "agents": [
+    "mcp",
+    "claude-ai"
+   ],
+   "url": "https://varg.ai/how-to/skills/microsoft-advertising-mcp",
+   "md": "https://varg.ai/how-to/skills/microsoft-advertising-mcp.md"
+  },
+  {
+   "slug": "motion-creative-analytics-mcp",
+   "name": "Motion Creative Analytics MCP",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "creative-analytics",
+    "meta-ads",
+    "mcp",
+    "ad-library",
+    "motion"
+   ],
+   "summary": "Motion's read-only MCP: top ads by ROAS/CPA/CTR, creative transcripts, demographics, AI tags and competitor Inspo.",
+   "publisher": "Motion",
+   "source": "https://help.motionapp.com/en/articles/14315735-motion-mcp",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "claude mcp add --transport http motion https://projects.motionapp.com/mcp",
+    "claude-ai": "Settings → Connectors → Add custom connector → https://projects.motionapp.com/mcp",
+    "mcp": "https://projects.motionapp.com/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "mcp",
+    "claude-ai"
+   ],
+   "url": "https://varg.ai/how-to/skills/motion-creative-analytics-mcp",
+   "md": "https://varg.ai/how-to/skills/motion-creative-analytics-mcp.md"
+  },
+  {
+   "slug": "motion-creative-strategy-skills",
+   "name": "Motion Creative Strategy Skills",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "hooks",
+    "angles",
+    "creative-strategy",
+    "visual-formats",
+    "motion"
+   ],
+   "summary": "Motion's creative-strategy skills: brand intake, review mining, angles, hooks, 45+ visual formats, ad mechanics.",
+   "publisher": "Motion (Alysha)",
+   "source": "https://github.com/motion-team/creative-strategy-skills",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add motion-team/creative-strategy-skills -a claude-code",
+    "codex": "npx skills add motion-team/creative-strategy-skills -a codex",
+    "cursor": "npx skills add motion-team/creative-strategy-skills -a cursor"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/motion-creative-strategy-skills",
+   "md": "https://varg.ai/how-to/skills/motion-creative-strategy-skills.md"
+  },
+  {
+   "slug": "pika-ugc-ads",
+   "name": "Pika UGC Ads",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "selfie",
+    "jump-cut",
+    "lip-sync",
+    "pika"
+   ],
+   "summary": "15-second jump-cut selfie UGC ad from a product URL: hook, three cuts, outro, spoken dialogue with native lip-sync.",
+   "publisher": "Pika",
+   "source": "https://github.com/Pika-Labs/Pika-Plugins/tree/main/skills/ugc-ads",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "claude plugin marketplace add Pika-Labs/Pika-Plugins && claude plugin install pika@pika-plugins",
+    "codex": "codex mcp add pika --url https://mcp.pika.me/api/mcp && npx skills add Pika-Labs/Pika-Plugins --skill ugc-ads -a codex"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/pika-ugc-ads",
+   "md": "https://varg.ai/how-to/skills/pika-ugc-ads.md"
+  },
+  {
+   "slug": "pipeboard-ads-mcp",
+   "name": "Pipeboard Ads MCPs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "meta-ads",
+    "google-ads",
+    "tiktok-ads",
+    "snap-ads",
+    "mcp"
+   ],
+   "summary": "Hosted ads MCPs for Meta, Google, TikTok, Snap and Reddit behind one login: insights, uploads, paused launches.",
+   "publisher": "Pipeboard",
+   "source": "https://github.com/pipeboard-co/meta-ads-mcp",
+   "license": "BUSL-1.1",
+   "install": {
+    "claude-code": "claude mcp add --transport http meta-ads https://meta-ads.mcp.pipeboard.co/",
+    "mcp": "https://meta-ads.mcp.pipeboard.co/"
+   },
+   "agents": [
+    "claude-code",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/pipeboard-ads-mcp",
+   "md": "https://varg.ai/how-to/skills/pipeboard-ads-mcp.md"
+  },
+  {
+   "slug": "reelclaw-ugc-reels",
+   "name": "ReelClaw UGC Reels",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "app-ads",
+    "ugc",
+    "reaction",
+    "safe-zones",
+    "reels"
+   ],
+   "summary": "App UGC reels from real creator reactions plus your demo: hooks, 7 templates, safe-zone captions, local render.",
+   "publisher": "DansUGC",
+   "source": "https://github.com/dansugc/reelclaw/tree/main/plugins/reelclaw",
+   "license": "unknown",
+   "install": {
+    "claude-code": "claude plugin marketplace add dansugc/reelclaw && claude plugin install reelclaw@dansugc",
+    "codex": "codex plugin marketplace add dansugc/reelclaw && codex plugin add reelclaw@dansugc && codex mcp login dansugc"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/reelclaw-ugc-reels",
+   "md": "https://varg.ai/how-to/skills/reelclaw-ugc-reels.md"
+  },
+  {
+   "slug": "scenario-video-ads-ugc",
+   "name": "Scenario Video Ads & UGC",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "video-ads",
+    "ugc",
+    "ad-variants",
+    "product-shots",
+    "scenario"
+   ],
+   "summary": "Official Scenario skills: product-shot video ads, phone-shot UGC testimonials and hook/CTA variants via its MCP.",
+   "publisher": "Scenario",
+   "source": "https://github.com/scenario-labs/skills/tree/main/skills/scenario-video-ads",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add scenario-labs/skills --skill scenario scenario-video-ads scenario-ugc scenario-ad-variants scenario-product-shots -a claude-code && claude mcp add --transport http scenario https://mcp.scenario.com/mcp",
+    "codex": "npx skills add scenario-labs/skills --skill scenario scenario-video-ads scenario-ugc scenario-ad-variants scenario-product-shots -a codex && codex mcp add scenario --url https://mcp.scenario.com/mcp && codex mcp login scenario",
+    "cursor": "npx skills add scenario-labs/skills --skill scenario scenario-video-ads scenario-ugc scenario-ad-variants scenario-product-shots -a cursor",
+    "gemini-cli": "npx skills add scenario-labs/skills --skill scenario scenario-video-ads scenario-ugc scenario-ad-variants scenario-product-shots -a gemini-cli",
+    "mcp": "https://mcp.scenario.com/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/scenario-video-ads-ugc",
+   "md": "https://varg.ai/how-to/skills/scenario-video-ads-ugc.md"
+  },
+  {
+   "slug": "scrapecreators-ad-library-teardown",
+   "name": "Ad Library Teardown",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "ad-library",
+    "competitor-research",
+    "meta-ads",
+    "linkedin-ads",
+    "google-ads"
+   ],
+   "summary": "Tear down competitors' live ads from Meta, Google and LinkedIn libraries: hooks, offers, CTAs, test ideas.",
+   "publisher": "ScrapeCreators",
+   "source": "https://github.com/ScrapeCreators/social-media-research-skills/tree/main/skills/ad-library-teardown",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add ScrapeCreators/social-media-research-skills --skill ad-library-teardown -a claude-code",
+    "codex": "npx skills add ScrapeCreators/social-media-research-skills --skill ad-library-teardown -a codex",
+    "cursor": "npx skills add ScrapeCreators/social-media-research-skills --skill ad-library-teardown -a cursor"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/scrapecreators-ad-library-teardown",
+   "md": "https://varg.ai/how-to/skills/scrapecreators-ad-library-teardown.md"
+  },
+  {
+   "slug": "snapchat-ads-mcp",
+   "name": "Snapchat Ads MCP (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "snapchat-ads",
+    "mcp",
+    "official",
+    "reporting",
+    "read-only"
+   ],
+   "summary": "Snap's hosted read-only Ads MCP: agents read Snapchat campaigns, ad squads, ads and stats with your own permissions.",
+   "publisher": "Snap Inc.",
+   "source": "https://developers.snap.com/marketing-api/Ads-MCP/Introduction",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "claude mcp add --transport http --client-id claude-snap-ads snap-ads https://mcp.snapchat.com/ads && claude mcp login snap-ads",
+    "claude-ai": "Settings → Connectors → Add custom connector → https://mcp.snapchat.com/ads",
+    "codex": "codex mcp add snap-ads --url https://mcp.snapchat.com/ads --oauth-client-id codex-snap-ads && codex mcp login snap-ads",
+    "gemini-cli": "gemini mcp add --transport http snap-ads https://mcp.snapchat.com/ads",
+    "mcp": "https://mcp.snapchat.com/ads"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "gemini-cli",
+    "mcp",
+    "claude-ai"
+   ],
+   "url": "https://varg.ai/how-to/skills/snapchat-ads-mcp",
+   "md": "https://varg.ai/how-to/skills/snapchat-ads-mcp.md"
+  },
+  {
+   "slug": "tiktok-ads-mcp",
+   "name": "TikTok for Business MCP (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "tiktok-ads",
+    "mcp",
+    "official",
+    "smart-plus",
+    "reporting"
+   ],
+   "summary": "TikTok's hosted Ads MCP: about 400 tools for campaigns, Smart+ ads, audiences, creative ops and reports.",
+   "publisher": "TikTok for Business",
+   "source": "https://ads.tiktok.com/resources/help/article/about-tiktok-for-business-mcp-server?lang=en",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "claude mcp add --transport http tiktok-ads https://business-api.tiktok.com/open_mcp/tt-ads-mcp-flat",
+    "claude-ai": "Settings → Connectors → Browse → TikTok for Business (Claude's connector directory)",
+    "mcp": "https://business-api.tiktok.com/open_mcp/tt-ads-mcp-flat"
+   },
+   "agents": [
+    "claude-code",
+    "mcp",
+    "claude-ai"
+   ],
+   "url": "https://varg.ai/how-to/skills/tiktok-ads-mcp",
+   "md": "https://varg.ai/how-to/skills/tiktok-ads-mcp.md"
+  },
+  {
+   "slug": "topview-ai-skills-mcp",
+   "name": "Topview AI Skills + MCP",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "talking-avatar",
+    "product-avatar",
+    "tiktok-shop",
+    "mcp",
+    "topview"
+   ],
+   "summary": "Topview's official skills and MCP: talking avatars, product-avatar shots, voices, TikTok Shop and Amazon research.",
+   "publisher": "Topview AI",
+   "source": "https://github.com/topviewai/skill",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "npx skills add topviewai/skill -a claude-code && claude mcp add --transport http topview-mcp https://mcp.topview.ai/mcp",
+    "codex": "npx skills add topviewai/skill -a codex && codex mcp add topview-mcp --url https://mcp.topview.ai/mcp",
+    "cursor": "npx skills add topviewai/skill -a cursor",
+    "mcp": "https://mcp.topview.ai/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/topview-ai-skills-mcp",
+   "md": "https://varg.ai/how-to/skills/topview-ai-skills-mcp.md"
+  },
+  {
+   "slug": "triple-whale-mcp",
+   "name": "Triple Whale MCP (official)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "attribution",
+    "dtc",
+    "roas",
+    "mcp",
+    "triple-whale"
+   ],
+   "summary": "Triple Whale's read-only MCP: revenue, ROAS, spend and attribution by channel for DTC brands, in any agent.",
+   "publisher": "Triple Whale",
+   "source": "https://kb.triplewhale.com/en/articles/15656798-triple-whale-mcp",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "claude mcp add --transport http triple-whale https://mcp.triplewhale.com/v1/mcp",
+    "claude-ai": "Settings → Connectors → Add custom connector → https://mcp.triplewhale.com/v1/mcp",
+    "mcp": "https://mcp.triplewhale.com/v1/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "mcp",
+    "claude-ai"
+   ],
+   "url": "https://varg.ai/how-to/skills/triple-whale-mcp",
+   "md": "https://varg.ai/how-to/skills/triple-whale-mcp.md"
+  },
+  {
+   "slug": "vigenair-video-ad-variants",
+   "name": "ViGenAiR (Google)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "video-ad-variants",
+    "cutdowns",
+    "youtube-ads",
+    "google",
+    "gemini"
+   ],
+   "summary": "Google's open-source tool that recrafts long video ads into shorter, platform-ready variants with Gemini.",
+   "publisher": "Google Marketing Solutions",
+   "source": "https://github.com/google-marketing-solutions/vigenair",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "git clone https://github.com/google-marketing-solutions/vigenair.git"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/vigenair-video-ad-variants",
+   "md": "https://varg.ai/how-to/skills/vigenair-video-ad-variants.md"
   },
   {
    "slug": "video-shotcraft",
@@ -15285,7 +16539,178 @@
    ],
    "url": "https://varg.ai/how-to/skills/opus-5-5-motion-studio-harness",
    "md": "https://varg.ai/how-to/skills/opus-5-5-motion-studio-harness.md",
-   "example": "https://s3.varg.ai/files/60c50c05-1e93-46b9-ae75-47be786b4ff0/file_8ff2737684d5.mp4"
+   "example": "https://s3.varg.ai/files/60c50c05-1e93-46b9-ae75-47be786b4ff0/file_0591d2bc3b2c.mp4"
+  },
+  {
+   "slug": "adloop-google-ads-mcp",
+   "name": "AdLoop",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "google-ads",
+    "ga4",
+    "search-console",
+    "mcp",
+    "approvals"
+   ],
+   "summary": "Google Ads + GA4 + Search Console MCP with approval cards for every change; draft, preview, then apply.",
+   "publisher": "kLOsk",
+   "source": "https://github.com/kLOsk/adloop",
+   "license": "MIT",
+   "install": {
+    "claude-code": "pip install adloop && claude mcp add adloop -- python3 -m adloop"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/adloop-google-ads-mcp",
+   "md": "https://varg.ai/how-to/skills/adloop-google-ads-mcp.md"
+  },
+  {
+   "slug": "arcads-claude-code-workspace",
+   "name": "Arcads Ad Campaign Workspace",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "arcads",
+    "ad-variants",
+    "captions",
+    "meta-ads"
+   ],
+   "summary": "Arcads API workspace for Claude Code/Cursor: video and image ads, ad clones, captions, Meta upload, swipe file.",
+   "publisher": "Caleb 'Mr. Paid Social' (Kruse Media)",
+   "source": "https://github.com/krusemediallc/arcads-claude-code/tree/main/skills",
+   "license": "MIT",
+   "install": {
+    "claude-code": "git clone https://github.com/krusemediallc/arcads-claude-code.git && cd arcads-claude-code && ./scripts/setup.sh",
+    "cursor": "git clone https://github.com/krusemediallc/arcads-claude-code.git && cd arcads-claude-code && ./scripts/setup.sh"
+   },
+   "agents": [
+    "claude-code",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/arcads-claude-code-workspace",
+   "md": "https://varg.ai/how-to/skills/arcads-claude-code-workspace.md"
+  },
+  {
+   "slug": "claude-ads",
+   "name": "Claude Ads",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "paid-media",
+    "audit",
+    "creative-review",
+    "meta-ads",
+    "google-ads",
+    "tiktok-ads"
+   ],
+   "summary": "Paid-media ops across 12 ad platforms: audits, creative review, ad image generation, tests, reports.",
+   "publisher": "Daniel Agrici (AI Marketing Hub)",
+   "source": "https://github.com/AgriciDaniel/claude-ads",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add agricidaniel/claude-ads && claude plugin install claude-ads@ai-marketing-hub-claude-ads",
+    "codex": "npx skills add agricidaniel/claude-ads -a codex"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/claude-ads",
+   "md": "https://varg.ai/how-to/skills/claude-ads.md"
+  },
+  {
+   "slug": "clipforge-product-video-ads",
+   "name": "ClipForge Product Video Ads",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "product-video",
+    "ecommerce",
+    "product-lock",
+    "ai-label",
+    "mcp"
+   ],
+   "summary": "One product photo to a shoppable short video: selling points, script, locked product shots, voiceover, captions, BGM.",
+   "publisher": "xixihhhh",
+   "source": "https://github.com/xixihhhh/clipforge/tree/main/skills/clipforge-video",
+   "license": "AGPL-3.0",
+   "install": {
+    "claude-code": "npx skills add xixihhhh/clipforge --skill clipforge-video -a claude-code",
+    "codex": "npx skills add xixihhhh/clipforge --skill clipforge-video -a codex",
+    "cursor": "npx skills add xixihhhh/clipforge --skill clipforge-video -a cursor"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/clipforge-product-video-ads",
+   "md": "https://varg.ai/how-to/skills/clipforge-product-video-ads.md"
+  },
+  {
+   "slug": "creative-ad-agent-static-meta-ads",
+   "name": "Creative Ad Agent",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "static-ads",
+    "meta-ads",
+    "claude-agent-sdk",
+    "nano-banana"
+   ],
+   "summary": "Multi-agent Meta/Instagram static ad generator on the Claude Agent SDK and a Nano Banana MCP.",
+   "publisher": "DV0x",
+   "source": "https://github.com/DV0x/creative-ad-agent",
+   "license": "MIT",
+   "install": {
+    "claude-code": "git clone https://github.com/DV0x/creative-ad-agent.git"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/creative-ad-agent-static-meta-ads",
+   "md": "https://varg.ai/how-to/skills/creative-ad-agent-static-meta-ads.md"
+  },
+  {
+   "slug": "facebook-ads-library-mcp",
+   "name": "Facebook Ads Library MCP",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "ads",
+   "tags": [
+    "ad-library",
+    "meta-ads",
+    "competitor-research",
+    "mcp"
+   ],
+   "summary": "MCP for the Meta Ad Library: search advertisers, pull creatives and copy, analyze video ads with Gemini.",
+   "publisher": "Proxy (proxy-intell)",
+   "source": "https://github.com/proxy-intell/facebook-ads-library-mcp",
+   "license": "MIT",
+   "install": {
+    "claude-code": "git clone https://github.com/proxy-intell/facebook-ads-library-mcp.git && cd facebook-ads-library-mcp && ./install.sh",
+    "cursor": "git clone https://github.com/proxy-intell/facebook-ads-library-mcp.git && cd facebook-ads-library-mcp && ./install.sh"
+   },
+   "agents": [
+    "claude-code",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/facebook-ads-library-mcp",
+   "md": "https://varg.ai/how-to/skills/facebook-ads-library-mcp.md"
   },
   {
    "slug": "higgsfield-open-madseason",
@@ -15319,6 +16744,178 @@
    "url": "https://varg.ai/how-to/skills/higgsfield-open-madseason",
    "md": "https://varg.ai/how-to/skills/higgsfield-open-madseason.md",
    "example": "https://static.higgsfield.ai/og/v4/project/34342640-f49d-4880-b04f-47ddf29d1c37-17rpzu7.jpg"
+  },
+  {
+   "slug": "marketingskills-ad-creative",
+   "name": "Ad Creative (Marketing Skills)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "ad-copy",
+    "variations",
+    "hooks",
+    "meta-ads",
+    "google-ads"
+   ],
+   "summary": "Generate and iterate ad headlines, primary text and full variations for any platform, using your performance data.",
+   "publisher": "Corey Haines",
+   "source": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add coreyhaines31/marketingskills --skill ad-creative -a claude-code",
+    "codex": "npx skills add coreyhaines31/marketingskills --skill ad-creative -a codex",
+    "cursor": "npx skills add coreyhaines31/marketingskills --skill ad-creative -a cursor"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/marketingskills-ad-creative",
+   "md": "https://varg.ai/how-to/skills/marketingskills-ad-creative.md"
+  },
+  {
+   "slug": "marketingskills-paid-ads",
+   "name": "Paid Ads (Marketing Skills)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "paid-ads",
+    "meta-ads",
+    "google-ads",
+    "budgets",
+    "media-buying"
+   ],
+   "summary": "Paid-ads strategist: campaign structure, targeting, budgets, kill/scale rules and search-term cleanup across platforms.",
+   "publisher": "Corey Haines",
+   "source": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ads",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add coreyhaines31/marketingskills --skill ads -a claude-code",
+    "codex": "npx skills add coreyhaines31/marketingskills --skill ads -a codex",
+    "cursor": "npx skills add coreyhaines31/marketingskills --skill ads -a cursor"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/marketingskills-paid-ads",
+   "md": "https://varg.ai/how-to/skills/marketingskills-paid-ads.md"
+  },
+  {
+   "slug": "meta-ads-copilot-openclaw",
+   "name": "Meta Ads Copilot (OpenClaw)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "ads",
+   "tags": [
+    "meta-ads",
+    "openclaw",
+    "fatigue",
+    "daily-briefing",
+    "meta-ads-cli"
+   ],
+   "summary": "OpenClaw Meta ads copilot on Meta's official CLI: daily briefing, bleeders, winners, fatigue, copy, upload, CAPI audit.",
+   "publisher": "Matt Berman",
+   "source": "https://github.com/TheMattBerman/meta-ads-kit",
+   "license": "MIT",
+   "install": {
+    "openclaw": "git clone https://github.com/themattberman/meta-ads-kit.git && pip install meta-ads"
+   },
+   "agents": [
+    "openclaw"
+   ],
+   "url": "https://varg.ai/how-to/skills/meta-ads-copilot-openclaw",
+   "md": "https://varg.ai/how-to/skills/meta-ads-copilot-openclaw.md"
+  },
+  {
+   "slug": "take-one",
+   "name": "Take One",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "product-ad",
+    "launch-video",
+    "studio",
+    "voice",
+    "music"
+   ],
+   "summary": "One-line request to a finished launch video or ad: a 12-role studio (strategist to editor) rendered from code.",
+   "publisher": "Tal Siach",
+   "source": "https://github.com/talsiach/take-one",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add talsiach/take-one -g -a claude-code"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/take-one",
+   "md": "https://varg.ai/how-to/skills/take-one.md"
+  },
+  {
+   "slug": "ugc-factory",
+   "name": "UGC Factory",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "seedance",
+    "higgsfield",
+    "consistent-creator",
+    "claude-code"
+   ],
+   "summary": "Interview-driven UGC ad factory: consistent AI creator and product (Higgsfield), Seedance 2.0 clips, stitched ad.",
+   "publisher": "Charlie (charlieautomates)",
+   "source": "https://github.com/charlesdove977/UGC-Factory/tree/main/skill",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx ugc-factory install"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/ugc-factory",
+   "md": "https://varg.ai/how-to/skills/ugc-factory.md"
+  },
+  {
+   "slug": "vox-director-collage-ads",
+   "name": "Vox Director (collage ads)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "collage",
+    "explainer-ad",
+    "product-ad",
+    "voiceover",
+    "atlas-cloud"
+   ],
+   "summary": "One topic or product photo to a Vox-style paper-collage explainer or ad with voiceover, music and captions.",
+   "publisher": "Alisa0808",
+   "source": "https://github.com/Alisa0808/vox-director",
+   "license": "MIT",
+   "install": {
+    "claude-code": "git clone https://github.com/Alisa0808/vox-director.git ~/.claude/skills/vox-director",
+    "codex": "npx skills add Alisa0808/vox-director -a codex"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/vox-director-collage-ads",
+   "md": "https://varg.ai/how-to/skills/vox-director-collage-ads.md"
   },
   {
    "slug": "want-notes-app-ad",
@@ -16257,6 +17854,102 @@
    "md": "https://varg.ai/how-to/skills/want-weekly-news-recap-video.md"
   },
   {
+   "slug": "want-ai-creator-persona-ads",
+   "name": "AI Creator Persona Ads",
+   "type": "wanted",
+   "status": "wanted",
+   "shelf": "wanted",
+   "category": "ads",
+   "tags": [
+    "ads",
+    "ai-influencer",
+    "ai-ugc",
+    "persona",
+    "selfie",
+    "consistency"
+   ],
+   "summary": "One recurring AI creator with a fixed face, voice and room who posts selfie-style product videos as an account, not one-off ads.",
+   "publisher": "tanabe_fragm",
+   "source": "https://x.com/tanabe_fragm/status/2096136682055864564",
+   "install": {},
+   "agents": [],
+   "url": "https://varg.ai/how-to/skills/want-ai-creator-persona-ads",
+   "md": "https://varg.ai/how-to/skills/want-ai-creator-persona-ads.md",
+   "example": "https://video.twimg.com/amplify_video/2096136381034856448/vid/avc1/720x1280/_HV6gKxwuy1B_Wbt.mp4"
+  },
+  {
+   "slug": "want-ai-micro-drama-ad",
+   "name": "AI Micro-Drama Ad",
+   "type": "wanted",
+   "status": "wanted",
+   "shelf": "wanted",
+   "category": "ads",
+   "tags": [
+    "ads",
+    "micro-drama",
+    "story-ad",
+    "dialogue",
+    "captions",
+    "vertical"
+   ],
+   "summary": "A 1–3 minute scripted scene with a conflict and recurring faces; the product arrives late, as the answer to the argument.",
+   "publisher": "frankyecom",
+   "source": "https://x.com/frankyecom/status/2098795041187615050",
+   "install": {},
+   "agents": [],
+   "url": "https://varg.ai/how-to/skills/want-ai-micro-drama-ad",
+   "md": "https://varg.ai/how-to/skills/want-ai-micro-drama-ad.md",
+   "example": "https://video.twimg.com/amplify_video/2098794818365493248/vid/avc1/1080x1920/eGeCwh1PpcMYUz--.mp4"
+  },
+  {
+   "slug": "want-ai-spec-commercial",
+   "name": "AI Spec Commercial",
+   "type": "wanted",
+   "status": "wanted",
+   "shelf": "wanted",
+   "category": "ads",
+   "tags": [
+    "ads",
+    "spec-ad",
+    "tv-spot",
+    "motion-type",
+    "lip-sync",
+    "claude-code"
+   ],
+   "summary": "A broadcast-style spot for a brand that did not order it, or a made-up one, made end to end with AI to show what you can do.",
+   "publisher": "takuchang_n",
+   "source": "https://x.com/takuchang_n/status/2105574110965199208",
+   "install": {},
+   "agents": [],
+   "url": "https://varg.ai/how-to/skills/want-ai-spec-commercial",
+   "md": "https://varg.ai/how-to/skills/want-ai-spec-commercial.md",
+   "example": "https://video.twimg.com/ext_tw_video/2105574093877551104/pu/vid/avc1/1280x720/vO6A-5rCYMUdQ4WC.mp4"
+  },
+  {
+   "slug": "want-ai-static-ad-set",
+   "name": "AI Static Ad Set",
+   "type": "wanted",
+   "status": "wanted",
+   "shelf": "wanted",
+   "category": "ads",
+   "tags": [
+    "ads",
+    "static-ads",
+    "ad-variants",
+    "typography",
+    "meta-ads",
+    "gpt-image"
+   ],
+   "summary": "Ten genuinely different still ads for one product, each its own concept with the headline set in the image, ready for Meta and TikTok tests.",
+   "publisher": "mmmiyama_D",
+   "source": "https://x.com/mmmiyama_D/status/2097995132880773328",
+   "install": {},
+   "agents": [],
+   "url": "https://varg.ai/how-to/skills/want-ai-static-ad-set",
+   "md": "https://varg.ai/how-to/skills/want-ai-static-ad-set.md",
+   "example": "https://pbs.twimg.com/media/HR2TdFAbgAAzODl.jpg"
+  },
+  {
    "slug": "craft-cinematic-grammar",
    "name": "Cinematic Grammar",
    "type": "skill",
@@ -16587,7 +18280,7 @@
    "slug": "craft-paper-shaders",
    "name": "Paper Shaders Backgrounds",
    "type": "skill",
-   "status": "draft",
+   "status": "live",
    "shelf": "effect",
    "category": "shaders",
    "tags": [
@@ -16601,9 +18294,9 @@
     "brand",
     "deterministic"
    ],
-   "summary": "Frame-exact shader backgrounds and logo stings: 9 varg presets plus all 124 of Paper's own, rendered locally.",
+   "summary": "Frame-exact shader backgrounds and logo stings: 9 varg presets, 124 of Paper's own and 11 researched looks, rendered locally.",
    "publisher": "varg",
-   "source": "https://github.com/vargHQ/skills/pull/26",
+   "source": "https://github.com/vargHQ/skills/tree/main/paper-shaders",
    "license": "MIT",
    "install": {},
    "agents": [
@@ -24842,6 +26535,378 @@
    "url": "https://varg.ai/how-to/skills/quiet-particle-field",
    "md": "https://varg.ai/how-to/skills/quiet-particle-field.md",
    "example": "https://s3.varg.ai/how-to/previews/c56a87eff5da/lib-tsparticles-ambient.mp4"
+  },
+  {
+   "slug": "app-ui-mockups",
+   "name": "App UI Mockups: chats, terminals and code for launch videos",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "ui",
+   "tags": [
+    "ui-animation",
+    "imessage",
+    "slack",
+    "terminal",
+    "claude-code",
+    "code-animation",
+    "launch-video",
+    "presets",
+    "hyperframes"
+   ],
+   "summary": "Message threads, team chat, coding-agent terminals, code walkthroughs, 3D code slabs and exploded UIs at measured typing and reading speeds.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/app-ui-mockups",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill app-ui-mockups -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill app-ui-mockups -a cursor -y",
+    "openclaw": "npx clawhub@latest install app-ui-mockups",
+    "gemini-cli": "npx skills add vargHQ/skills --skill app-ui-mockups -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw",
+    "varg-studio"
+   ],
+   "url": "https://varg.ai/how-to/skills/app-ui-mockups",
+   "md": "https://varg.ai/how-to/skills/app-ui-mockups.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_04cc0c0dbf3d.mp4"
+  },
+  {
+   "slug": "caption-styles",
+   "name": "Caption Styles: 17 pro caption looks with presets",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "captions",
+   "tags": [
+    "captions",
+    "subtitles",
+    "karaoke",
+    "word-highlight",
+    "safe-zone",
+    "accessibility",
+    "presets",
+    "hyperframes",
+    "remotion"
+   ],
+   "summary": "Karaoke, word pop, pill, glass, neon and 12 more caption looks as exact presets: sizes, safe zones, sync and contrast from subtitle pros.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/caption-styles",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill caption-styles -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill caption-styles -a cursor -y",
+    "openclaw": "npx clawhub@latest install caption-styles",
+    "gemini-cli": "npx skills add vargHQ/skills --skill caption-styles -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw",
+    "varg-studio"
+   ],
+   "url": "https://varg.ai/how-to/skills/caption-styles",
+   "md": "https://varg.ai/how-to/skills/caption-styles.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_4d3d0dbdc222.mp4"
+  },
+  {
+   "slug": "footage-effects",
+   "name": "Footage Effects: glow, glitch, CRT and VHS on real video",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "editing",
+   "tags": [
+    "glitch",
+    "glow",
+    "bloom",
+    "crt",
+    "vhs",
+    "halftone",
+    "chromatic-aberration",
+    "ffmpeg",
+    "vfx",
+    "presets"
+   ],
+   "summary": "Eight effects for footage you already have as ffmpeg filter chains and WebGL presets: glow, glitch, CRT, chromatic, halftone, photocopy, zoom blur, heat haze.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/footage-effects",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill footage-effects -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill footage-effects -a cursor -y",
+    "openclaw": "npx clawhub@latest install footage-effects",
+    "gemini-cli": "npx skills add vargHQ/skills --skill footage-effects -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw",
+    "varg-studio"
+   ],
+   "url": "https://varg.ai/how-to/skills/footage-effects",
+   "md": "https://varg.ai/how-to/skills/footage-effects.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_4c5a3702ba3d.mp4"
+  },
+  {
+   "slug": "kinetic-type-art",
+   "name": "Kinetic Type Art: 17 typography pieces on the beat",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "kinetic-type",
+   "tags": [
+    "kinetic-typography",
+    "type-animation",
+    "wordmark",
+    "glitch",
+    "riso",
+    "beat-sync",
+    "presets",
+    "hyperframes",
+    "remotion"
+   ],
+   "summary": "Typeface strobe, beat slams, word tunnels, manifestos, riso posters and decrypt titles with beat maths, spacing and palettes as presets.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/kinetic-type-art",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill kinetic-type-art -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill kinetic-type-art -a cursor -y",
+    "openclaw": "npx clawhub@latest install kinetic-type-art",
+    "gemini-cli": "npx skills add vargHQ/skills --skill kinetic-type-art -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw",
+    "varg-studio"
+   ],
+   "url": "https://varg.ai/how-to/skills/kinetic-type-art",
+   "md": "https://varg.ai/how-to/skills/kinetic-type-art.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_a21ee5f206b4.mp4"
+  },
+  {
+   "slug": "maps-and-data-motion",
+   "name": "Maps and Data Motion: travel maps, charts and visualizers",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "numbers",
+   "tags": [
+    "maps",
+    "travel-map",
+    "route-animation",
+    "charts",
+    "count-up",
+    "data-viz",
+    "audio-visualizer",
+    "presets",
+    "maplibre"
+   ],
+   "summary": "Globe dives, flyovers, route maps, self-drawing charts, count-ups and audio visualizers with camera curves, chart rules and map credits.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/maps-and-data-motion",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill maps-and-data-motion -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill maps-and-data-motion -a cursor -y",
+    "openclaw": "npx clawhub@latest install maps-and-data-motion",
+    "gemini-cli": "npx skills add vargHQ/skills --skill maps-and-data-motion -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw",
+    "varg-studio"
+   ],
+   "url": "https://varg.ai/how-to/skills/maps-and-data-motion",
+   "md": "https://varg.ai/how-to/skills/maps-and-data-motion.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_b7ac8a5cafce.mp4"
+  },
+  {
+   "slug": "motion-formats",
+   "name": "Motion Formats: VHS, pixel art, lyric and launch videos",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "vhs",
+    "analog-horror",
+    "pixel-art",
+    "lyric-video",
+    "launch-video",
+    "music-visualizer",
+    "beat-sync",
+    "presets",
+    "hyperframes"
+   ],
+   "summary": "Seven full formats with beat structures and presets: analog-horror trailer, VHS screensaver, pixel runner, wave wordmark, DAW one-shot, launch film, lyric video.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/motion-formats",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill motion-formats -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill motion-formats -a cursor -y",
+    "openclaw": "npx clawhub@latest install motion-formats",
+    "gemini-cli": "npx skills add vargHQ/skills --skill motion-formats -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw",
+    "varg-studio"
+   ],
+   "url": "https://varg.ai/how-to/skills/motion-formats",
+   "md": "https://varg.ai/how-to/skills/motion-formats.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_7846529f1ac7.mp4"
+  },
+  {
+   "slug": "social-overlays",
+   "name": "Social Overlays: CTAs, reviews and live badges that convert",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "cta",
+    "social-proof",
+    "reviews",
+    "subscribe",
+    "safe-zone",
+    "ugc",
+    "tiktok",
+    "reels",
+    "shorts",
+    "presets"
+   ],
+   "summary": "CTA pills, follow and subscribe prompts, review cards, LIVE badges and counters in one 9:16 safe box, timed after the payoff, real data only.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/social-overlays",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill social-overlays -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill social-overlays -a cursor -y",
+    "openclaw": "npx clawhub@latest install social-overlays",
+    "gemini-cli": "npx skills add vargHQ/skills --skill social-overlays -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw",
+    "varg-studio"
+   ],
+   "url": "https://varg.ai/how-to/skills/social-overlays",
+   "md": "https://varg.ai/how-to/skills/social-overlays.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_9ca4d102807c.mp4"
+  },
+  {
+   "slug": "title-design",
+   "name": "Title Design: lower thirds and title reveals by broadcast rules",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "titles",
+   "tags": [
+    "lower-third",
+    "titles",
+    "title-sequence",
+    "broadcast",
+    "glitch-text",
+    "crt",
+    "presets",
+    "hyperframes",
+    "remotion"
+   ],
+   "summary": "Lower thirds, speaker plates, show opens and glitch, CRT or chrome title reveals with hold times, safe areas and easing as presets.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/title-design",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill title-design -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill title-design -a cursor -y",
+    "openclaw": "npx clawhub@latest install title-design",
+    "gemini-cli": "npx skills add vargHQ/skills --skill title-design -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw",
+    "varg-studio"
+   ],
+   "url": "https://varg.ai/how-to/skills/title-design",
+   "md": "https://varg.ai/how-to/skills/title-design.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_8052ab02c6d5.mp4"
+  },
+  {
+   "slug": "transition-craft",
+   "name": "Transition Craft: six transitions timed like an editor",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "transitions",
+   "tags": [
+    "transitions",
+    "camera-shake",
+    "infinite-zoom",
+    "droste",
+    "bokeh",
+    "collage",
+    "beat-sync",
+    "presets",
+    "hyperframes",
+    "ffmpeg"
+   ],
+   "summary": "Shake cuts, infinite Droste zooms, tile-flip mosaics, bokeh and collage transitions with frame counts, beat placement and decay curves.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/transition-craft",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill transition-craft -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill transition-craft -a cursor -y",
+    "openclaw": "npx clawhub@latest install transition-craft",
+    "gemini-cli": "npx skills add vargHQ/skills --skill transition-craft -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw",
+    "varg-studio"
+   ],
+   "url": "https://varg.ai/how-to/skills/transition-craft",
+   "md": "https://varg.ai/how-to/skills/transition-craft.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_30b261858cc1.mp4"
   }
  ]
 }

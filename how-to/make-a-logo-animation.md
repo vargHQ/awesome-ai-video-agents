@@ -13,7 +13,7 @@ Your logo animated into a short intro or outro: 3D chrome, liquid, shader, glitc
    - Claude Code: `/plugin marketplace add krea-ai/skills
 /plugin install krea@krea`
    - Example: <https://s3.varg.ai/how-to/previews/6f59f44ce20a/krea-motion.mp4>
-3. **[Paper Shaders Backgrounds](../skills/effect/craft-paper-shaders.md)** (`craft-paper-shaders`, varg, draft) — Frame-exact shader backgrounds and logo stings: 9 varg presets plus all 124 of Paper's own, rendered locally.
+3. **[Paper Shaders Backgrounds](../skills/effect/craft-paper-shaders.md)** (`craft-paper-shaders`, varg, live) — Frame-exact shader backgrounds and logo stings: 9 varg presets, 124 of Paper's own and 11 researched looks, rendered locally.
    - Not installable on its own yet
    - Example: <https://s3.varg.ai/how-to/previews/11019611acab/craft-paper-shaders.mp4>
 4. **[Motion Design](../skills/guide/lottiefiles-motion-design.md)** (`lottiefiles-motion-design`, LottieFiles, live) — Animate with intent: timing, easing, choreography and Disney principles for UI and motion graphics.

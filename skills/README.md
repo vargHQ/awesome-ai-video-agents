@@ -1,16 +1,16 @@
-# 702 AI video skills for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw
+# 768 AI video skills for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw
 
 Every card has its install command per agent, its source, license and an example. Click a shelf.
 
 | Shelf | Cards | What it holds |
 |---|---:|---|
-| [Workflows](#workflow) | 96 | End-to-end pipelines: brief in, finished video out. |
+| [Workflows](#workflow) | 115 | End-to-end pipelines: brief in, finished video out. |
 | [Prompts](#prompt) | 71 | Prompt packs for video and image models: camera moves, shot sizes, lighting, characters, hooks. |
-| [Effects](#effect) | 233 | Transitions, captions, titles, device mockups, shaders and every named edit, with the code that makes it. |
+| [Effects](#effect) | 241 | Transitions, captions, titles, device mockups, shaders and every named edit, with the code that makes it. |
 | [Styles](#style) | 18 | Looks, LUTs, fonts and art directions a model or a render can follow. |
-| [Guides](#guide) | 128 | Best practices and references agents read before they generate or edit. |
-| [Models & tools](#model) | 118 | Model and tool skills: the services that generate, edit, transcribe or render. |
-| [Wanted](#wanted) | 38 | Formats people ask for that no skill makes yet. Build one and submit it. |
+| [Guides](#guide) | 144 | Best practices and references agents read before they generate or edit. |
+| [Models & tools](#model) | 137 | Model and tool skills: the services that generate, edit, transcribe or render. |
+| [Wanted](#wanted) | 42 | Formats people ask for that no skill makes yet. Build one and submit it. |
 
 ## Workflows
 
@@ -27,23 +27,41 @@ End-to-end pipelines: brief in, finished video out. On varg how to: <https://var
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [AI Marketing Videos](workflow/inference-sh-ai-marketing-videos.md) | Make product demos, promos, testimonials and launch videos with Veo, Seedance, Wan, FLUX and Kokoro. | inference.sh | Claude Code, Codex, Cursor, Gemini CLI |
+| [Arcads Ad Campaign Workspace](workflow/arcads-claude-code-workspace.md) | Arcads API workspace for Claude Code/Cursor: video and image ads, ad clones, captions, Meta upload, swipe file. | Caleb 'Mr. Paid Social' (Kruse Media) | Claude Code, Cursor |
+| [Arcads Ads Plugin](workflow/arcads-ads-plugin.md) | Official Arcads plugin: 17 ad skills (AI-actor UGC, hook clones, product swaps, static-to-video, ad spy). | Arcads | Claude Code, mcp |
 | [Before & After Ad](workflow/varg-studio-before-after.md) | A routine before and after with no invented results: morning and night shots, voiceover, captions, end card. | varg | — |
 | [Business Motion Film](workflow/business-motion-film.md) | Premium short commercials for real businesses: storyboard first, HTML/GSAP motion and an independent-critic loop. | echris6 | Claude Code |
 | [Cinematic Ad](workflow/varg-studio-cinematic.md) | Moody, high-polish shots that sell the feeling: wide establishing shot, slow push-in, close-up, end card. | varg | — |
+| [ClipForge Product Video Ads](workflow/clipforge-product-video-ads.md) | One product photo to a shoppable short video: selling points, script, locked product shots, voiceover, captions, BGM. | xixihhhh | Claude Code, Codex, Cursor |
+| [Creatify Ad Agent](workflow/creatify-ad-agent.md) | Official Creatify plugin: product URL to a finished AI video ad, judged shot by shot, shipped as MP4. | Creatify | Claude Code, Codex |
+| [Creative Ad Agent](workflow/creative-ad-agent-static-meta-ads.md) | Multi-agent Meta/Instagram static ad generator on the Claude Agent SDK and a Nano Banana MCP. | DV0x | Claude Code |
 | [Ecommerce video ad skills for Claude Code and AI agents](workflow/ecommerce-video-ads.md) | Product videos that sell on TikTok, TikTok Shop, Reels and Meta: angle, hook, format, script, rules, variants. | varg | Claude Code, Codex, Cursor |
 | [fal Marketing](workflow/fal-marketing.md) | Produce campaign asset matrices: launch kits, paid-social variants, banners and channel deliverables. | fal | Claude Code, Codex, Cursor, Gemini CLI |
 | [fal UGC](workflow/fal-ugc.md) | Script and generate UGC-style creator ads: talking heads, demos, testimonials, unboxings and reactions. | fal | Claude Code, Codex, Cursor, Gemini CLI |
 | [FLUX 3 Product Ads](workflow/flux-3-product-ads.md) | Build a finished product ad with FLUX 3: shot design, voiceover sync, deterministic assembly, QC gates. | Black Forest Labs | Claude Code, Codex, Cursor, Gemini CLI |
+| [GooseWorks Static Ads](workflow/gooseworks-static-ads.md) | Static image ads from your brand's real facts: concept board before any render, prompts, review, copy and rejected-ad fixes. | GooseWorks | Claude Code, claude-ai, Codex, Cursor, mcp |
+| [Hedra MCP (official)](workflow/hedra-mcp.md) | Hedra's hosted MCP: talking-avatar video, images, speech, music and SFX from Claude Code, Codex, Cursor or ChatGPT. | Hedra | Claude Code, Codex, mcp |
+| [HeyGen Avatar Video Skills](workflow/heygen-avatar-video-skills.md) | Official HeyGen skills: create your avatar, make presenter videos with the v3 Video Agent, translate with lip-sync. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
 | [Krea Marketing](workflow/krea-marketing.md) | Make performance marketing creative on Krea: packshots, marketplace cards, UGC and video ads, Meta Ads. | Krea | Claude Code, Codex, Cursor, Gemini CLI |
+| [Magnific Plugin (formerly Freepik)](workflow/magnific-plugin.md) | Official Magnific plugin: video-ad, ad-campaign and product-imagery skills on the hosted Magnific MCP. | Magnific (formerly Freepik) | Claude Code, Codex, Gemini CLI, mcp |
+| [MakeUGC MCP (official)](workflow/makeugc-mcp.md) | MakeUGC's hosted MCP: AI-actor UGC ads, product-in-hand, ad remakes and video/image models from your agent. | MakeUGC | Claude Code, claude-ai, mcp |
 | [Marketing Video Production](workflow/marketingskills-video.md) | Corey Haines' marketing video skill: pick code, a video model or an avatar, then script, prompt and repurpose. | Corey Haines | Claude Code, Codex |
 | [Meme Ad](workflow/varg-studio-memes.md) | A familiar meme format with your product as the punchline: setup shot, punchline shot, voiceover, captions. | varg | — |
 | [Open-source alternative to Arcads: AI UGC ads](workflow/ai-ugc-ad-video.md) | AI UGC ads with an AI actor holding your real product: face, voice and label locked, labelled. | varg | Claude Code, Codex, Cursor |
+| [Pika UGC Ads](workflow/pika-ugc-ads.md) | 15-second jump-cut selfie UGC ad from a product URL: hook, three cuts, outro, spoken dialogue with native lip-sync. | Pika | Claude Code, Codex |
+| [ReelClaw UGC Reels](workflow/reelclaw-ugc-reels.md) | App UGC reels from real creator reactions plus your demo: hooks, 7 templates, safe-zone captions, local render. | DansUGC | Claude Code, Codex |
+| [Scenario Video Ads & UGC](workflow/scenario-video-ads-ugc.md) | Official Scenario skills: product-shot video ads, phone-shot UGC testimonials and hook/CTA variants via its MCP. | Scenario | Claude Code, Codex, Cursor, Gemini CLI, mcp |
+| [Social Overlays: CTAs, reviews and live badges that convert](workflow/social-overlays.md) | CTA pills, follow and subscribe prompts, review cards, LIVE badges and counters in one 9:16 safe box, timed after the payoff, real data only. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Social Proof Ad](workflow/varg-studio-social-proof.md) | A real review from your brand kit, read over the product: quote card, product in hand, voiceover, end card. | varg | — |
+| [Take One](workflow/take-one.md) | One-line request to a finished launch video or ad: a 12-role studio (strategist to editor) rendered from code. | Tal Siach | Claude Code |
+| [Topview AI Skills + MCP](workflow/topview-ai-skills-mcp.md) | Topview's official skills and MCP: talking avatars, product-avatar shots, voices, TikTok Shop and Amazon research. | Topview AI | Claude Code, Codex, Cursor, mcp |
 | [Turn a product into a dropshipping guide reel](workflow/varg-dropship-reel.md) | The faceless "comment GUIDE" reel: product hook, a marker pointing at cost and price on a laptop, a skyline ending. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Turn a product into scroll-stopping video hooks](workflow/product-video-hooks.md) | The first 3 seconds of a product video: frame, line and text that agree, from a 70-line hook bank. | varg | Claude Code, Codex, Cursor |
 | [Turn product photos into a viral product hook](workflow/varg-product-hook.md) | Find a hook that already sells, then remake it with your product as phone or security-cam footage on Seedance 2.5. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [UGC Ad](workflow/varg-studio-ugc-ads.md) | A creator-style ad shot like a friend's recommendation: 3 shots, voiceover, captions, end card, no presenter. | varg | — |
+| [UGC Factory](workflow/ugc-factory.md) | Interview-driven UGC ad factory: consistent AI creator and product (Higgsfield), Seedance 2.0 clips, stitched ad. | Charlie (charlieautomates) | Claude Code |
 | [Us vs Them Ad](workflow/varg-studio-us-vs-them.md) | Your product next to the usual alternative: split frame, product hero, voiceover, captions, end card. | varg | — |
+| [Vox Director (collage ads)](workflow/vox-director-collage-ads.md) | One topic or product photo to a Vox-style paper-collage explainer or ad with voiceover, music and captions. | Alisa0808 | Claude Code, Codex |
 
 ### Animation
 
@@ -51,6 +69,7 @@ End-to-end pipelines: brief in, finished video out. On varg how to: <https://var
 |---|---|---|---|
 | [Day in My Life](workflow/hyperframes-day-in-my-life.md) | A 60–75 s hand-drawn ink film of your agent's day with you, built from local Claude Code history, scored for strings. | HeyGen | Claude Code |
 | [Higgsfield Code-Based Films](workflow/higgsfield-code-based-films.md) | Short animated films drawn entirely by code and rendered by Higgsfield's own WebGPU path tracer on your GPU. | Higgsfield | Claude Code, Codex, Cursor |
+| [Motion Formats: VHS, pixel art, lyric and launch videos](workflow/motion-formats.md) | Seven full formats with beat structures and presets: analog-horror trailer, VHS screensaver, pixel runner, wave wordmark, DAW one-shot, launch film, lyric video. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Session Story](workflow/hyperframes-session-story.md) | A 40–70 s watercolor film of a typical session with your agent, told in your real messages, with its own score. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
 | [Story to Hand-drawn Video](workflow/story-to-handdrawn-video.md) | Chinese stories or ordered images into silent hand-drawn diary-comic animations, with a curated 30-style menu. | gnipbao | Claude Code, Codex |
 
@@ -413,7 +432,9 @@ Transitions, captions, titles, device mockups, shaders and every named edit, wit
 |---|---|---|---|
 | [3D Camera Captions](effect/hyperframes-camera-3d-captions.md) | Captions that live in 3D around a talking head: the camera flies through the words, heroes pass behind the speaker. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
 | [Agent Caption](effect/agent-caption.md) | Local captions in any language: Whisper words, forced-aligned timing, SRT/VTT, burned styles or a GSAP captions.js. | Ali Hamza Kamboh | Claude Code, Codex, Cursor |
+| [Agent Video Style Kit](effect/cut30-agent-video-style-kit.md) | Cut30's title and caption style kit for 9:16 and 16:9: JSON your agent reads plus an HTML preview. Runnable in varg's code2video templates. | Cut30 | Claude Code, setup-prompt |
 | [Caption Animation](effect/iart-caption-animation.md) | Word-timed TikTok captions in Remotion or CSS: per-word pop, active-word highlight, 9:16 safe areas, sidecar SRT/VTT. | iart.ai | Claude Code, Codex, Cursor |
+| [Caption Styles: 17 pro caption looks with presets](effect/caption-styles.md) | Karaoke, word pop, pill, glass, neon and 12 more caption looks as exact presets: sizes, safe zones, sync and contrast from subtitle pros. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Cinematic Caption](effect/cinematic-caption-audrey.md) | Designed editorial captions for HyperFrames: scored hero words, subject-aware depth, glass type — not a subtitle strip. | Audrey | Claude Code, Codex |
 | [Remotion Captions](effect/remotion-captions.md) | Transcribe speech and burn in animated captions with Remotion, or import an existing SRT file. | Remotion | Claude Code, Codex, Cursor, Gemini CLI |
 
@@ -504,6 +525,7 @@ Transitions, captions, titles, device mockups, shaders and every named edit, wit
 |---|---|---|---|
 | [Clipify](effect/clipify.md) | Long videos into social clips: find funny lines or impact beats, cut, reframe to 9:16, burn word-by-word captions. | Louise de Sadeleer | Claude Code |
 | [Editing & Transitions](effect/craft-editing-transitions.md) | Cuts, match cuts, J/L cuts, whips and speed ramps — multi-shot prompt syntax per model, ffmpeg when needed. | varg | — |
+| [Footage Effects: glow, glitch, CRT and VHS on real video](effect/footage-effects.md) | Eight effects for footage you already have as ffmpeg filter chains and WebGL presets: glow, glitch, CRT, chromatic, halftone, photocopy, zoom blur, heat haze. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 
 ### End Cards
 
@@ -546,6 +568,7 @@ Transitions, captions, titles, device mockups, shaders and every named edit, wit
 | [Canopy Part Title](effect/hyperframes-canopy-part-title.md) | Leaves sweep across the frame and part to reveal your headline: a 12-second 1080p title block. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
 | [Code Slice Hero](effect/hyperframes-code-slice-hero.md) | A tiled headline flips cell by cell under a sweeping depth field to reveal a second line: an 8-second hero. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
 | [Glass Shard Title](effect/hyperframes-glass-shard-title.md) | Glass shards fly in through fog and tile themselves into your headline, then fly out past the camera. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
+| [Kinetic Type Art: 17 typography pieces on the beat](effect/kinetic-type-art.md) | Typeface strobe, beat slams, word tunnels, manifestos, riso posters and decrypt titles with beat maths, spacing and palettes as presets. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Kinetic Typography](effect/iart-kinetic-typography.md) | Kinetic type for web and video: line, word or char splits, mask and blur reveals, variable-font motion, frozen-frame QA. | iart.ai | Claude Code, Codex, Cursor |
 | [Persian Motion Director](effect/persian-motion-director.md) | Persian/RTL kinetic type done right: HarfBuzz-shaped letters, kashida, unbroken joins, font loaded before render. | atmirrr | Claude Code |
 | [Wireframe Portal Title](effect/hyperframes-wireframe-portal-title.md) | A wireframe portal bursts open, the title comes through, then its letters swap into a second phrase. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
@@ -586,6 +609,7 @@ Transitions, captions, titles, device mockups, shaders and every named edit, wit
 | [Big Stat Count-Up](effect/big-stat-count-up.md) | One huge number counts from zero to its value and lands, with a short label under it. | HeyGen | Claude Code, Codex, Cursor |
 | [Dense Specs Wall](effect/dense-specs-wall.md) | A grid of short spec tiles fills the frame in a fast stagger — numbers and two-word labels. | HeyGen | Claude Code, Codex, Cursor |
 | [Line Draws with Riding Label](effect/line-draws-riding-label.md) | A line draws itself left to right while the current value rides the pen tip, ending on a dot and big label. | HeyGen | Claude Code, Codex, Cursor |
+| [Maps and Data Motion: travel maps, charts and visualizers](effect/maps-and-data-motion.md) | Globe dives, flyovers, route maps, self-drawing charts, count-ups and audio visualizers with camera curves, chart rules and map credits. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Money Counter Payoff](effect/money-counter-payoff.md) | A currency figure counts up fast, flashes green on landing, and a small burst celebrates it. | Stronkter · HeyGen | Claude Code, Codex, Cursor |
 | [Odometer Digit Roll](effect/odometer-digit-roll.md) | Each digit rolls on its own wheel to the target, places settling right to left like an odometer. | HeyGen | Claude Code, Codex, Cursor |
 | [Pain Metric Falls Away](effect/pain-metric-falls.md) | A painful metric (hours, cost, errors) draws a falling line while the number counts down and the mood lifts. | HeyGen | Claude Code, Codex, Cursor |
@@ -611,7 +635,7 @@ Transitions, captions, titles, device mockups, shaders and every named edit, wit
 
 | Skill | What it does | By | Install |
 |---|---|---|---|
-| [Paper Shaders Backgrounds](effect/craft-paper-shaders.md) | Frame-exact shader backgrounds and logo stings: 9 varg presets plus all 124 of Paper's own, rendered locally. | varg | — |
+| [Paper Shaders Backgrounds](effect/craft-paper-shaders.md) | Frame-exact shader backgrounds and logo stings: 9 varg presets, 124 of Paper's own and 11 researched looks, rendered locally. | varg | — |
 
 ### Titles
 
@@ -630,6 +654,7 @@ Transitions, captions, titles, device mockups, shaders and every named edit, wit
 | [Rotating Benefit Word](effect/rotating-benefit-word.md) | A fixed phrase holds while one word in it cycles through benefits, uses or audiences. | Aceternity UI | Claude Code, Codex, Cursor |
 | [Specular Sweep Title](effect/specular-sweep-title.md) | A static title receives one clean light sweep through its glyphs, then rests. | HeyGen | Claude Code, Codex, Cursor |
 | [Strike Old, Write New](effect/strike-and-replace.md) | A line strikes through the old way, then the new word takes its place. | HeyGen | Claude Code, Codex, Cursor |
+| [Title Design: lower thirds and title reveals by broadcast rules](effect/title-design.md) | Lower thirds, speaker plates, show opens and glitch, CRT or chrome title reveals with hold times, safe areas and easing as presets. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Tracking-In Feature Label](effect/tracking-in-label.md) | Wide-spaced letters draw together into a tight, crisp label as the blur clears. | HeyGen | Claude Code, Codex, Cursor |
 
 ### Transitions
@@ -689,6 +714,7 @@ Transitions, captions, titles, device mockups, shaders and every named edit, wit
 | [Split and Slices](effect/split-slices.md) | The frame breaks into bars that slide apart or open like doors, revealing the next shot. | gre · GL Transitions | Claude Code, Codex, Cursor |
 | [Squeeze and Stretch](effect/squeeze-stretch.md) | A is squashed or stretched toward an edge or the centre and B springs out the same way. | HeyGen | Claude Code, Codex, Cursor |
 | [Swirl Vortex](effect/swirl-vortex.md) | A twists into a spiral at the centre and unwinds as B. | sergey-kosarevsky · GL Transitions | Claude Code, Codex, Cursor |
+| [Transition Craft: six transitions timed like an editor](effect/transition-craft.md) | Shake cuts, infinite Droste zooms, tile-flip mosaics, bokeh and collage transitions with frame counts, beat placement and decay curves. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Velocity Edit](effect/velocity-edit.md) | Trend: speed curves on every clip (fast-slow-fast) synced to the beat, often with shake and flash on hits. | HeyGen | Claude Code, Codex, Cursor |
 | [Whip Swipe](effect/whip-swipe.md) | A fast synthetic pan with heavy motion blur pushes A off and B in. Fakes a whip pan between any two shots. | HeyGen | Claude Code, Codex, Cursor |
 | [White Flash](effect/white-flash.md) | The frame blows out to white for a moment and opens on the next shot. Energy, memory or a camera snap. | HeyGen | Claude Code, Codex, Cursor |
@@ -702,6 +728,7 @@ Transitions, captions, titles, device mockups, shaders and every named edit, wit
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [3D Tilted Dashboard Reveal](effect/tilted-dashboard-reveal.md) | The dashboard rises from a steep 3D tilt to flat, like a screen lifting toward the viewer. | HeyGen | Claude Code, Codex, Cursor |
+| [App UI Mockups: chats, terminals and code for launch videos](effect/app-ui-mockups.md) | Message threads, team chat, coding-agent terminals, code walkthroughs, 3D code slabs and exploded UIs at measured typing and reading speeds. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Before/After UI Wipe](effect/before-after-ui-wipe.md) | A divider sweeps across one screen, turning the old version into the new one underneath. | HeyGen | Claude Code, Codex, Cursor |
 | [Card Expands Into Detail](effect/card-expands-to-detail.md) | A small card grows into a full detail panel in one continuous shape change. | HeyGen | Claude Code, Codex, Cursor |
 | [Command Palette Pop](effect/command-palette-pop.md) | ⌘K opens a palette, a few letters filter the list, the highlight moves and Enter fires the action. | Kapish Dima · remocn | Claude Code, Codex, Cursor |
@@ -782,14 +809,30 @@ Best practices and references agents read before they generate or edit. On varg 
 
 | Skill | What it does | By | Install |
 |---|---|---|---|
+| [Ad Creative (Marketing Skills)](guide/marketingskills-ad-creative.md) | Generate and iterate ad headlines, primary text and full variations for any platform, using your performance data. | Corey Haines | Claude Code, Codex, Cursor |
+| [Ad Library Teardown](guide/scrapecreators-ad-library-teardown.md) | Tear down competitors' live ads from Meta, Google and LinkedIn libraries: hooks, offers, CTAs, test ideas. | ScrapeCreators | Claude Code, Codex, Cursor |
+| [Adobe Firefly Run Workflow](guide/adobe-firefly-run-workflow.md) | Adobe plugin for Firefly Creative Production workflows: product banners at scale, retargeting, localization. | Adobe | Claude Code, Codex, mcp |
+| [Adobe for Creativity Skills](guide/adobe-for-creativity-social-variations.md) | Adobe's skills for its Claude connector: social crops of images and video, Express-template designs, Quick Cut reels. | Adobe | claude-ai |
+| [Anthropic Marketing Plugin](guide/anthropic-marketing-plugin.md) | Anthropic's marketing plugin: campaign plans with channels and budgets, competitive briefs, brand review and performance reports. | Anthropic | Claude Code |
+| [Canva Skills + MCP (official)](guide/canva-skills-mcp.md) | Official Canva plugin: resize a design to every social format, bulk-create from CSV, brand-check, edit via Canva MCP. | Canva | Claude Code, Codex, Cursor, mcp |
+| [Claude Ads](guide/claude-ads.md) | Paid-media ops across 12 ad platforms: audits, creative review, ad image generation, tests, reports. | Daniel Agrici (AI Marketing Hub) | Claude Code, Codex |
+| [Google Ads API Skills (official)](guide/google-ads-api-skills.md) | Google's own Google Ads skills: set up the Ads MCP, API quickstart, diagnose lost conversions and impression share. | Google | Claude Code, Codex, Cursor, Gemini CLI |
+| [GooseWorks Video Ad Script](guide/gooseworks-video-ad-script.md) | Short-form video ad script from a researched angle and a reference: words, product proof and sound planned before review. | GooseWorks | Claude Code, Codex, Cursor |
+| [LangChain Paid Media Agent](guide/langchain-paid-media-agent.md) | Open-source paid-media agent: cross-channel analysis, weekly reports and proposed changes across six ad platforms. | LangChain | Claude Code |
+| [Meta Ads Copilot (OpenClaw)](guide/meta-ads-copilot-openclaw.md) | OpenClaw Meta ads copilot on Meta's official CLI: daily briefing, bleeders, winners, fatigue, copy, upload, CAPI audit. | Matt Berman | OpenClaw |
+| [Motion Creative Strategy Skills](guide/motion-creative-strategy-skills.md) | Motion's creative-strategy skills: brand intake, review mining, angles, hooks, 45+ visual formats, ad mechanics. | Motion (Alysha) | Claude Code, Codex, Cursor |
+| [Paid Ads (Marketing Skills)](guide/marketingskills-paid-ads.md) | Paid-ads strategist: campaign structure, targeting, budgets, kill/scale rules and search-term cleanup across platforms. | Corey Haines | Claude Code, Codex, Cursor |
+| [Static Ad Concept Generator](guide/creatify-static-ad-concept-generator.md) | Static ad concepts from 320+ templates: 16 universal angles plus category-specific formats (Creatify). | Creatify | Claude Code, Codex |
 | [TikTok Selling Video Guide](guide/tiktok-short-video.md) | Guide to TikTok product-selling videos: formats, 3-second hooks, shooting, editing, hashtags, metrics | zhenyangze | OpenClaw |
 | [Turn a product into an AI singing mascot jingle ad](guide/singing-mascot-jingle-ad.md) | The product becomes a claymation mascot that sings a 15-30 s brand jingle: Nano Banana character, Lyria jingle, Seedance 2.5 singing to the song. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Turn an AI video ad into a TikTok Shop and Meta compliance report](guide/tiktok-shop-ad-compliance-check.md) | Checks an AI ad against TikTok Shop, Meta, YouTube, FTC, New York and EU AI Act rules: pass / fix / block per claim with sources. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Turn one winning ad into a creative testing plan](guide/ad-creative-testing.md) | How many ads to test, what to change, when to judge, kill or scale — concepts Meta sees as different. | varg | Claude Code, Codex, Cursor |
 | [Turn one winning video ad into 20 AI ad variations](guide/ai-ad-variations.md) | Scales a winning video ad into 20 Andromeda-safe variants: new concepts plus single-variable hook swaps, with a tested FFmpeg script and a test plan. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
 | [Turn winning competitor ads into new AI video ad angles](guide/competitor-ad-remix.md) | Breaks down winning ads from the Meta Ad Library or TikTok Creative Center and turns them into 10-20 original concepts for your product. | varg | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
+| [Video Ad Reverse Engineer](guide/creatify-video-ad-reverse-engineer.md) | Break a competitor video ad into a reusable template: 12-format catalog and a 7-step teardown (Creatify). | Creatify | Claude Code, Codex |
 | [Video Ad Specs](guide/inference-sh-video-ad-specs.md) | Build video ads to each platform's exact specs: TikTok, Instagram, YouTube, Facebook and LinkedIn. | inference.sh | Claude Code, Codex, Cursor, Gemini CLI |
 | [Video Script Generator](guide/video-script-generator.md) | Writes a short-video script and shot list as YAML/JSON from pain-solution, before-after or plot-twist templates | oliviapp8 | OpenClaw |
+| [ViGenAiR (Google)](guide/vigenair-video-ad-variants.md) | Google's open-source tool that recrafts long video ads into shorter, platform-ready variants with Gemini. | Google Marketing Solutions | Claude Code |
 
 ### Animation
 
@@ -1032,6 +1075,30 @@ Best practices and references agents read before they generate or edit. On varg 
 
 Model and tool skills: the services that generate, edit, transcribe or render. On varg how to: <https://varg.ai/how-to/models.md>
 
+### Ads
+
+| Skill | What it does | By | Install |
+|---|---|---|---|
+| [AdLoop](model/adloop-google-ads-mcp.md) | Google Ads + GA4 + Search Console MCP with approval cards for every change; draft, preview, then apply. | kLOsk | Claude Code |
+| [Amazon Ads MCP (official)](model/amazon-ads-mcp.md) | Amazon's hosted Ads MCP: Sponsored Products campaigns, reports, budgets, accounts and AMC queries from chat. | Amazon Ads | Claude Code, claude-ai, mcp |
+| [Atria Ad Intelligence](model/atria-ad-intelligence.md) | Official Atria plugin: search the ad library, tear down competitors, build swipe files, weekly account reports. | Atria | Claude Code, Codex |
+| [ElevenLabs Plugin + Hosted MCP](model/elevenlabs-plugin-creative-studio.md) | Official ElevenLabs plugin on its hosted OAuth MCP: voiceovers, music, images and video via creative_* tools. | ElevenLabs | Claude Code, Codex, mcp |
+| [Facebook Ads Library MCP](model/facebook-ads-library-mcp.md) | MCP for the Meta Ad Library: search advertisers, pull creatives and copy, analyze video ads with Gemini. | Proxy (proxy-intell) | Claude Code, Cursor |
+| [Foreplay Ad Library MCP](model/foreplay-ad-library-mcp.md) | Foreplay's MCP: 200M+ ads with transcripts, hooks, run time and landing pages, plus your boards and swipe files. | Foreplay | Claude Code, claude-ai, mcp |
+| [GoMarble Facebook Ads MCP](model/gomarble-facebook-ads-mcp.md) | Self-hosted Meta Ads MCP for reading campaigns, ad sets, ads and insights with your own token. | GoMarble | Claude Code |
+| [Google Ads MCP (official)](model/google-ads-mcp.md) | Google's open-source Google Ads MCP: list accounts, look up fields, run GAQL reports, including YouTube campaigns. | Google Ads API team | Claude Code |
+| [HeyGen CLI](model/heygen-cli.md) | Official HeyGen CLI built for agents: avatar videos, translations and bulk jobs as JSON commands. | HeyGen | Claude Code, Codex |
+| [Higgsfield CLI (Marketing Studio)](model/higgsfield-cli-marketing-studio.md) | Official Higgsfield CLI: 40+ image and video models plus marketing-studio branded ads and a Virality Predictor. | Higgsfield AI | Claude Code, Codex, Cursor, OpenClaw, Gemini CLI |
+| [Hyper Marketing Skills](model/hyper-marketing-skills.md) | Marketing skills on the Hyper MCP: Meta Ads Library research, ad creative generation, Meta/TikTok/Google/OpenAI Ads. | HyperFX | Claude Code, Codex, Cursor |
+| [Meta Ads CLI (official)](model/meta-ads-cli.md) | Meta's official ads CLI for coding agents: campaigns, ad sets, creatives, DCO, insights, datasets; new ads start paused. | Meta | Claude Code, Codex, OpenClaw |
+| [Meta Ads MCP (official)](model/meta-ads-mcp.md) | Meta's own hosted ads MCP: reporting, ad creation, catalogs, A/B tests, conversion lift, signals and activity logs. | Meta | Claude Code, mcp |
+| [Microsoft Advertising MCP (official)](model/microsoft-advertising-mcp.md) | Microsoft's hosted read-only Ads MCP: accounts, campaigns, ad groups, ads, keywords and asset groups for audits. | Microsoft Advertising | claude-ai, mcp |
+| [Motion Creative Analytics MCP](model/motion-creative-analytics-mcp.md) | Motion's read-only MCP: top ads by ROAS/CPA/CTR, creative transcripts, demographics, AI tags and competitor Inspo. | Motion | Claude Code, claude-ai, mcp |
+| [Pipeboard Ads MCPs](model/pipeboard-ads-mcp.md) | Hosted ads MCPs for Meta, Google, TikTok, Snap and Reddit behind one login: insights, uploads, paused launches. | Pipeboard | Claude Code, mcp |
+| [Snapchat Ads MCP (official)](model/snapchat-ads-mcp.md) | Snap's hosted read-only Ads MCP: agents read Snapchat campaigns, ad squads, ads and stats with your own permissions. | Snap Inc. | Claude Code, claude-ai, Codex, Gemini CLI, mcp |
+| [TikTok for Business MCP (official)](model/tiktok-ads-mcp.md) | TikTok's hosted Ads MCP: about 400 tools for campaigns, Smart+ ads, audiences, creative ops and reports. | TikTok for Business | Claude Code, claude-ai, mcp |
+| [Triple Whale MCP (official)](model/triple-whale-mcp.md) | Triple Whale's read-only MCP: revenue, ROAS, spend and attribution by channel for DTC brands, in any agent. | Triple Whale | Claude Code, claude-ai, mcp |
+
 ### Ai Music
 
 | Skill | What it does | By | Install |
@@ -1230,6 +1297,15 @@ Formats people ask for that no skill makes yet. Build one and submit it. On varg
 |---|---|---|---|
 | [3D Previs to Animated Story Ad](wanted/want-previs-animated-story-ad.md) | Block the shots in Blender, then render them as a polished 3D-animated story ad that ends on the product. | Pounds | — |
 | [Voxel Cartoon Character](wanted/want-voxel-cartoon-character.md) | A blocky voxel character walks, jumps and lands in a tiny world, rendered from code with no video model. | Francesco | — |
+
+### Ads
+
+| Skill | What it does | By | Install |
+|---|---|---|---|
+| [AI Creator Persona Ads](wanted/want-ai-creator-persona-ads.md) | One recurring AI creator with a fixed face, voice and room who posts selfie-style product videos as an account, not one-off ads. | tanabe_fragm | — |
+| [AI Micro-Drama Ad](wanted/want-ai-micro-drama-ad.md) | A 1–3 minute scripted scene with a conflict and recurring faces; the product arrives late, as the answer to the argument. | frankyecom | — |
+| [AI Spec Commercial](wanted/want-ai-spec-commercial.md) | A broadcast-style spot for a brand that did not order it, or a made-up one, made end to end with AI to show what you can do. | takuchang_n | — |
+| [AI Static Ad Set](wanted/want-ai-static-ad-set.md) | Ten genuinely different still ads for one product, each its own concept with the headline set in the image, ready for Meta and TikTok tests. | mmmiyama_D | — |
 
 ### Animation
 

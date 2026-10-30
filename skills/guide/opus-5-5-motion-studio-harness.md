@@ -20,7 +20,7 @@ npx create-video --yes --blank motion-studio && cd motion-studio && npx remotion
 
 ## Example
 
-Watch: <https://s3.varg.ai/files/60c50c05-1e93-46b9-ae75-47be786b4ff0/file_8ff2737684d5.mp4>
+Watch: <https://s3.varg.ai/files/60c50c05-1e93-46b9-ae75-47be786b4ff0/file_0591d2bc3b2c.mp4>
 
 ## Run it on varg
 

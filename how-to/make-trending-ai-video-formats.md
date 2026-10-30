@@ -16,7 +16,7 @@ What's going viral now — formats you can make for your brand today, with the s
    - Example: <https://s3.varg.ai/how-to/previews/d146add52283/gooseworks-apple-notes-ads.mp4>
 4. **[iMessage Video](../skills/workflow/varg-imessage-video.md)** (`varg-imessage-video`, varg, live) — Any chat script as an iPhone iMessage screen recording: typing, tapbacks, group chats, dark mode, sounds. Local, free.
    - Claude Code: `git clone --depth 1 https://github.com/vargHQ/code2video-templates ~/code2video-templates && ln -s ~/code2video-templates/imessage-video ~/.claude/skills/imessage-video`
-   - Example: <https://varg.ai/how-to/undefined>
+   - Example: <https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_613ca599d935.mp4>
 5. **[Awesome Seedance Skills](../skills/prompt/awesome-seedance-skills.md)** (`awesome-seedance-skills`, LearnPrompt, live) — Evidence-led Seedance 2.5/2.0 skills: a production workflow plus genre templates distilled from 934 verified cases.
    - Claude Code: `npx skills add LearnPrompt/awesome-seedance --skill seedance-production-workflow`
 6. **[FLUX 3 Archival Formats](../skills/style/flux-3-archival-formats.md)** (`flux-3-archival-formats`, Black Forest Labs, live) — Give FLUX 3 video a period look by naming the recording format and its artifacts, not a mood.

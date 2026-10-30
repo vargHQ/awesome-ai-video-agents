@@ -1,19 +1,19 @@
 # Paper Shaders Backgrounds
 
-Frame-exact shader backgrounds and logo stings: 9 varg presets plus all 124 of Paper's own, rendered locally.
+Frame-exact shader backgrounds and logo stings: 9 varg presets, 124 of Paper's own and 11 researched looks, rendered locally.
 
 - **Type:** Effects · Shaders
-- **Status:** draft
+- **Status:** live
 - **Publisher:** varg
 - **License:** MIT
-- **Source:** <https://github.com/vargHQ/skills/pull/26>
+- **Source:** <https://github.com/vargHQ/skills/tree/main/paper-shaders>
 - **Works in:** Claude Code, Codex, Cursor, Gemini CLI, OpenClaw, varg Studio
 - **Tags:** `shaders` `backgrounds` `overlays` `logo-sting` `hyperframes` `remotion` `webgl` `brand` `deterministic`
 - **Full card, kept current:** <https://varg.ai/how-to/skills/craft-paper-shaders.md>
 
 ## Install
 
-Not installable on its own yet. Source: https://github.com/vargHQ/skills/pull/26
+Not installable on its own yet. Source: https://github.com/vargHQ/skills/tree/main/paper-shaders
 
 ## Example
 

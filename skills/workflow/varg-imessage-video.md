@@ -20,7 +20,7 @@ git clone --depth 1 https://github.com/vargHQ/code2video-templates ~/code2video-
 
 ## Example
 
-![iMessage Video example](https://varg.ai/how-to/undefined)
+Watch: <https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_613ca599d935.mp4>
 
 ## Step-by-step tutorials that use it
 

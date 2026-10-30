@@ -8,7 +8,7 @@ A viral iMessage-style chat drama: bubbles appear with typing, sounds and a clif
 
 1. **[iMessage Video](../skills/workflow/varg-imessage-video.md)** (`varg-imessage-video`, varg, live) — Any chat script as an iPhone iMessage screen recording: typing, tapbacks, group chats, dark mode, sounds. Local, free.
    - Claude Code: `git clone --depth 1 https://github.com/vargHQ/code2video-templates ~/code2video-templates && ln -s ~/code2video-templates/imessage-video ~/.claude/skills/imessage-video`
-   - Example: <https://varg.ai/how-to/undefined>
+   - Example: <https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_613ca599d935.mp4>
 2. **[HyperFrames](../skills/guide/hyperframes.md)** (`hyperframes`, HeyGen, live) — Turn HTML, CSS and seekable animation into deterministic MP4s: launch films, explainers, captions, title cards.
    - Claude Code: `claude plugin marketplace add heygen-com/hyperframes
 claude plugin install hyperframes@hyperframes`
