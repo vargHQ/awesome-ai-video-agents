@@ -43,7 +43,9 @@ Watch: <https://s3.varg.ai/how-to/previews/fd12064dae3c/varg-consistent-characte
 - [How to keep a character consistent in AI video](../../how-to/keep-a-character-consistent-in-ai-video.md): One mascot, trainer or actor that looks identical across many images and clips.
 - [How to make an AI influencer video](../../how-to/make-an-ai-influencer-video.md): A recurring AI character with one look and one format, posting as a creator or a brand face.
 - [How to make exercise demo video loops with AI](../../how-to/make-exercise-demo-video-loops.md): Looping exercise demos for a fitness app: one trainer, many exercises, clean background.
+- [How to make AI fashion model and try-on videos](../../how-to/make-ai-fashion-model-try-on-videos.md): Your clothes on an AI model: on-model listing photos and a try-on or fit-check video, from a flat-lay, hanger or mannequin photo.
 - [How to swap your character into a video with AI](../../how-to/swap-your-character-into-a-video.md): Your character (or person) performs the exact motion of a trending video: dance, gesture, walk, ad performance — motion transfer.
+- [How to make a birthday video with AI](../../how-to/make-a-birthday-video.md): A birthday video that is unmistakably theirs: their name sung on the chorus, their photo blowing out the candles, the details only their people know.
 
 ## Run it on varg
 

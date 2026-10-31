@@ -1,6 +1,6 @@
 {
  "site": "https://varg.ai/how-to",
- "generatedAt": "2026-10-30T06:40:27.825Z",
+ "generatedAt": "2026-10-31T07:01:35.146Z",
  "search": {
   "markdown": "https://varg.ai/how-to/api/search?q={query}",
   "json": "https://varg.ai/how-to/api/search.json?q={query}"
@@ -615,7 +615,10 @@
     "слайдшоу",
     "видео из фото",
     "фото под музыку",
-    "монтаж из фотографий"
+    "монтаж из фотографий",
+    "birthday slideshow",
+    "birthday slideshow maker",
+    "birthday slideshow with music"
    ]
   },
   {
@@ -865,6 +868,33 @@
     "фото для маркетплейса",
     "инфографика для wildberries",
     "предметная съемка"
+   ]
+  },
+  {
+   "id": "fashion-try-on",
+   "title": "AI fashion model and virtual try-on",
+   "howTo": "How to make AI fashion model and try-on videos",
+   "summary": "Your clothes on an AI model: on-model listing photos and a try-on or fit-check video, from a flat-lay, hanger or mannequin photo.",
+   "url": "https://varg.ai/how-to/make-ai-fashion-model-try-on-videos",
+   "md": "https://varg.ai/how-to/make-ai-fashion-model-try-on-videos.md",
+   "picks": [
+    "ai-virtual-try-on-video",
+    "varg-character-beautiful-woman",
+    "varg-consistent-characters",
+    "higgsfield-product-photoshoot",
+    "varg-ai"
+   ],
+   "queries": [
+    "virtual try on ai",
+    "ai fashion model",
+    "ai clothing model",
+    "ai try on video",
+    "ai model wearing my clothes",
+    "on-model photos ai",
+    "virtual try on clothes ai",
+    "ai fashion model generator",
+    "fit check video ai",
+    "clothing brand video ai"
    ]
   },
   {
@@ -1211,6 +1241,171 @@
     "mail merge video",
     "персонализированные видео",
     "видео для каждого клиента"
+   ]
+  },
+  {
+   "id": "birthday-video",
+   "title": "Personalized birthday video",
+   "howTo": "How to make a birthday video with AI",
+   "summary": "A birthday video that is unmistakably theirs: their name sung on the chorus, their photo blowing out the candles, the details only their people know.",
+   "url": "https://varg.ai/how-to/make-a-birthday-video",
+   "md": "https://varg.ai/how-to/make-a-birthday-video.md",
+   "picks": [
+    "varg-birthday-video",
+    "varg-ai",
+    "hyperframes",
+    "varg-consistent-characters",
+    "picsart-photo-slideshow",
+    "eachlabs-age-transformation",
+    "iart-wrapped-video"
+   ],
+   "queries": [
+    "ai birthday video",
+    "ai birthday video maker",
+    "birthday video maker with photos and music",
+    "how to make ai birthday video",
+    "happy birthday video with name",
+    "free ai birthday video maker without watermark",
+    "ai birthday video prompt",
+    "birthday wishes video",
+    "ai anniversary video",
+    "anniversary video maker",
+    "mother's day video ai",
+    "father's day video ai",
+    "dog birthday video",
+    "birthday video for employees"
+   ]
+  },
+  {
+   "id": "birthday-song",
+   "title": "Birthday song with their name",
+   "howTo": "How to make an AI birthday song with their name",
+   "summary": "An original song that sings their name on the chorus, with two or three true details, as an MP3 or a video over their photos or the lyrics.",
+   "url": "https://varg.ai/how-to/make-a-birthday-song-with-a-name",
+   "md": "https://varg.ai/how-to/make-a-birthday-song-with-a-name.md",
+   "picks": [
+    "varg-birthday-video",
+    "varg-music-video",
+    "hyperframes",
+    "varg-ai",
+    "elevenlabs-music",
+    "acestep-song-skills",
+    "scenario-minimax-music"
+   ],
+   "queries": [
+    "birthday song with name",
+    "happy birthday song with name",
+    "ai birthday song",
+    "ai birthday song generator",
+    "free ai birthday song generator with name",
+    "birthday song with name and photo",
+    "custom birthday song",
+    "how to make birthday song with name",
+    "personalized birthday song",
+    "anniversary song with name"
+   ]
+  },
+  {
+   "id": "invitation-video",
+   "title": "Wedding or birthday invitation video",
+   "howTo": "How to make a wedding or birthday invitation video with AI",
+   "summary": "An invitation or save-the-date that opens (a pop-up card, an envelope, a 3D venue) onto the names, date and place, printed without a wrong letter, for WhatsApp.",
+   "url": "https://varg.ai/how-to/make-an-invitation-video",
+   "md": "https://varg.ai/how-to/make-an-invitation-video.md",
+   "picks": [
+    "varg-occasion-video",
+    "varg-ai",
+    "hyperframes",
+    "eachlabs-wedding-invitation",
+    "wedding-video-guided-wizard"
+   ],
+   "queries": [
+    "ai wedding invitation video",
+    "wedding invitation video maker",
+    "save the date video",
+    "birthday invitation video",
+    "free ai invitation video maker",
+    "invitation video for whatsapp",
+    "how to make save the date video",
+    "engagement invitation video",
+    "ai invitation video maker",
+    "digital wedding invitation video"
+   ]
+  },
+  {
+   "id": "holiday-greeting",
+   "title": "Christmas or holiday greeting video",
+   "howTo": "How to make a Christmas or holiday greeting video with AI",
+   "summary": "A greeting the family forwards: an animated illustrated card, a snow globe, a lamp-lit Diwali or Lunar New Year story, or the family's photo as a cozy holiday still, with the greeting set as real type.",
+   "url": "https://varg.ai/how-to/make-a-holiday-greeting-video",
+   "md": "https://varg.ai/how-to/make-a-holiday-greeting-video.md",
+   "picks": [
+    "varg-occasion-video",
+    "varg-ai",
+    "hyperframes",
+    "hyperframes-registry"
+   ],
+   "queries": [
+    "ai christmas video",
+    "christmas card video",
+    "ai christmas card",
+    "christmas greeting video with music",
+    "ai new year video",
+    "diwali video ai",
+    "eid greeting video",
+    "holiday video card",
+    "animated e-card",
+    "ai greeting card"
+   ]
+  },
+  {
+   "id": "old-photos",
+   "title": "Old photos brought to life",
+   "howTo": "How to bring old photos to life with AI",
+   "summary": "Restore old family photos, add color if the family wants it, then a gentle motion per photo (a smile, a turn of the head), cut to music for a birthday, an anniversary or a memorial.",
+   "url": "https://varg.ai/how-to/bring-old-photos-to-life",
+   "md": "https://varg.ai/how-to/bring-old-photos-to-life.md",
+   "picks": [
+    "varg-occasion-video",
+    "varg-ai",
+    "hyperframes",
+    "eachlabs-photo-restoration",
+    "flux-3-archival-formats"
+   ],
+   "queries": [
+    "animate old photos",
+    "bring old photos to life",
+    "old photo to video ai",
+    "how to animate old photos",
+    "restore and animate old photos",
+    "animate old photos free",
+    "colorize and animate old photos",
+    "animate old family photos"
+   ]
+  },
+  {
+   "id": "memorial-video",
+   "title": "Memorial or tribute video",
+   "howTo": "How to make a memorial or tribute video with AI",
+   "summary": "A calm tribute for a funeral, a celebration of life or a retirement: restored photos with gentle motion, words from the family or friends, and music, made with the family's agreement.",
+   "url": "https://varg.ai/how-to/make-a-memorial-tribute-video",
+   "md": "https://varg.ai/how-to/make-a-memorial-tribute-video.md",
+   "picks": [
+    "varg-occasion-video",
+    "hyperframes",
+    "varg-ai",
+    "eachlabs-photo-restoration",
+    "hyperframes-slideshow"
+   ],
+   "queries": [
+    "memorial video ai",
+    "tribute video ai",
+    "funeral slideshow",
+    "celebration of life video",
+    "retirement tribute video",
+    "in loving memory video",
+    "how to make a memorial video",
+    "how to make ai tribute video"
    ]
   }
  ],
@@ -2016,32 +2211,6 @@
    "md": "https://varg.ai/how-to/skills/varg-ffmpeg-mixing.md"
   },
   {
-   "slug": "varg-studio-ugc-ads",
-   "name": "UGC Ad",
-   "type": "skill",
-   "status": "draft",
-   "shelf": "workflow",
-   "category": "ads",
-   "tags": [
-    "ugc",
-    "voiceover",
-    "captions",
-    "varg-studio",
-    "first-ad"
-   ],
-   "summary": "A creator-style ad shot like a friend's recommendation: 3 shots, voiceover, captions, end card, no presenter.",
-   "publisher": "varg",
-   "source": "vargHQ (internal: studio-app/plugins/varg-studio/src/shared/formats.ts)",
-   "license": "proprietary",
-   "install": {},
-   "agents": [
-    "varg-studio"
-   ],
-   "url": "https://varg.ai/how-to/skills/varg-studio-ugc-ads",
-   "md": "https://varg.ai/how-to/skills/varg-studio-ugc-ads.md",
-   "example": "https://s3.varg.ai/how-to/previews/7446ec754170/varg-studio-ugc-ads.mp4"
-  },
-  {
    "slug": "varg-studio-us-vs-them",
    "name": "Us vs Them Ad",
    "type": "skill",
@@ -2358,7 +2527,8 @@
     "openclaw"
    ],
    "url": "https://varg.ai/how-to/skills/ecommerce-video-ads",
-   "md": "https://varg.ai/how-to/skills/ecommerce-video-ads.md"
+   "md": "https://varg.ai/how-to/skills/ecommerce-video-ads.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_dd04f604d660.webp"
   },
   {
    "slug": "product-video-hooks",
@@ -2393,7 +2563,8 @@
     "openclaw"
    ],
    "url": "https://varg.ai/how-to/skills/product-video-hooks",
-   "md": "https://varg.ai/how-to/skills/product-video-hooks.md"
+   "md": "https://varg.ai/how-to/skills/product-video-hooks.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_426d88faf90c.webp"
   },
   {
    "slug": "tiktok-shop-video",
@@ -2427,7 +2598,8 @@
     "openclaw"
    ],
    "url": "https://varg.ai/how-to/skills/tiktok-shop-video",
-   "md": "https://varg.ai/how-to/skills/tiktok-shop-video.md"
+   "md": "https://varg.ai/how-to/skills/tiktok-shop-video.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_0641ef5d7cd8.webp"
   },
   {
    "slug": "ai-ugc-ad-video",
@@ -2462,7 +2634,8 @@
     "openclaw"
    ],
    "url": "https://varg.ai/how-to/skills/ai-ugc-ad-video",
-   "md": "https://varg.ai/how-to/skills/ai-ugc-ad-video.md"
+   "md": "https://varg.ai/how-to/skills/ai-ugc-ad-video.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_3ad549a3c50f.webp"
   },
   {
    "slug": "product-photo-to-video",
@@ -2498,7 +2671,8 @@
     "openclaw"
    ],
    "url": "https://varg.ai/how-to/skills/product-photo-to-video",
-   "md": "https://varg.ai/how-to/skills/product-photo-to-video.md"
+   "md": "https://varg.ai/how-to/skills/product-photo-to-video.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_3c48771987e6.webp"
   },
   {
    "slug": "ad-creative-testing",
@@ -2570,7 +2744,8 @@
     "openclaw"
    ],
    "url": "https://varg.ai/how-to/skills/ecommerce-video-edit",
-   "md": "https://varg.ai/how-to/skills/ecommerce-video-edit.md"
+   "md": "https://varg.ai/how-to/skills/ecommerce-video-edit.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_cc1fb0a271cb.webp"
   },
   {
    "slug": "varg-dropship-reel",
@@ -3041,6 +3216,211 @@
    "url": "https://varg.ai/how-to/skills/tiktok-shop-ad-compliance-check",
    "md": "https://varg.ai/how-to/skills/tiktok-shop-ad-compliance-check.md",
    "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_d45406f8d0db.mp4"
+  },
+  {
+   "slug": "kling-4-action-montage",
+   "name": "Turn key frames into a 30-second action montage with Kling 4",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "cinematic",
+   "tags": [
+    "kling",
+    "kling-4",
+    "montage",
+    "action",
+    "dance",
+    "bmx",
+    "skateboard",
+    "extreme-sports",
+    "key-frames",
+    "official"
+   ],
+   "summary": "Breakdance, BMX, skate or chase montages: 3-4 stills, a one-line prompt with the moves and \"no slow motion\", the crash or line as the last still.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/kling-4-action-montage",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill kling-4-action-montage -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill kling-4-action-montage -a cursor -y",
+    "openclaw": "npx clawhub@latest install kling-4-action-montage",
+    "gemini-cli": "npx skills add vargHQ/skills --skill kling-4-action-montage -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw"
+   ],
+   "url": "https://varg.ai/how-to/skills/kling-4-action-montage",
+   "md": "https://varg.ai/how-to/skills/kling-4-action-montage.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_0665c41e46ff.mp4"
+  },
+  {
+   "slug": "kling-4-keyframe-film",
+   "name": "Make a short film or music video with Kling 4",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "cinematic",
+   "tags": [
+    "kling",
+    "kling-4",
+    "short-film",
+    "music-video",
+    "key-frames",
+    "gpt-image",
+    "dialogue",
+    "21:9",
+    "cinematic",
+    "official"
+   ],
+   "summary": "Beats, cast and look, every key shot as a GPT Image 2.5 still, one 30-second Kling 4 take per beat, then cut the best seconds like live action.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/kling-4-keyframe-film",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill kling-4-keyframe-film -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill kling-4-keyframe-film -a cursor -y",
+    "openclaw": "npx clawhub@latest install kling-4-keyframe-film",
+    "gemini-cli": "npx skills add vargHQ/skills --skill kling-4-keyframe-film -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw"
+   ],
+   "url": "https://varg.ai/how-to/skills/kling-4-keyframe-film",
+   "md": "https://varg.ai/how-to/skills/kling-4-keyframe-film.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_0665c41e46ff.mp4"
+  },
+  {
+   "slug": "kling-4-prompting",
+   "name": "How to prompt Kling 4 for cinematic AI video",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "prompting",
+   "tags": [
+    "kling",
+    "kling-4",
+    "prompting",
+    "reference-to-video",
+    "multi-shot",
+    "key-frames",
+    "gpt-image",
+    "cinematic",
+    "native-audio",
+    "official"
+   ],
+   "summary": "Kling 4 without the AI-slop look: key frames from GPT Image 2.5, a short director's prompt, multi-shot with seconds, \"no slow motion\", and the fixes.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/kling-4-prompting",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill kling-4-prompting -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill kling-4-prompting -a cursor -y",
+    "openclaw": "npx clawhub@latest install kling-4-prompting",
+    "gemini-cli": "npx skills add vargHQ/skills --skill kling-4-prompting -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw"
+   ],
+   "url": "https://varg.ai/how-to/skills/kling-4-prompting",
+   "md": "https://varg.ai/how-to/skills/kling-4-prompting.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_0665c41e46ff.mp4"
+  },
+  {
+   "slug": "varg-birthday-video",
+   "name": "Turn photos and a name into a personalized AI birthday video",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "greetings",
+   "tags": [
+    "birthday",
+    "birthday-song",
+    "greetings",
+    "gpt-image",
+    "seedance",
+    "wan",
+    "eleven-music",
+    "whatsapp",
+    "personalized",
+    "official"
+   ],
+   "summary": "A birthday video that is theirs: a song that sings the name, their photo blowing out the candles, a retro camcorder tape, then-and-now; tested on varg.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/varg-birthday-video",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill varg-birthday-video -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill varg-birthday-video -a cursor -y",
+    "openclaw": "npx clawhub@latest install varg-birthday-video",
+    "gemini-cli": "npx skills add vargHQ/skills --skill varg-birthday-video -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw"
+   ],
+   "url": "https://varg.ai/how-to/skills/varg-birthday-video",
+   "md": "https://varg.ai/how-to/skills/varg-birthday-video.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_7e6d05077855.mp4"
+  },
+  {
+   "slug": "varg-occasion-video",
+   "name": "Turn photos into an AI invitation, holiday greeting or tribute video",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "greetings",
+   "tags": [
+    "invitation",
+    "save-the-date",
+    "wedding",
+    "christmas",
+    "diwali",
+    "old-photos",
+    "memorial",
+    "greetings",
+    "seedance",
+    "official"
+   ],
+   "summary": "Invitations and save-the-dates that print the names right, Christmas, Diwali and Eid greetings, old photos brought to life and calm tributes; tested on varg.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/varg-occasion-video",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill varg-occasion-video -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill varg-occasion-video -a cursor -y",
+    "openclaw": "npx clawhub@latest install varg-occasion-video",
+    "gemini-cli": "npx skills add vargHQ/skills --skill varg-occasion-video -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw"
+   ],
+   "url": "https://varg.ai/how-to/skills/varg-occasion-video",
+   "md": "https://varg.ai/how-to/skills/varg-occasion-video.md",
+   "example": "https://s3.varg.ai/files/72c55813-c0fa-4cf2-9f64-ec4f7ed0e7ae/file_e1ac8b0f8d63.mp4"
   },
   {
    "slug": "hyperframes-figma",
@@ -11178,6 +11558,159 @@
    "md": "https://varg.ai/how-to/skills/vigenair-video-ad-variants.md"
   },
   {
+   "slug": "scenario-beat-synced-soundtrack",
+   "name": "Beat-synced soundtrack kit by Scenario",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "audio",
+   "tags": [
+    "beat-sync",
+    "bpm",
+    "music",
+    "sound-effects",
+    "sfx",
+    "whoosh",
+    "impact",
+    "riser",
+    "mixing",
+    "loudness",
+    "motion-graphics",
+    "trailer",
+    "scenario",
+    "scenario-mcp"
+   ],
+   "summary": "Music at an exact BPM and a 12-sound SFX kit from Scenario MCP, a beat-grid fit, and a -14 LUFS mix on the beat.",
+   "publisher": "Scenario",
+   "source": "https://www.scenario.com/explorations/kinetic-film/",
+   "license": "Scenario: free download, no license file in the ZIP; fonts SIL OFL",
+   "install": {
+    "claude-code": "curl -fsSL -o /tmp/scenario-kinetic-film.zip \"https://iieqkinwjorxrzjp.public.blob.vercel-storage.com/explorations/2217ab5dbd452185a5c3c1509994da46b1ac20d2ebeaa888536244372ce73ebf/scenario-kinetic-film-skill.zip?download=1\" && unzip -oq /tmp/scenario-kinetic-film.zip -d ~/.claude/skills && claude mcp add --transport http scenario https://mcp.scenario.com/mcp",
+    "codex": "curl -fsSL -o /tmp/scenario-kinetic-film.zip \"https://iieqkinwjorxrzjp.public.blob.vercel-storage.com/explorations/2217ab5dbd452185a5c3c1509994da46b1ac20d2ebeaa888536244372ce73ebf/scenario-kinetic-film-skill.zip?download=1\" && unzip -oq /tmp/scenario-kinetic-film.zip -d ~/.codex/skills && codex mcp add scenario --url https://mcp.scenario.com/mcp && codex mcp login scenario",
+    "mcp": "https://mcp.scenario.com/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/scenario-beat-synced-soundtrack",
+   "md": "https://varg.ai/how-to/skills/scenario-beat-synced-soundtrack.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_acb97730770a.mp4"
+  },
+  {
+   "slug": "scenario-kinetic-film",
+   "name": "Kinetic Film by Scenario",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "kinetic-type",
+   "tags": [
+    "kinetic-typography",
+    "launch-video",
+    "trailer",
+    "teaser",
+    "promo",
+    "motion-graphics",
+    "beat-sync",
+    "whip-pan",
+    "motion-blur",
+    "3d-type",
+    "4k",
+    "code2video",
+    "html-to-video",
+    "scenario",
+    "scenario-mcp"
+   ],
+   "summary": "Launch films and teasers in kinetic type, written as code: a word on every beat, whip pans, 3D letters, motion blur, 4K.",
+   "publisher": "Scenario",
+   "source": "https://www.scenario.com/explorations/kinetic-film/",
+   "license": "Scenario: free download, no license file in the ZIP; fonts SIL OFL",
+   "install": {
+    "claude-code": "curl -fsSL -o /tmp/scenario-kinetic-film.zip \"https://iieqkinwjorxrzjp.public.blob.vercel-storage.com/explorations/2217ab5dbd452185a5c3c1509994da46b1ac20d2ebeaa888536244372ce73ebf/scenario-kinetic-film-skill.zip?download=1\" && unzip -oq /tmp/scenario-kinetic-film.zip -d ~/.claude/skills && claude mcp add --transport http scenario https://mcp.scenario.com/mcp",
+    "codex": "curl -fsSL -o /tmp/scenario-kinetic-film.zip \"https://iieqkinwjorxrzjp.public.blob.vercel-storage.com/explorations/2217ab5dbd452185a5c3c1509994da46b1ac20d2ebeaa888536244372ce73ebf/scenario-kinetic-film-skill.zip?download=1\" && unzip -oq /tmp/scenario-kinetic-film.zip -d ~/.codex/skills && codex mcp add scenario --url https://mcp.scenario.com/mcp && codex mcp login scenario",
+    "mcp": "https://mcp.scenario.com/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/scenario-kinetic-film",
+   "md": "https://varg.ai/how-to/skills/scenario-kinetic-film.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_964c01af8db8.mp4"
+  },
+  {
+   "slug": "scenario-motion-energy-check",
+   "name": "Motion energy check by Scenario",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "tooling",
+   "tags": [
+    "qa",
+    "pacing",
+    "motion-analysis",
+    "still-frames",
+    "holds",
+    "cuts-per-second",
+    "frame-check",
+    "4k",
+    "h264-level",
+    "loudness",
+    "reference-analysis",
+    "scenario"
+   ],
+   "summary": "Measure if a video parks: % still frames, longest hold, motion, cuts per 10 s, plus 4K playback and loudness gates.",
+   "publisher": "Scenario",
+   "source": "https://www.scenario.com/explorations/kinetic-film/",
+   "license": "Scenario: free download, no license file in the ZIP; fonts SIL OFL",
+   "install": {
+    "claude-code": "curl -fsSL -o /tmp/scenario-kinetic-film.zip \"https://iieqkinwjorxrzjp.public.blob.vercel-storage.com/explorations/2217ab5dbd452185a5c3c1509994da46b1ac20d2ebeaa888536244372ce73ebf/scenario-kinetic-film-skill.zip?download=1\" && unzip -oq /tmp/scenario-kinetic-film.zip -d ~/.claude/skills && claude mcp add --transport http scenario https://mcp.scenario.com/mcp",
+    "codex": "curl -fsSL -o /tmp/scenario-kinetic-film.zip \"https://iieqkinwjorxrzjp.public.blob.vercel-storage.com/explorations/2217ab5dbd452185a5c3c1509994da46b1ac20d2ebeaa888536244372ce73ebf/scenario-kinetic-film-skill.zip?download=1\" && unzip -oq /tmp/scenario-kinetic-film.zip -d ~/.codex/skills && codex mcp add scenario --url https://mcp.scenario.com/mcp && codex mcp login scenario",
+    "mcp": "https://mcp.scenario.com/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/scenario-motion-energy-check",
+   "md": "https://varg.ai/how-to/skills/scenario-motion-energy-check.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_798ec5644f2c.mp4"
+  },
+  {
+   "slug": "heygen-hyperframes-launch-videos-source",
+   "name": "HeyGen's Real Launch Videos as HyperFrames Source",
+   "type": "ref-pack",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "launch",
+   "tags": [
+    "hyperframes",
+    "gsap",
+    "html",
+    "product-launch",
+    "saas",
+    "16:9",
+    "storyboard",
+    "open-source",
+    "heygen"
+   ],
+   "summary": "20 HeyGen product launch videos as editable HyperFrames HTML compositions, each with its storyboard, assets and render command.",
+   "publisher": "heygen-com",
+   "source": "https://github.com/heygen-com/hyperframes-launches",
+   "install": {
+    "claude-code": "git clone https://github.com/heygen-com/hyperframes-launches.git"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/heygen-hyperframes-launch-videos-source",
+   "md": "https://varg.ai/how-to/skills/heygen-hyperframes-launch-videos-source.md",
+   "example": "https://github.com/heygen-com/hyperframes-launches/raw/main/codex-five-hour-limit-replica/codex-five-hour-limit-replica.mp4"
+  },
+  {
    "slug": "video-shotcraft",
    "name": "Video Shotcraft",
    "type": "skill",
@@ -16916,6 +17449,1974 @@
    ],
    "url": "https://varg.ai/how-to/skills/vox-director-collage-ads",
    "md": "https://varg.ai/how-to/skills/vox-director-collage-ads.md"
+  },
+  {
+   "slug": "acestep-song-skills",
+   "name": "ACE-Step 1.5 songs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "greetings",
+   "tags": [
+    "song",
+    "lyrics",
+    "birthday-song",
+    "open-source",
+    "local",
+    "official"
+   ],
+   "summary": "Official skills for the open-source ACE-Step 1.5 music model: write the lyrics, then a full sung song made locally, such as a birthday song with a name.",
+   "publisher": "ace-step",
+   "source": "https://github.com/ace-step/ACE-Step-1.5/tree/main/.claude/skills",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add ace-step/ACE-Step-1.5 --skill acestep -a claude-code -y",
+    "codex": "npx skills add ace-step/ACE-Step-1.5 --skill acestep -a codex -y",
+    "cursor": "npx skills add ace-step/ACE-Step-1.5 --skill acestep -a cursor -y",
+    "gemini-cli": "npx skills add ace-step/ACE-Step-1.5 --skill acestep -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/acestep-song-skills",
+   "md": "https://varg.ai/how-to/skills/acestep-song-skills.md"
+  },
+  {
+   "slug": "eachlabs-age-transformation",
+   "name": "Eachlabs Age Transformation",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "greetings",
+   "tags": [
+    "then-and-now",
+    "milestone-birthday",
+    "age",
+    "consent"
+   ],
+   "summary": "Age progression and de-aging from one photo, for a then-and-now milestone birthday with the person's consent.",
+   "publisher": "eachlabs",
+   "source": "https://github.com/eachlabs/skills/tree/main/skills/age-transformation",
+   "license": "unknown",
+   "install": {
+    "claude-code": "npx skills add eachlabs/skills --skill age-transformation -a claude-code -y",
+    "codex": "npx skills add eachlabs/skills --skill age-transformation -a codex -y",
+    "cursor": "npx skills add eachlabs/skills --skill age-transformation -a cursor -y",
+    "gemini-cli": "npx skills add eachlabs/skills --skill age-transformation -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/eachlabs-age-transformation",
+   "md": "https://varg.ai/how-to/skills/eachlabs-age-transformation.md"
+  },
+  {
+   "slug": "eachlabs-photo-restoration",
+   "name": "Eachlabs Photo Restoration",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "greetings",
+   "tags": [
+    "old-photos",
+    "restoration",
+    "colorization",
+    "memorial",
+    "anniversary",
+    "official"
+   ],
+   "summary": "Repair scratches, tears and fading, restore faces and colorize black-and-white family photos before you animate them.",
+   "publisher": "eachlabs",
+   "source": "https://github.com/eachlabs/skills/tree/main/skills/photo-restoration",
+   "license": "unknown",
+   "install": {
+    "claude-code": "npx skills add eachlabs/skills --skill photo-restoration -a claude-code -y",
+    "codex": "npx skills add eachlabs/skills --skill photo-restoration -a codex -y",
+    "cursor": "npx skills add eachlabs/skills --skill photo-restoration -a cursor -y",
+    "gemini-cli": "npx skills add eachlabs/skills --skill photo-restoration -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/eachlabs-photo-restoration",
+   "md": "https://varg.ai/how-to/skills/eachlabs-photo-restoration.md"
+  },
+  {
+   "slug": "eachlabs-wedding-invitation",
+   "name": "Eachlabs Wedding Invitation Generation",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "greetings",
+   "tags": [
+    "invitation",
+    "save-the-date",
+    "wedding",
+    "e-invite",
+    "official"
+   ],
+   "summary": "Invitations, save-the-dates, RSVP cards and e-invites in classic, floral, rustic, destination and cultural styles; design the card, then animate it.",
+   "publisher": "eachlabs",
+   "source": "https://github.com/eachlabs/skills/tree/main/skills/wedding-invitation-generation",
+   "license": "unknown",
+   "install": {
+    "claude-code": "npx skills add eachlabs/skills --skill wedding-invitation-generation -a claude-code -y",
+    "codex": "npx skills add eachlabs/skills --skill wedding-invitation-generation -a codex -y",
+    "cursor": "npx skills add eachlabs/skills --skill wedding-invitation-generation -a cursor -y",
+    "gemini-cli": "npx skills add eachlabs/skills --skill wedding-invitation-generation -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/eachlabs-wedding-invitation",
+   "md": "https://varg.ai/how-to/skills/eachlabs-wedding-invitation.md"
+  },
+  {
+   "slug": "iart-wrapped-video",
+   "name": "iart Wrapped Video",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "greetings",
+   "tags": [
+    "personalized",
+    "at-scale",
+    "remotion",
+    "business-birthday",
+    "template"
+   ],
+   "summary": "Wrapped-style personalized videos in Remotion: one template, one data row per person, up to 100,000 copies, such as customer birthday videos.",
+   "publisher": "iart-ai",
+   "source": "https://github.com/iart-ai/explainer-video-skills/tree/main/skills/wrapped-video",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add iart-ai/explainer-video-skills --skill wrapped-video -a claude-code -y",
+    "codex": "npx skills add iart-ai/explainer-video-skills --skill wrapped-video -a codex -y",
+    "cursor": "npx skills add iart-ai/explainer-video-skills --skill wrapped-video -a cursor -y",
+    "gemini-cli": "npx skills add iart-ai/explainer-video-skills --skill wrapped-video -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/iart-wrapped-video",
+   "md": "https://varg.ai/how-to/skills/iart-wrapped-video.md"
+  },
+  {
+   "slug": "picsart-photo-slideshow",
+   "name": "Picsart Photo Slideshow",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "greetings",
+   "tags": [
+    "slideshow",
+    "photos",
+    "birthday",
+    "anniversary",
+    "picsart",
+    "official"
+   ],
+   "summary": "Official Picsart recipe: your photos in order, a transition at every seam, blurred fill and an animated title, for birthday and anniversary reels.",
+   "publisher": "PicsArt",
+   "source": "https://github.com/PicsArt/gen-ai-skills/tree/main/skills/photo-slideshow",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add PicsArt/gen-ai-skills --skill photo-slideshow -a claude-code -y",
+    "codex": "npx skills add PicsArt/gen-ai-skills --skill photo-slideshow -a codex -y",
+    "cursor": "npx skills add PicsArt/gen-ai-skills --skill photo-slideshow -a cursor -y",
+    "gemini-cli": "npx skills add PicsArt/gen-ai-skills --skill photo-slideshow -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/picsart-photo-slideshow",
+   "md": "https://varg.ai/how-to/skills/picsart-photo-slideshow.md"
+  },
+  {
+   "slug": "scenario-minimax-music",
+   "name": "Scenario MiniMax Music",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "greetings",
+   "tags": [
+    "song",
+    "lyrics",
+    "birthday-song",
+    "minimax",
+    "scenario",
+    "official"
+   ],
+   "summary": "Songs with vocals from a tagged lyric sheet, lyrics from a brief and covers, through Scenario; repaint one line (the name) without remaking the song.",
+   "publisher": "scenario-labs",
+   "source": "https://github.com/scenario-labs/skills/tree/main/skills/scenario-minimax-music",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add scenario-labs/skills --skill scenario-minimax-music -a claude-code -y",
+    "codex": "npx skills add scenario-labs/skills --skill scenario-minimax-music -a codex -y",
+    "cursor": "npx skills add scenario-labs/skills --skill scenario-minimax-music -a cursor -y",
+    "gemini-cli": "npx skills add scenario-labs/skills --skill scenario-minimax-music -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/scenario-minimax-music",
+   "md": "https://varg.ai/how-to/skills/scenario-minimax-music.md"
+  },
+  {
+   "slug": "wedding-video-guided-wizard",
+   "name": "Wedding Video Guided Wizard",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "greetings",
+   "tags": [
+    "wedding",
+    "anniversary",
+    "love-story",
+    "workflow",
+    "narration"
+   ],
+   "summary": "A 14-step guided workflow for a couple's story video: intake card, narration, image prompts, image-to-video, music and subtitles, each step approved.",
+   "publisher": "aaronyi97",
+   "source": "https://github.com/aaronyi97/wedding-video-guided-wizard",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add aaronyi97/wedding-video-guided-wizard --skill wedding-video-guided-wizard -a claude-code -y",
+    "codex": "npx skills add aaronyi97/wedding-video-guided-wizard --skill wedding-video-guided-wizard -a codex -y",
+    "cursor": "npx skills add aaronyi97/wedding-video-guided-wizard --skill wedding-video-guided-wizard -a cursor -y",
+    "gemini-cli": "npx skills add aaronyi97/wedding-video-guided-wizard --skill wedding-video-guided-wizard -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/wedding-video-guided-wizard",
+   "md": "https://varg.ai/how-to/skills/wedding-video-guided-wizard.md"
+  },
+  {
+   "slug": "ab-test-ai-ugc-video-ads-with-seedance-2-on-enhancor",
+   "name": "A/B Test AI UGC Video Ads With Seedance 2 on Enhancor",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "seedance",
+    "enhancor",
+    "ab-testing",
+    "ai-avatar",
+    "podcast",
+    "greenscreen",
+    "tiktok",
+    "9:16",
+    "16:9",
+    "claude-code"
+   ],
+   "summary": "Generates 2-8+ AI avatar ad variants per product across podcast, UGC, lifestyle and greenscreen formats with Seedance 2 via the Enhancor API.",
+   "publisher": "sirioberati",
+   "source": "https://github.com/sirioberati/Seedance-2.0-AI-UGC",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/ab-test-ai-ugc-video-ads-with-seedance-2-on-enhancor",
+   "md": "https://varg.ai/how-to/skills/ab-test-ai-ugc-video-ads-with-seedance-2-on-enhancor.md"
+  },
+  {
+   "slug": "ai-cartoon-series-episode",
+   "name": "Turn One Sentence into an AI Cartoon Series Episode",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "cartoon",
+    "anime",
+    "animated-series",
+    "seedance",
+    "storyboard",
+    "character-sheet",
+    "dreamina",
+    "claude-code"
+   ],
+   "summary": "30-second wordless cartoon episodes with recurring original characters: character sheets, a 9-panel storyboard and one Seedance 2.5 render.",
+   "publisher": "10291124jcjc-dotcom",
+   "source": "https://github.com/10291124jcjc-dotcom/ai-anime-series",
+   "install": {
+    "claude-code": "git clone https://github.com/10291124jcjc-dotcom/ai-anime-series.git ~/.claude/skills/ai-anime-series"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/ai-cartoon-series-episode",
+   "md": "https://varg.ai/how-to/skills/ai-cartoon-series-episode.md",
+   "example": "https://github.com/10291124jcjc-dotcom/ai-anime-series/raw/main/assets/demo.mp4"
+  },
+  {
+   "slug": "ai-film-studio-storyboard-to-hyperframes",
+   "name": "Make AI Short Films From Storyboard Stills to a HyperFrames Edit",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "cinematic",
+   "tags": [
+    "short-film",
+    "storyboard",
+    "seedance",
+    "ltx",
+    "flux-video",
+    "gpt-image",
+    "elevenlabs",
+    "hyperframes",
+    "claude-code",
+    "mit"
+   ],
+   "summary": "Claude Code skill with scripts for reference analysis, GPT Image stills, Omni/Seedance/LTX/FLUX video, ElevenLabs audio and assembly.",
+   "publisher": "realaman90",
+   "source": "https://github.com/realaman90/ai-film-skills",
+   "install": {
+    "claude-code": "npx skills add realaman90/skills -g -y",
+    "codex": "npx skills add realaman90/skills -g -y"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/ai-film-studio-storyboard-to-hyperframes",
+   "md": "https://varg.ai/how-to/skills/ai-film-studio-storyboard-to-hyperframes.md"
+  },
+  {
+   "slug": "ai-ugc-video-ad-prompts-for-tiktok-reels-and-shorts",
+   "name": "AI UGC Video Ad Prompts for TikTok, Reels and Shorts: 18 Templates",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "prompting",
+   "tags": [
+    "ugc",
+    "prompts",
+    "hooks",
+    "tiktok",
+    "reels",
+    "shorts",
+    "ftc",
+    "9:16"
+   ],
+   "summary": "18 model-agnostic creator-style ad prompts (app, beauty, SaaS, try-on…) plus hook and CTA lists and FTC-safe disclosure rules.",
+   "publisher": "cliprise",
+   "source": "https://github.com/cliprise/awesome-ai-ugc-video-prompts",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/ai-ugc-video-ad-prompts-for-tiktok-reels-and-shorts",
+   "md": "https://varg.ai/how-to/skills/ai-ugc-video-ad-prompts-for-tiktok-reels-and-shorts.md"
+  },
+  {
+   "slug": "blender-greybox-ai-video-cuts",
+   "name": "Control AI Video Cuts and Camera With a Blender Greybox",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "camera",
+   "tags": [
+    "blender",
+    "greybox",
+    "previz",
+    "seedance",
+    "reference-video",
+    "cut-timing",
+    "camera-control",
+    "continuity"
+   ],
+   "summary": "A Blender greybox clip drives Seedance 2.5's video reference: 7 shots, 6 hard cuts landing within 0.07 s of plan.",
+   "publisher": "7ohnson",
+   "source": "https://github.com/7ohnson/VLM-Generation-Harness",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/blender-greybox-ai-video-cuts",
+   "md": "https://varg.ai/how-to/skills/blender-greybox-ai-video-cuts.md",
+   "example": "https://github.com/7ohnson/VLM-Generation-Harness/raw/main/assets/readme/greybox-to-generated.gif"
+  },
+  {
+   "slug": "cinematic-director-shot-list",
+   "name": "Turn a Script Into a Shot List and AI Video Prompts",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "cinematic",
+   "tags": [
+    "director",
+    "shot-list",
+    "blocking",
+    "keyframes",
+    "continuity",
+    "director-styles",
+    "runway",
+    "veo",
+    "kling",
+    "seedance",
+    "claude-code"
+   ],
+   "summary": "Script, prose or a keyframe to beats, blocking, shot list with coverage, keyframe and motion prompts for Runway, Veo, Kling, Seedance.",
+   "publisher": "wuwangzhang1216",
+   "source": "https://github.com/wuwangzhang1216/DirectorSKILL",
+   "install": {
+    "claude-code": "git clone https://github.com/wuwangzhang1216/DirectorSKILL.git ~/.claude/skills/cinematic-director"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/cinematic-director-shot-list",
+   "md": "https://varg.ai/how-to/skills/cinematic-director-shot-list.md"
+  },
+  {
+   "slug": "cinematic-launch-trailer-remotion",
+   "name": "Cinematic Product Launch Trailers With Remotion",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "remotion",
+    "react",
+    "product-launch",
+    "trailer",
+    "storyboard",
+    "voiceover",
+    "gemini-tts",
+    "physical-product",
+    "16:9"
+   ],
+   "summary": "Turn a brief, screenshots or product photos into a storyboarded, art-directed launch trailer in Remotion, with optional Gemini TTS voiceover.",
+   "publisher": "memex-lab",
+   "source": "https://github.com/memex-lab/product-launch-video-skill/tree/main/skills/product-launch-video",
+   "install": {
+    "claude-code": "npx skills add memex-lab/product-launch-video-skill --skill product-launch-video"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/cinematic-launch-trailer-remotion",
+   "md": "https://varg.ai/how-to/skills/cinematic-launch-trailer-remotion.md",
+   "example": "https://img.youtube.com/vi/oX-KnoRbAM0/maxresdefault.jpg"
+  },
+  {
+   "slug": "cinematic-video-prompt-engineer",
+   "name": "Turn a Plot Into Cinematic AI Video Prompts",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "prompting",
+   "tags": [
+    "seedance",
+    "kling",
+    "minimax-h3",
+    "wan",
+    "performance",
+    "dialogue",
+    "camera-movement",
+    "reference-images",
+    "codex",
+    "chinese"
+   ],
+   "summary": "Story beats, a novel excerpt or one idea to 6-30 s acted video prompts for Seedance, Kling, MiniMax H3 and Wan, with real example clips.",
+   "publisher": "CyberJ0605",
+   "source": "https://github.com/CyberJ0605/cinematic-video-prompt-engineer-skill/tree/main/cinematic-video-prompt-engineer",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/cinematic-video-prompt-engineer",
+   "md": "https://varg.ai/how-to/skills/cinematic-video-prompt-engineer.md",
+   "example": "https://github.com/CyberJ0605/cinematic-video-prompt-engineer-skill/raw/main/assets/demos/emotional-closeup.mp4"
+  },
+  {
+   "slug": "cinematography-vocabulary-ai-video",
+   "name": "Cinematography Vocabulary for AI Video Prompts",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "prompting",
+   "tags": [
+    "cinematography",
+    "camera-angles",
+    "camera-movement",
+    "lighting",
+    "color-grading",
+    "lens",
+    "composition",
+    "veo",
+    "kling",
+    "runway",
+    "claude-code"
+   ],
+   "summary": "700+ shot, camera move, lighting, lens, composition and color-grade terms plus a prompt formula for Veo, Kling, Sora and Runway.",
+   "publisher": "Rylaispirit",
+   "source": "https://github.com/Rylaispirit/cinematic-video-prompt-skill",
+   "install": {
+    "claude-code": "git clone https://github.com/Rylaispirit/cinematic-video-prompt-skill.git ~/.claude/skills/cinematic-video-prompt"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/cinematography-vocabulary-ai-video",
+   "md": "https://varg.ai/how-to/skills/cinematography-vocabulary-ai-video.md"
+  },
+  {
+   "slug": "claymation-video-ad-from-product-photo",
+   "name": "Turn a Product Photo into a Claymation Video Ad",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "claymation",
+    "stop-motion",
+    "video-ad",
+    "fal",
+    "gpt-image-2",
+    "gemini-omni",
+    "elevenlabs",
+    "claude"
+   ],
+   "summary": "Vertical 10-11 scene claymation ad from a product photo and an angle: GPT Image 2 keyframes, Gemini Omni Flash clips, ElevenLabs voice on fal.ai, ~$6-8.",
+   "publisher": "mikefutia",
+   "source": "https://github.com/mikefutia/claymation-ads-claude-skill/tree/main/claymation-ads",
+   "install": {
+    "claude-code": "Download claymation-ads.zip, then in the Claude desktop app go to Customize → Skills → Add → Upload a skill and upload it."
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/claymation-video-ad-from-product-photo",
+   "md": "https://varg.ai/how-to/skills/claymation-video-ad-from-product-photo.md"
+  },
+  {
+   "slug": "clone-launch-video-hyperframes",
+   "name": "Clone Any Launch Video Shot for Shot in HyperFrames",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "hyperframes",
+    "clone",
+    "reference-video",
+    "product-launch",
+    "motion-analysis",
+    "python",
+    "ffmpeg",
+    "elevenlabs",
+    "16:9"
+   ],
+   "summary": "Rebuild a reference launch video in HyperFrames with measured timing and easing, re-skin it for your brand, or make an original.",
+   "publisher": "per-simmons",
+   "source": "https://github.com/per-simmons/launch-video-clone",
+   "install": {
+    "claude-code": "cp -R launch-video-clone ~/.claude/skills/launch-video-clone"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/clone-launch-video-hyperframes",
+   "md": "https://varg.ai/how-to/skills/clone-launch-video-hyperframes.md"
+  },
+  {
+   "slug": "comfyui-scene-camera-action",
+   "name": "Playable 3D Previz for Seedance Reference Video in ComfyUI",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "camera",
+   "tags": [
+    "comfyui",
+    "previz",
+    "blockout",
+    "camera-cuts",
+    "reference-video",
+    "seedance",
+    "minimax-h3",
+    "three-js"
+   ],
+   "summary": "ComfyUI nodes: build a 3D blockout set, act it with WASD, cut live cameras and export a 720p reference clip for Seedance or MiniMax H3.",
+   "publisher": "arturitu",
+   "source": "https://github.com/arturitu/ComfyUI-scene-camera-action",
+   "install": {
+    "comfyui": "comfy node install comfyui-scene-camera-action"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/comfyui-scene-camera-action",
+   "md": "https://varg.ai/how-to/skills/comfyui-scene-camera-action.md",
+   "example": "https://github.com/user-attachments/assets/dd5c0d21-573a-467f-9d4b-1218e2c90cac"
+  },
+  {
+   "slug": "comic-drama-director-seedance-25",
+   "name": "Turn a Script into Seedance 2.5 Storyboard Prompts for Comic Dramas",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "cinematic",
+   "tags": [
+    "comic-drama",
+    "manju",
+    "seedance",
+    "storyboard",
+    "continuity",
+    "performance",
+    "scene-assets",
+    "codex",
+    "agent-skills",
+    "mit"
+   ],
+   "summary": "Codex director skills: episodes, asset plan, 25–30 s Seedance 2.5 storyboard groups, performance, continuity checks and per-shot sound.",
+   "publisher": "djyy1031",
+   "source": "https://github.com/djyy1031/ai-comic-drama-director-skills/tree/main/skills/make-ai-comic-drama",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/comic-drama-director-seedance-25",
+   "md": "https://varg.ai/how-to/skills/comic-drama-director-seedance-25.md"
+  },
+  {
+   "slug": "cozyclay-previs",
+   "name": "Open-Source Previs Studio for AI Video Camera Control",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "camera",
+   "tags": [
+    "previs",
+    "previz",
+    "greybox",
+    "seedance",
+    "camera-control",
+    "blocking",
+    "mcp",
+    "three-js",
+    "storyboard",
+    "otio"
+   ],
+   "summary": "Block the set, cast and camera in a browser greybox, then hand Seedance a first frame, reference clip and prompt per shot.",
+   "publisher": "NomaDamas",
+   "source": "https://github.com/NomaDamas/CozyClay",
+   "install": {
+    "claude-code": "npx cozyclay",
+    "mcp": "npx -y cozyclay mcp"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/cozyclay-previs",
+   "md": "https://varg.ai/how-to/skills/cozyclay-previs.md",
+   "example": "https://github.com/NomaDamas/CozyClay/raw/main/public/media/cozyclay-seedance-vs-greybox.mp4"
+  },
+  {
+   "slug": "crow-line-seedance-action-film",
+   "name": "Keep One Character Consistent Across Seedance 2.5 Action Shots",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "cinematic",
+   "tags": [
+    "action-film",
+    "seedance",
+    "reference-to-video",
+    "character-sheet",
+    "character-consistency",
+    "shot-prompt",
+    "claude-code",
+    "mit"
+   ],
+   "summary": "Two Claude Code skills from the CROW LINE action film: Seedance 2.5 reference-to-video shot prompts and a three-panel character sheet.",
+   "publisher": "nigo-studio",
+   "source": "https://github.com/nigo-studio/ai-film-skills/tree/main/.claude/skills",
+   "install": {
+    "claude-code": "git clone https://github.com/nigo-studio/ai-film-skills.git\ncd ai-film-skills\nclaude"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/crow-line-seedance-action-film",
+   "md": "https://varg.ai/how-to/skills/crow-line-seedance-action-film.md"
+  },
+  {
+   "slug": "direct-light-lighting-previz",
+   "name": "Open-Source Lighting Previz for Directors and DPs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "lighting",
+   "tags": [
+    "lighting",
+    "previz",
+    "three-js",
+    "react",
+    "studio",
+    "camera",
+    "focal-length",
+    "lighting-plan"
+   ],
+   "summary": "Place actors, up to 6 lights, modifiers and a camera in a 3D white studio, see shadows and the lens view live, export the plan.",
+   "publisher": "oukeming64-tech",
+   "source": "https://github.com/oukeming64-tech/direct-light",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/direct-light-lighting-previz",
+   "md": "https://varg.ai/how-to/skills/direct-light-lighting-previz.md",
+   "example": "https://github.com/oukeming64-tech/direct-light/raw/main/docs/media/hero.gif"
+  },
+  {
+   "slug": "directors-console",
+   "name": "Cinematic Prompt Design and ComfyUI Storyboards",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "cinematic",
+   "tags": [
+    "comfyui",
+    "storyboard",
+    "prompt-builder",
+    "camera",
+    "lens",
+    "lighting",
+    "film-presets",
+    "live-action",
+    "animation"
+   ],
+   "summary": "Camera, lens, lighting and film-preset prompt builder with LLM enhancement, plus per-shot ComfyUI storyboards and a gallery.",
+   "publisher": "NickPittas",
+   "source": "https://github.com/NickPittas/DirectorsConsole",
+   "install": {
+    "local": "git clone https://github.com/NickPittas/DirectorsConsole.git\ncd DirectorsConsole\npython start.py --setup\npython start.py"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/directors-console",
+   "md": "https://varg.ai/how-to/skills/directors-console.md"
+  },
+  {
+   "slug": "dramake-story-to-short-drama",
+   "name": "Turn a Story into a Publishable AI Short Drama With Budget and QC Gates",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "short-drama",
+    "storyboard",
+    "budget",
+    "qc",
+    "seedance",
+    "wan",
+    "minimax",
+    "voice",
+    "agent-skills",
+    "mit"
+   ],
+   "summary": "Dramake: story check, script, character masters, storyboard, model and cost routing, voices, rough-cut review and fixes for failed shots.",
+   "publisher": "xixihhhh",
+   "source": "https://github.com/xixihhhh/ai-short-drama-skill/tree/main/skills/dramake",
+   "install": {
+    "claude-code": "npx skills add xixihhhh/ai-short-drama-skill --skill dramake",
+    "codex": "npx skills add xixihhhh/ai-short-drama-skill --skill dramake"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/dramake-story-to-short-drama",
+   "md": "https://varg.ai/how-to/skills/dramake-story-to-short-drama.md",
+   "example": "https://github.com/xixihhhh/ai-short-drama-skill/raw/main/assets/dramake-cover.png"
+  },
+  {
+   "slug": "frame-accurate-launch-clip-remotion",
+   "name": "Frame-Accurate Square Launch Clips in Remotion",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "remotion",
+    "react",
+    "1:1",
+    "product-launch",
+    "feature-demo",
+    "frame-accurate",
+    "ffmpeg"
+   ],
+   "summary": "Turn real product screens into a 20 s 1080x1080 launch clip in Remotion, built in gated stages with every event pinned to a frame number.",
+   "publisher": "JuniverseLi",
+   "source": "https://github.com/JuniverseLi/motion-studio-skill/tree/main/motion-design-studio",
+   "install": {
+    "claude-code": "mkdir -p ~/.claude/skills/motion-design-studio && curl -o ~/.claude/skills/motion-design-studio/SKILL.md https://raw.githubusercontent.com/JuniverseLi/motion-studio-skill/main/motion-design-studio/SKILL.md"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/frame-accurate-launch-clip-remotion",
+   "md": "https://varg.ai/how-to/skills/frame-accurate-launch-clip-remotion.md",
+   "example": "https://github.com/JuniverseLi/motion-studio-skill/raw/main/assets/launch.gif"
+  },
+  {
+   "slug": "huobao-drama-one-sentence-short-drama",
+   "name": "Generate a Full AI Short Drama From One Sentence",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "short-drama",
+    "script-to-video",
+    "storyboard",
+    "mastra",
+    "seedance",
+    "minimax",
+    "wan",
+    "desktop-app",
+    "self-hosted",
+    "non-commercial"
+   ],
+   "summary": "Huobao Drama: Mastra agents rewrite a story into a script, extract characters, break storyboards and render Seedance 2.0 episodes.",
+   "publisher": "chatfire-AI",
+   "source": "https://github.com/chatfire-AI/huobao-drama",
+   "install": {
+    "claude-code": "git clone https://github.com/chatfire-AI/huobao-drama.git\ncd huobao-drama\ncd backend && npm install\ncd ../frontend && npm install"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/huobao-drama-one-sentence-short-drama",
+   "md": "https://varg.ai/how-to/skills/huobao-drama-one-sentence-short-drama.md",
+   "example": "https://github.com/chatfire-AI/huobao-drama/raw/master/docs/screenshots/07-storyboard.png"
+  },
+  {
+   "slug": "idea-script-novel-to-film",
+   "name": "Turn an Idea, Script or Novel into a Multi-Shot Film",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "short-film",
+    "agentic",
+    "script-to-video",
+    "novel-to-video",
+    "storyboard",
+    "character-consistency",
+    "seedance",
+    "trailer"
+   ],
+   "summary": "ViMax agents act as director, screenwriter and producer: concept, screenplay or novel to characters, storyboard, consistent shots and an assembled video.",
+   "publisher": "HKUDS",
+   "source": "https://github.com/HKUDS/ViMax",
+   "install": {
+    "claude-code": "git clone https://github.com/HKUDS/ViMax.git\ncd ViMax\nuv sync"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/idea-script-novel-to-film",
+   "md": "https://varg.ai/how-to/skills/idea-script-novel-to-film.md",
+   "example": "https://github.com/user-attachments/assets/c2fb27b0-218c-4976-b3d6-2abf8ea06be7"
+  },
+  {
+   "slug": "idea-to-ai-short-drama-series",
+   "name": "Turn One Idea into an AI Short Drama Series",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "short-drama",
+    "series",
+    "agent-skill",
+    "storyboard",
+    "wan",
+    "kling",
+    "openclaw",
+    "clawhub"
+   ],
+   "summary": "VideoClaw agent skill and Web UI: idea to script, character and scene art, storyboards, Wan or Kling shots and a final cut, with endless sequels.",
+   "publisher": "HITsz-TMG",
+   "source": "https://github.com/HITsz-TMG/VideoClaw/tree/main/video-claw",
+   "install": {
+    "claude-code": "git clone https://github.com/HITsz-TMG/VideoClaw.git\ncd VideoClaw/video-claw/video-claw\nchmod +x install.sh\n./install.sh"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/idea-to-ai-short-drama-series",
+   "md": "https://varg.ai/how-to/skills/idea-to-ai-short-drama-series.md",
+   "example": "https://github.com/user-attachments/assets/63c2f33c-da50-44f0-8c26-a65611479d6a"
+  },
+  {
+   "slug": "launch-clip-remotion-four-critics",
+   "name": "Launch Clips in Remotion Reviewed by Four AI Critics",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "remotion",
+    "react",
+    "product-launch",
+    "saas",
+    "16:9",
+    "social",
+    "multi-agent-review",
+    "before-after"
+   ],
+   "summary": "Turn a launch brief and a screen recording into a 15-30 s social launch clip in Remotion, checked by four parallel critic agents.",
+   "publisher": "EveryInc",
+   "source": "https://github.com/EveryInc/product-launch-video",
+   "install": {
+    "claude-code": "git clone https://github.com/EveryInc/product-launch-video.git && cd product-launch-video && npm install"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/launch-clip-remotion-four-critics",
+   "md": "https://varg.ai/how-to/skills/launch-clip-remotion-four-critics.md"
+  },
+  {
+   "slug": "launch-film-real-ui-verified",
+   "name": "Launch Films From the Product's Real UI With Click Checks",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "remotion",
+    "react",
+    "real-ui",
+    "product-launch",
+    "saas",
+    "cli",
+    "16:9",
+    "60fps",
+    "verification"
+   ],
+   "summary": "Launch film in Remotion that renders the product's real page or components, with a verify step that checks every click, zoom and frame.",
+   "publisher": "jammaru",
+   "source": "https://github.com/jammaru/launch-video-craft/tree/main/skills/launch-video-craft",
+   "install": {
+    "claude-code": "npx skills add jammaru/launch-video-craft"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/launch-film-real-ui-verified",
+   "md": "https://varg.ai/how-to/skills/launch-film-real-ui-verified.md",
+   "example": "https://github.com/jammaru/launch-video-craft/raw/main/assets/samples/emdash-preflight-preview.mp4"
+  },
+  {
+   "slug": "launch-video-motion-techniques-remotion",
+   "name": "Launch Video Motion Techniques With Remotion",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "remotion",
+    "react",
+    "kinetic-typography",
+    "beat-sync",
+    "transitions",
+    "camera-moves",
+    "logo-reveal",
+    "product-launch"
+   ],
+   "summary": "About 33 Remotion motion recipes for product launch videos, kinetic headline components and a script that turns a song into beat frames.",
+   "publisher": "platan821",
+   "source": "https://github.com/platan821/animation-techniques-kit",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/launch-video-motion-techniques-remotion",
+   "md": "https://varg.ai/how-to/skills/launch-video-motion-techniques-remotion.md",
+   "example": "https://github.com/platan821/animation-techniques-kit/raw/main/docs/assets/demo-thumb.jpg"
+  },
+  {
+   "slug": "launch-video-one-html-file",
+   "name": "Launch Video as One HTML File With a Synthesized Score",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "html",
+    "webaudio",
+    "headless-chrome",
+    "ffmpeg",
+    "product-launch",
+    "promo",
+    "16:9",
+    "60fps",
+    "sound-design"
+   ],
+   "summary": "A launch or promo video as one HTML file: pure render(t), WebAudio score from the same timeline, exported to 1080p60 MP4 via headless Chrome.",
+   "publisher": "farming-labs",
+   "source": "https://github.com/farming-labs/product-film-skill/tree/main/plugins/product-film/skills/product-film",
+   "install": {
+    "claude-code": "/plugin marketplace add farming-labs/product-film-skill\n/plugin install product-film@product-film-skill"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/launch-video-one-html-file",
+   "md": "https://varg.ai/how-to/skills/launch-video-one-html-file.md"
+  },
+  {
+   "slug": "launch-video-one-shape-never-cuts",
+   "name": "Launch Videos With One Shape That Never Cuts",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "html",
+    "playwright",
+    "ffmpeg",
+    "springs",
+    "motion-blur",
+    "product-launch",
+    "saas",
+    "16:9",
+    "60fps",
+    "beat-sync"
+   ],
+   "summary": "Paste a website URL; Claude directs a 60 fps launch film in plain HTML where one UI shape morphs through every state, cut to the beat.",
+   "publisher": "AbubakrChan",
+   "source": "https://github.com/AbubakrChan/product-launch-motion",
+   "install": {
+    "claude-code": "npx skills add AbubakrChan/product-launch-motion"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/launch-video-one-shape-never-cuts",
+   "md": "https://varg.ai/how-to/skills/launch-video-one-shape-never-cuts.md",
+   "example": "https://github.com/AbubakrChan/product-launch-motion/releases/download/v2.0.0/launch-film-1080p60.mp4"
+  },
+  {
+   "slug": "launch-video-scene-library-remotion",
+   "name": "Launch Videos From Terminal, Browser and Phone Scenes in Remotion",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "remotion",
+    "react",
+    "terminal",
+    "cli",
+    "product-launch",
+    "demo",
+    "sfx",
+    "16:9",
+    "24fps"
+   ],
+   "summary": "Design a 5-9 beat story arc, then assemble a 30-45 s launch video from ready Remotion scenes: Terminal, BrowserWindow, MobileFrame, CodeEditor.",
+   "publisher": "serenakeyitan",
+   "source": "https://github.com/serenakeyitan/launch-video-skill",
+   "install": {
+    "claude-code": "Install launch-video-skill by following https://github.com/serenakeyitan/launch-video-skill/blob/v0.1.0/ONBOARDING.md"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/launch-video-scene-library-remotion",
+   "md": "https://varg.ai/how-to/skills/launch-video-scene-library-remotion.md"
+  },
+  {
+   "slug": "launch-video-story-shapes-looks",
+   "name": "Launch Videos With Ten Story Shapes and Nine Looks",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "remotion",
+    "react",
+    "voiceover",
+    "elevenlabs",
+    "beat-sync",
+    "product-launch",
+    "explainer",
+    "16:9",
+    "9:16",
+    "1:1"
+   ],
+   "summary": "Plan and build a 30-75 s launch video in Remotion: pick one of 10 story shapes and 9 named looks, record voiceover, cut scenes to the music.",
+   "publisher": "harish-anumula",
+   "source": "https://github.com/harish-anumula/launch-video-skill",
+   "install": {
+    "claude-code": "git clone https://github.com/harish-anumula/launch-video-skill ~/.claude/skills/launch-video"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/launch-video-story-shapes-looks",
+   "md": "https://varg.ai/how-to/skills/launch-video-story-shapes-looks.md"
+  },
+  {
+   "slug": "localminidrama-desktop-short-drama",
+   "name": "Open-Source Desktop AI Short Drama Maker That Keeps Data Local",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "short-drama",
+    "manju",
+    "local-first",
+    "electron",
+    "storyboard",
+    "character-consistency",
+    "kling",
+    "jimeng",
+    "seedance",
+    "mit"
+   ],
+   "summary": "LocalMiniDrama: synopsis to multi-episode script, characters, scenes, storyboard, shot videos and merged episode, all stored locally.",
+   "publisher": "xuanyustudio",
+   "source": "https://github.com/xuanyustudio/LocalMiniDrama",
+   "install": {
+    "claude-code": "git clone https://github.com/xuanyustudio/LocalMiniDrama.git\ncd LocalMiniDrama\ncd backend-node && npm install\ncp configs/config.example.yaml configs/config.yaml\nnpm run migrate && npm start"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/localminidrama-desktop-short-drama",
+   "md": "https://varg.ai/how-to/skills/localminidrama-desktop-short-drama.md",
+   "example": "https://github.com/xuanyustudio/LocalMiniDrama/raw/main/%E9%A1%B9%E7%9B%AE%E6%88%AA%E5%9B%BE/1.mp4"
+  },
+  {
+   "slug": "lumenx-novel-to-motion-comic",
+   "name": "Turn Novel Text into a Voiced AI Motion Comic",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "motion-comic",
+    "manju",
+    "novel-to-video",
+    "storyboard",
+    "character-turnaround",
+    "wan",
+    "seedance",
+    "kling",
+    "cosyvoice",
+    "alibaba",
+    "mit"
+   ],
+   "summary": "Alibaba LumenX Studio: script analysis, art direction, character turnarounds, I2V/R2V shots, CosyVoice dialogue and FFmpeg export.",
+   "publisher": "alibaba",
+   "source": "https://github.com/alibaba/lumenx",
+   "install": {
+    "claude-code": "git clone https://github.com/alibaba/lumenx.git\ncd lumenx\ncp .env.example .env\nnpm run dev"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/lumenx-novel-to-motion-comic",
+   "md": "https://varg.ai/how-to/skills/lumenx-novel-to-motion-comic.md",
+   "example": "https://github.com/alibaba/lumenx/raw/main/docs/images/studio-storyboard.jpg"
+  },
+  {
+   "slug": "novel-to-ai-drama-episodes",
+   "name": "Turn a Novel into Character-Consistent AI Drama Episodes",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "novel-to-video",
+    "animated-comic",
+    "short-drama",
+    "storyboard",
+    "mcp",
+    "agent-skill",
+    "self-hosted",
+    "cost-tracking"
+   ],
+   "summary": "ArcReel: novels or screenplays become character, scene and prop assets, storyboards, video shots and finished episodes; agent skill plus remote MCP.",
+   "publisher": "ArcReel",
+   "source": "https://github.com/ArcReel/ArcReel",
+   "install": {
+    "claude-code": "git clone https://github.com/ArcReel/ArcReel.git\ncd ArcReel/deploy\ncp .env.example .env\ndocker compose up -d"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/novel-to-ai-drama-episodes",
+   "md": "https://varg.ai/how-to/skills/novel-to-ai-drama-episodes.md",
+   "example": "https://github.com/user-attachments/assets/fcc4ceb2-64dd-44a0-a32c-e0c00b2f9796"
+  },
+  {
+   "slug": "open-film-skills-screenplay-to-cut",
+   "name": "Direct an AI Film From Screenplay to Previs and Final Cut",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "cinematic",
+   "tags": [
+    "screenplay",
+    "storyboard",
+    "previs",
+    "character-sheet",
+    "cinematography",
+    "genre-looks",
+    "seedance",
+    "codex",
+    "agent-skills",
+    "apache-2.0"
+   ],
+   "summary": "Open Film Skills: 21 agent modules for screenplay, cast, sets, props, genre looks, storyboard prompts, 3D previs and production.",
+   "publisher": "62656456",
+   "source": "https://github.com/62656456/ai-film-skills",
+   "install": {
+    "codex": "git clone https://github.com/62656456/ai-film-skills.git\ncd ai-film-skills\npython scripts/install_skill.py --list\npython scripts/install_skill.py director-agent --platform codex"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/open-film-skills-screenplay-to-cut",
+   "md": "https://varg.ai/how-to/skills/open-film-skills-screenplay-to-cut.md",
+   "example": "https://github.com/62656456/ai-film-skills/raw/main/docs/research/whitebox/chase-comparison/generated-full.mp4"
+  },
+  {
+   "slug": "open-source-ai-comic-drama-studio",
+   "name": "Open-source AI Animated Comic and Short Drama Studio",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "animated-comic",
+    "manju",
+    "short-drama",
+    "storyboard",
+    "seedance",
+    "mcp",
+    "self-hosted",
+    "comfyui"
+   ],
+   "summary": "Toonflow: self-hosted canvas for AI animated comics and short dramas, from script and storyboard to character assets and Seedance shots, with an MCP and skill.",
+   "publisher": "HBAI-Ltd",
+   "source": "https://github.com/HBAI-Ltd/Toonflow-app",
+   "install": {
+    "claude-code": "git clone https://github.com/HBAI-Ltd/Toonflow-app.git\ncd Toonflow-app\ndocker compose up -d --build"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/open-source-ai-comic-drama-studio",
+   "md": "https://varg.ai/how-to/skills/open-source-ai-comic-drama-studio.md",
+   "example": "https://github.com/user-attachments/assets/2d9fddac-dfdf-4640-b030-b09d7f7287e9"
+  },
+  {
+   "slug": "open-source-ai-video-studio-for-ugc-ads-and-micro-dramas",
+   "name": "Open-Source AI Video Studio for UGC Ads, Micro-Dramas and Launch Films",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "seedance",
+    "gpt-image",
+    "elevenlabs",
+    "apimart",
+    "kie",
+    "claude-code",
+    "codex",
+    "9:16",
+    "micro-drama"
+   ],
+   "summary": "Claude Code or Codex writes, storyboards, films and edits 15-30s 9:16 UGC product ads on Seedance with ElevenLabs voices for about $1-3.",
+   "publisher": "LordVayron",
+   "source": "https://github.com/LordVayron/video-factory",
+   "install": {
+    "claude-code": "git clone https://github.com/LordVayron/video-factory.git\ncd video-factory && npm run setup"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/open-source-ai-video-studio-for-ugc-ads-and-micro-dramas",
+   "md": "https://varg.ai/how-to/skills/open-source-ai-video-studio-for-ugc-ads-and-micro-dramas.md"
+  },
+  {
+   "slug": "product-walkthrough-video-to-youtube",
+   "name": "Turn a Product Page Into a Narrated YouTube Walkthrough",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "remotion",
+    "playwright",
+    "openai-tts",
+    "voiceover",
+    "youtube",
+    "walkthrough",
+    "product-launch",
+    "16:9"
+   ],
+   "summary": "Product or feature page to a 45-60 s narrated walkthrough: Playwright screenshots, Remotion, OpenAI TTS voiceover, YouTube upload and page embed.",
+   "publisher": "vood",
+   "source": "https://github.com/vood/claude-launch-video-skill/tree/main/launch-video",
+   "install": {
+    "claude-code": "cp -r launch-video /path/to/your/project/.claude/skills/"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/product-walkthrough-video-to-youtube",
+   "md": "https://varg.ai/how-to/skills/product-walkthrough-video-to-youtube.md"
+  },
+  {
+   "slug": "saas-launch-film-bar-grid",
+   "name": "SaaS Launch Films Cut to a Music Bar Grid",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "remotion",
+    "react",
+    "saas",
+    "product-launch",
+    "beat-sync",
+    "demucs",
+    "music",
+    "16:9",
+    "60fps"
+   ],
+   "summary": "SaaS launch film in the style of Cursor, Notion and Higgsfield: real product rebuilt as Remotion components, every scene on a music bar.",
+   "publisher": "nawneet77",
+   "source": "https://github.com/nawneet77/launch-film",
+   "install": {
+    "claude-code": "git clone https://github.com/nawneet77/launch-film ~/.claude/skills/launch-film"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/saas-launch-film-bar-grid",
+   "md": "https://varg.ai/how-to/skills/saas-launch-film-bar-grid.md",
+   "example": "https://github.com/nawneet77/launch-film/raw/main/docs/launch-film-demo.mp4"
+  },
+  {
+   "slug": "script-to-animated-short-kie",
+   "name": "Turn a Script into an Animated Short Film With Claude Code",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "short-film",
+    "animation",
+    "kie-ai",
+    "kling",
+    "lip-sync",
+    "suno",
+    "character-sheet",
+    "ffmpeg",
+    "claude-code"
+   ],
+   "summary": "Claude directs, kie.ai models make cast sheets, voices, keyframes, Kling shots, lip-sync and a Suno score; ffmpeg cuts the film.",
+   "publisher": "Antoine2121",
+   "source": "https://github.com/Antoine2121/ai-short-film",
+   "install": {
+    "claude-code": "git clone https://github.com/Antoine2121/ai-short-film ~/.claude/skills/ai-short-film"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/script-to-animated-short-kie",
+   "md": "https://varg.ai/how-to/skills/script-to-animated-short-kie.md"
+  },
+  {
+   "slug": "seedance-2-creative-director",
+   "name": "Seedance 2.0 Creative Director With Shot-Language Vocabulary",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "prompting",
+   "tags": [
+    "seedance",
+    "seedance-2",
+    "shot-language",
+    "director-styles",
+    "motion-replication",
+    "beat-sync",
+    "volcengine",
+    "python"
+   ],
+   "summary": "Agent creative director for Seedance 2.0: 100+ shot terms in 12 categories, 10 director styles and a Python CLI for the Ark API.",
+   "publisher": "zhanghaonan777",
+   "source": "https://github.com/zhanghaonan777/Seedance2-skill",
+   "install": {
+    "claude-code": "git clone https://github.com/zhanghaonan777/Seedance2-skill.git"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/seedance-2-creative-director",
+   "md": "https://varg.ai/how-to/skills/seedance-2-creative-director.md"
+  },
+  {
+   "slug": "seedance-2-directing-os",
+   "name": "Direct Seedance 2.0 Shots Like a Film Director",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "cinematic",
+   "tags": [
+    "seedance",
+    "seedance-2",
+    "shot-list",
+    "camera-movement",
+    "lighting",
+    "continuity",
+    "directing",
+    "claude-code",
+    "codex",
+    "openclaw"
+   ],
+   "summary": "Idea to a directed Seedance 2.0 prompt: shot tables, camera, lighting and style sub-skills, reference binding, clip continuation.",
+   "publisher": "Emily2040",
+   "source": "https://github.com/Emily2040/seedance-2.0",
+   "install": {
+    "claude-code": "git clone https://github.com/Emily2040/seedance-2.0.git\ncd seedance-2.0\npython scripts/install_codex_skill.py --client claude-code --scope user",
+    "codex": "git clone https://github.com/Emily2040/seedance-2.0.git\ncd seedance-2.0\npython scripts/install_codex_skill.py --client codex --scope user"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/seedance-2-directing-os",
+   "md": "https://varg.ai/how-to/skills/seedance-2-directing-os.md"
+  },
+  {
+   "slug": "seedance-seamless-loop-animation",
+   "name": "Turn an Image into a Seamless Loop Animation with Seedance",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "image-to-video",
+    "loop",
+    "seedance",
+    "kie-ai",
+    "animate-still",
+    "web-hero",
+    "claude-code"
+   ],
+   "summary": "Animates a reference image into a seamless 5-second loop MP4 with Seedance 2.0 via kie.ai, plus a ready HTML embed snippet.",
+   "publisher": "kevinrivm",
+   "source": "https://github.com/kevinrivm/seedance-animation/tree/main/skill",
+   "install": {
+    "claude-code": "npx seedance-animation"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/seedance-seamless-loop-animation",
+   "md": "https://varg.ai/how-to/skills/seedance-seamless-loop-animation.md"
+  },
+  {
+   "slug": "short-drama-director-asset-locks",
+   "name": "Lock Cast and Sets Before Storyboarding Short Dramas for Seedance and H3",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "short-drama",
+    "manju",
+    "seedance",
+    "minimax",
+    "storyboard",
+    "asset-lock",
+    "fight-scenes",
+    "qc",
+    "openclaw",
+    "mit"
+   ],
+   "summary": "One director plus 12 sub-agents: genre routing, gated script, asset locks, fight and drama storyboards, Seedance/H3 prompts and QC.",
+   "publisher": "lixiaoxiao9888-create",
+   "source": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill/tree/main/short-drama-director",
+   "install": {
+    "openclaw": "openclaw skills install ./short-drama-director --as short-drama-director"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/short-drama-director-asset-locks",
+   "md": "https://varg.ai/how-to/skills/short-drama-director-asset-locks.md"
+  },
+  {
+   "slug": "source-available-ai-drama-production-line",
+   "name": "Source-available AI Drama Production Line (DramaClaw)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "short-drama",
+    "series",
+    "agent",
+    "storyboard",
+    "seedance",
+    "previs",
+    "mcp",
+    "interactive-story"
+   ],
+   "summary": "DramaClaw: manuscript or brief to episodes, consistent cast, storyboards, first frames, Seedance shots, voice-over and final cut, run by an agent.",
+   "publisher": "dramaclaw",
+   "source": "https://github.com/dramaclaw/dramaclaw",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/source-available-ai-drama-production-line",
+   "md": "https://varg.ai/how-to/skills/source-available-ai-drama-production-line.md",
+   "example": "https://nfg-web-assets.cdnfg.com/dramaclaw/guilingsi/guilingsi-ep01.mp4"
+  },
+  {
+   "slug": "spectral-film-lut",
+   "name": "Turn Film Stock Datasheets Into Film-Look LUTs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "style",
+   "category": "color",
+   "tags": [
+    "lut",
+    "film-emulation",
+    "color-grading",
+    "film-stock",
+    "kodak",
+    "fuji",
+    "grain",
+    "halation",
+    "davinci-resolve",
+    "python"
+   ],
+   "summary": "Simulates negative, print and slide film stocks from digitized datasheets and exports LUTs, grain and halation stages for grading.",
+   "publisher": "JanLohse",
+   "source": "https://github.com/JanLohse/spectral_film_lut",
+   "install": {
+    "local": "pip install spectral_film_lut"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/spectral-film-lut",
+   "md": "https://varg.ai/how-to/skills/spectral-film-lut.md"
+  },
+  {
+   "slug": "tapcanvas-novel-chapter-to-episode",
+   "name": "Turn Novel Chapters into Subtitled AI Episodes on an Agent Canvas",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "novel-to-video",
+    "infinite-canvas",
+    "agents",
+    "storyboard",
+    "character-consistency",
+    "subtitles",
+    "hyperframes",
+    "mcp",
+    "self-hosted",
+    "mit"
+   ],
+   "summary": "TapCanvas: agents read your canvas and turn a chapter into reusable cast and sets, a shot plan, chained clips and a subtitled cut.",
+   "publisher": "anymouschina",
+   "source": "https://github.com/anymouschina/TapCanvas",
+   "install": {
+    "claude-code": "git clone https://github.com/anymouschina/TapCanvas.git\ncd TapCanvas\n./scripts/dev.sh docker"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/tapcanvas-novel-chapter-to-episode",
+   "md": "https://varg.ai/how-to/skills/tapcanvas-novel-chapter-to-episode.md",
+   "example": "https://github.com/anymouschina/TapCanvas/raw/main/assets/showcases/full-story-subtitled/video.mp4"
+  },
+  {
+   "slug": "turn-a-brand-url-into-phone-shot-ai-ugc-videos-kling-sora",
+   "name": "Turn a Brand URL Into Phone-Shot AI UGC Videos With Kling 3 and Sora 2",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "kling",
+    "sora",
+    "nano-banana",
+    "fal",
+    "elevenlabs",
+    "talking-head",
+    "b-roll",
+    "captions",
+    "9:16",
+    "claude-code"
+   ],
+   "summary": "Brand URL to anti-polish UGC video: persona research, Nano Banana first frame, Sora 2/Kling 3 A-roll, Kling 3 B-roll, captions, virality score.",
+   "publisher": "TheMattBerman",
+   "source": "https://github.com/TheMattBerman/scrollclaw",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/turn-a-brand-url-into-phone-shot-ai-ugc-videos-kling-sora",
+   "md": "https://varg.ai/how-to/skills/turn-a-brand-url-into-phone-shot-ai-ugc-videos-kling-sora.md"
+  },
+  {
+   "slug": "turn-a-product-brief-into-scored-arcads-ugc-video-ads",
+   "name": "Turn a Product Brief Into 20 Scored Scripts and 3 Arcads UGC Video Ads",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "arcads",
+    "ai-actor",
+    "script",
+    "hooks",
+    "batch",
+    "claude-code",
+    "python"
+   ],
+   "summary": "Claude Code writes 20 UGC ad scripts from a one-page brief, scores them, picks the top 3, renders them with Arcads actors and downloads the MP4s.",
+   "publisher": "adamstewartmarketing",
+   "source": "https://github.com/adamstewartmarketing/ugc-ad-agent",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/turn-a-product-brief-into-scored-arcads-ugc-video-ads",
+   "md": "https://varg.ai/how-to/skills/turn-a-product-brief-into-scored-arcads-ugc-video-ads.md"
+  },
+  {
+   "slug": "turn-a-product-into-a-lip-synced-ugc-avatar-ad",
+   "name": "Turn a Product Into a Lip-Synced UGC Avatar Ad With Grok and ElevenLabs",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "grok",
+    "elevenlabs",
+    "wavespeed",
+    "lip-sync",
+    "gemini",
+    "talking-head",
+    "ai-avatar",
+    "claude-code"
+   ],
+   "summary": "Five Claude Code skills: research and script the angle, Grok image-to-video, ElevenLabs voice, WaveSpeed lip-sync, real product on a device screen.",
+   "publisher": "kofiowusuai-lab",
+   "source": "https://github.com/kofiowusuai-lab/ugc-skills",
+   "install": {
+    "claude-code": "git clone https://github.com/kofiowusuai-lab/ugc-skills.git\ncd ugc-skills\nbash install.sh"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/turn-a-product-into-a-lip-synced-ugc-avatar-ad",
+   "md": "https://varg.ai/how-to/skills/turn-a-product-into-a-lip-synced-ugc-avatar-ad.md"
+  },
+  {
+   "slug": "turn-a-product-photo-into-a-localized-ugc-host-ad",
+   "name": "Turn a Product Photo Into a Market-Localized UGC Host Ad With Seedance 2.5",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "seedance",
+    "youart",
+    "gpt-image",
+    "tiktok-shop",
+    "ecommerce",
+    "talking-head",
+    "localization",
+    "9:16"
+   ],
+   "summary": "Product photo, market and selling points to a 20-30s 9:16 talking-host ecommerce ad: product sheet, host, localized script, YouArt Seedance 2.5.",
+   "publisher": "xwen111",
+   "source": "https://github.com/xwen111/youart-ugc-female-host",
+   "install": {
+    "claude-code": "npx skills add xwen111/youart-ugc-female-host"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/turn-a-product-photo-into-a-localized-ugc-host-ad",
+   "md": "https://varg.ai/how-to/skills/turn-a-product-photo-into-a-localized-ugc-host-ad.md"
+  },
+  {
+   "slug": "turn-a-silent-tiktok-ugc-hook-into-your-ai-actors-app-ad",
+   "name": "Turn a Silent TikTok UGC Hook Into Your Own AI Actor's App Ad",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "tiktok",
+    "silent-ugc",
+    "arcads",
+    "seedance",
+    "nano-banana",
+    "gpt-image",
+    "face-swap",
+    "app-ads",
+    "9:16",
+    "claude-code"
+   ],
+   "summary": "Clones a viral silent TikTok app-ad hook with your AI actor and app demo, via Arcads MCP (Nano Banana 2, GPT Image 2, Seedance 2.5).",
+   "publisher": "jasonlee-breadcrumb",
+   "source": "https://github.com/jasonlee-breadcrumb/silent-ugc/tree/main/skills/silent-ugc",
+   "install": {
+    "claude-code": "git clone https://github.com/jasonlee-breadcrumb/silent-ugc.git\ncp -r silent-ugc/skills/silent-ugc ~/.claude/skills/"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/turn-a-silent-tiktok-ugc-hook-into-your-ai-actors-app-ad",
+   "md": "https://varg.ai/how-to/skills/turn-a-silent-tiktok-ugc-hook-into-your-ai-actors-app-ad.md"
+  },
+  {
+   "slug": "turn-a-winning-ugc-ad-into-your-own-products-version",
+   "name": "Turn a Winning UGC Ad Into Your Own Product's Version on Any Video Provider",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "arcads",
+    "dreamina",
+    "runway",
+    "ad-cloning",
+    "unboxing",
+    "app-promo",
+    "claude-code",
+    "python"
+   ],
+   "summary": "Copies the beat structure of a winning TikTok or Meta UGC ad and re-renders it with your assets on Arcads, with Dreamina and Runway adapters.",
+   "publisher": "osama0561",
+   "source": "https://github.com/osama0561/claude-mockingbird",
+   "install": {
+    "claude-code": "git clone https://github.com/osama0561/claude-mockingbird"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/turn-a-winning-ugc-ad-into-your-own-products-version",
+   "md": "https://varg.ai/how-to/skills/turn-a-winning-ugc-ad-into-your-own-products-version.md"
+  },
+  {
+   "slug": "turn-an-ad-brief-into-chunked-ai-ugc-clips-on-fal",
+   "name": "Turn an Ad Brief Into Chunked AI UGC Clips With Kling O3 and Seedance on fal",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "fal",
+    "kling",
+    "seedance",
+    "codex",
+    "hooks",
+    "script",
+    "9:16",
+    "tiktok",
+    "reels"
+   ],
+   "summary": "Codex skills that write the UGC script, split it into scenes and generate each clip on fal with Kling O3 Standard or Seedance 2.0.",
+   "publisher": "jayleaton",
+   "source": "https://github.com/jayleaton/ai-ugc-video-skills",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/turn-an-ad-brief-into-chunked-ai-ugc-clips-on-fal",
+   "md": "https://varg.ai/how-to/skills/turn-an-ad-brief-into-chunked-ai-ugc-clips-on-fal.md",
+   "example": "https://github.com/jayleaton/ai-ugc-video-skills/raw/main/content-creators/creator-example/assets/maya-vale-reference-contact-sheet.png"
+  },
+  {
+   "slug": "turn-one-product-photo-into-a-ugc-review-or-try-on-video",
+   "name": "Turn One Product Photo Into a Multi-Clip UGC Review, Unboxing or Try-On Video",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "ads",
+   "tags": [
+    "ugc",
+    "seedance",
+    "gpt-image",
+    "wavespeed",
+    "fal",
+    "elevenlabs",
+    "mcp",
+    "try-on",
+    "unboxing",
+    "9:16",
+    "claude-code",
+    "codex"
+   ],
+   "summary": "Casts a creator, writes the script and storyboards consistent clips from one product photo; Seedance 2.0 Fast clips, GPT Image 2 storyboards, 9:16.",
+   "publisher": "SupercmoHQ",
+   "source": "https://github.com/SupercmoHQ/superCMO-skills/tree/main/skills/generating-ugc-videos",
+   "install": {
+    "claude-code": "npx --yes @supercmo/skills@0.1.27 --all"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/turn-one-product-photo-into-a-ugc-review-or-try-on-video",
+   "md": "https://varg.ai/how-to/skills/turn-one-product-photo-into-a-ugc-review-or-try-on-video.md",
+   "example": "https://github.com/user-attachments/assets/d9daa15f-c534-497e-8e35-6e497b7eaa05"
+  },
+  {
+   "slug": "website-to-narrated-launch-video",
+   "name": "Turn a Product Website Into a Narrated Launch Video",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "launch",
+   "tags": [
+    "html",
+    "css",
+    "playwright",
+    "ffmpeg",
+    "kokoro-tts",
+    "voiceover",
+    "saas",
+    "product-launch",
+    "16:9",
+    "9:16"
+   ],
+   "summary": "Product URL to a 25-35 s motion-graphics launch video: HTML/CSS scene, Playwright frame capture, local Kokoro TTS narration, no API keys.",
+   "publisher": "anudeepadi",
+   "source": "https://github.com/anudeepadi/launch-video-skills",
+   "install": {
+    "claude-code": "npx launch-video-skills install\nnpx launch-video-skills setup"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/website-to-narrated-launch-video",
+   "md": "https://varg.ai/how-to/skills/website-to-narrated-launch-video.md"
+  },
+  {
+   "slug": "wind-comic-one-line-to-short-drama",
+   "name": "Turn One Line into a Voiced, Lip-Synced AI Short Drama",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "story",
+   "tags": [
+    "short-drama",
+    "multi-agent",
+    "storyboard",
+    "character-consistency",
+    "lip-sync",
+    "novel-to-video",
+    "seedance",
+    "kling",
+    "veo",
+    "self-hosted",
+    "mit"
+   ],
+   "summary": "Wind Comic: writer, director, storyboard, video, voice and editor agents turn one sentence into a finished short drama mp4.",
+   "publisher": "ChrisChen667788",
+   "source": "https://github.com/ChrisChen667788/wind-comic",
+   "install": {
+    "claude-code": "git clone https://github.com/ChrisChen667788/wind-comic.git\ncd wind-comic\nnpm install\ncp .env.example .env.local\nnpm run dev"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/wind-comic-one-line-to-short-drama",
+   "md": "https://varg.ai/how-to/skills/wind-comic-one-line-to-short-drama.md",
+   "example": "https://github.com/ChrisChen667788/wind-comic/raw/main/assets/v6/wind-comic-v6-tour.gif"
+  },
+  {
+   "slug": "xianxia-cinematic-video-director",
+   "name": "Direct Eastern Xianxia Fantasy Video Shot by Shot",
+   "type": "skill",
+   "status": "live",
+   "shelf": "prompt",
+   "category": "camera",
+   "tags": [
+    "xianxia",
+    "fantasy",
+    "camera-movement",
+    "shot-list",
+    "continuity",
+    "keyframes",
+    "dolly-zoom",
+    "codex",
+    "chinese"
+   ],
+   "summary": "Xianxia scene idea, keyframe or reference video to story spine, continuity locks, shot list and per-shot camera-move prompts.",
+   "publisher": "liyue-aigc",
+   "source": "https://github.com/liyue-aigc/xianxia-cinematic-video-director/tree/main/xianxia-cinematic-video-director",
+   "install": {
+    "codex": "git clone https://github.com/liyue-aigc/xianxia-cinematic-video-director.git\nmkdir -p ~/.codex/skills\ncp -R ./xianxia-cinematic-video-director/xianxia-cinematic-video-director ~/.codex/skills/"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/xianxia-cinematic-video-director",
+   "md": "https://varg.ai/how-to/skills/xianxia-cinematic-video-director.md"
   },
   {
    "slug": "want-notes-app-ad",

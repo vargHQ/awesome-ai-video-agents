@@ -8,12 +8,14 @@ Raw product footage (a creator clip, an unboxing, last month's winning ad) recut
 
 1. **[Turn raw product footage into a TikTok ad with FFmpeg](../skills/guide/ecommerce-video-edit.md)** (`ecommerce-video-edit`, varg, live) — Footage into a 9:16 ad: hook at second 0, no dead air, text hook, CTA, -14 LUFS, one MP4 per hook.
    - Claude Code: `claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg`
+   - Example: <https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_cc1fb0a271cb.webp>
 2. **[Video editing skills for Claude Code and AI agents](../skills/guide/varg-video-edit-library.md)** (`varg-video-edit-library`, varg, live) — 206 named edits with recipes for FFmpeg, HyperFrames, Remotion and CapCut: cuts, transitions, titles, UI, numbers.
    - Claude Code: `claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg`
 3. **[Short-form FFmpeg cookbook: copyable commands for Reels](../skills/guide/short-form-ffmpeg-cookbook.md)** (`short-form-ffmpeg-cookbook`, varg, live) — Footage into a 9:16 MP4 with FFmpeg: crop to vertical, burn captions, trim and join, music under the voice.
    - Claude Code: `claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg`
 4. **[Turn a product into scroll-stopping video hooks](../skills/workflow/product-video-hooks.md)** (`product-video-hooks`, varg, live) — The first 3 seconds of a product video: frame, line and text that agree, from a 70-line hook bank.
    - Claude Code: `claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg`
+   - Example: <https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_426d88faf90c.webp>
 5. **[Caption Animation](../skills/effect/iart-caption-animation.md)** (`iart-caption-animation`, iart.ai, live) — Word-timed TikTok captions in Remotion or CSS: per-word pop, active-word highlight, 9:16 safe areas, sidecar SRT/VTT.
    - Claude Code: `npx skills add https://github.com/iart-ai/tiktok-video-skills --skill caption-animation`
 

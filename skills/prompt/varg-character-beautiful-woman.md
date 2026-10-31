@@ -37,6 +37,7 @@ npx skills add vargHQ/skills --skill varg-character-beautiful-woman -a gemini-cl
 ## Step-by-step tutorials that use it
 
 - [How to make an AI influencer video](../../how-to/make-an-ai-influencer-video.md): A recurring AI character with one look and one format, posting as a creator or a brand face.
+- [How to make AI fashion model and try-on videos](../../how-to/make-ai-fashion-model-try-on-videos.md): Your clothes on an AI model: on-model listing photos and a try-on or fit-check video, from a flat-lay, hanger or mannequin photo.
 
 ## Run it on varg
 

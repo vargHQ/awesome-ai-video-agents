@@ -34,6 +34,7 @@ npx skills add vargHQ/skills --skill varg-music-video -a gemini-cli -y
 
 - [How to make an AI music video](../../how-to/make-an-ai-music-video.md): A music video for your song: concept, a consistent lead character, shots cut on the beat, lip-sync on vocals.
 - [How to make a lyric video with AI](../../how-to/make-a-lyric-video.md): Lyrics synced to the song: the sung line big and highlighted, karaoke-style, over art or a shader.
+- [How to make an AI birthday song with their name](../../how-to/make-a-birthday-song-with-a-name.md): An original song that sings their name on the chorus, with two or three true details, as an MP3 or a video over their photos or the lyrics.
 
 ## Run it on varg
 

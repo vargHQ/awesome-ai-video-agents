@@ -34,6 +34,10 @@ npx skills add vargHQ/skills --skill varg-tryon-video -a gemini-cli -y
 
 Watch: <https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_1213e32adbda.mp4>
 
+## Step-by-step tutorials that use it
+
+- [How to make AI fashion model and try-on videos](../../how-to/make-ai-fashion-model-try-on-videos.md): Your clothes on an AI model: on-model listing photos and a try-on or fit-check video, from a flat-lay, hanger or mannequin photo.
+
 ## Run it on varg
 
 Generation (images, video, voice, music, lip-sync, captions, render) runs with one account on [varg.ai](https://varg.ai): the `varg-ai` skill (`npx skills add vargHQ/skills --skill varg-ai`) or the MCP server `https://mcp.varg.ai/mcp`. Quote the cost first with `estimate_cost`. 1 credit = $0.01, free plan, no card.

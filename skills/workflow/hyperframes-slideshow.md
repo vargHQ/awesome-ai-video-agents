@@ -32,6 +32,10 @@ npx skills add heygen-com/hyperframes --skill slideshow -a gemini-cli
 
 Watch: <https://s3.varg.ai/how-to/previews/d762d55a36a8/hyperframes-slideshow.mp4>
 
+## Step-by-step tutorials that use it
+
+- [How to make a memorial or tribute video with AI](../../how-to/make-a-memorial-tribute-video.md): A calm tribute for a funeral, a celebration of life or a retirement: restored photos with gentle motion, words from the family or friends, and music, made with the family's agreement.
+
 ## Run it on varg
 
 Generation (images, video, voice, music, lip-sync, captions, render) runs with one account on [varg.ai](https://varg.ai): the `varg-ai` skill (`npx skills add vargHQ/skills --skill varg-ai`) or the MCP server `https://mcp.varg.ai/mcp`. Quote the cost first with `estimate_cost`. 1 credit = $0.01, free plan, no card.

@@ -36,6 +36,7 @@ Watch: <https://s3.varg.ai/how-to/previews/0f57a7e83417/flux-3-archival-formats.
 
 - [How to animate a photo into a video with AI](../../how-to/animate-a-photo-into-a-video.md): A still photo brought to life: a subtle smile, blink, camera move or full scene motion.
 - [How to make trending AI video formats](../../how-to/make-trending-ai-video-formats.md): What's going viral now — formats you can make for your brand today, with the skill for each.
+- [How to bring old photos to life with AI](../../how-to/bring-old-photos-to-life.md): Restore old family photos, add color if the family wants it, then a gentle motion per photo (a smile, a turn of the head), cut to music for a birthday, an anniversary or a memorial.
 
 ## Run it on varg
 

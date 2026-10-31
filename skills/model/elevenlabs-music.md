@@ -37,6 +37,7 @@ npx skills add elevenlabs/skills --skill music -a gemini-cli
 ## Step-by-step tutorials that use it
 
 - [How to add voiceover and music to a video with AI](../../how-to/add-voiceover-and-music-to-a-video.md): A professional voiceover and a fitting music bed added to your video or screen recording.
+- [How to make an AI birthday song with their name](../../how-to/make-a-birthday-song-with-a-name.md): An original song that sings their name on the chorus, with two or three true details, as an MP3 or a video over their photos or the lyrics.
 
 ## Run it on varg
 

@@ -24,6 +24,10 @@ npx skills add vargHQ/skills --skill tiktok-shop-video -a codex -y
 npx skills add vargHQ/skills --skill tiktok-shop-video -a cursor -y
 ```
 
+## Example
+
+![Turn a product link into a TikTok Shop video example](https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_0641ef5d7cd8.webp)
+
 ## Step-by-step tutorials that use it
 
 - [How to make viral ecommerce videos for TikTok and Reels](../../how-to/make-viral-ecommerce-videos.md): Product videos that sell on TikTok, TikTok Shop, Instagram Reels and Meta ads: the angle, the hook, the format, the person on camera, the rules and the variants.

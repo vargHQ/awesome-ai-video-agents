@@ -35,6 +35,7 @@ npx skills add higgsfield-ai/skills --skill higgsfield-product-photoshoot -a gem
 ## Step-by-step tutorials that use it
 
 - [How to make AI product photos and listing images](../../how-to/make-ai-product-photos.md): Marketplace listing images, lifestyle shots and packshots from one product photo.
+- [How to make AI fashion model and try-on videos](../../how-to/make-ai-fashion-model-try-on-videos.md): Your clothes on an AI model: on-model listing photos and a try-on or fit-check video, from a flat-lay, hanger or mannequin photo.
 
 ## Run it on varg
 

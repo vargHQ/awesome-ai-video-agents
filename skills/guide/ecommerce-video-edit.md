@@ -24,6 +24,10 @@ npx skills add vargHQ/skills --skill ecommerce-video-edit -a codex -y
 npx skills add vargHQ/skills --skill ecommerce-video-edit -a cursor -y
 ```
 
+## Example
+
+![Turn raw product footage into a TikTok ad with FFmpeg example](https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_cc1fb0a271cb.webp)
+
 ## Step-by-step tutorials that use it
 
 - [How to make viral ecommerce videos for TikTok and Reels](../../how-to/make-viral-ecommerce-videos.md): Product videos that sell on TikTok, TikTok Shop, Instagram Reels and Meta ads: the angle, the hook, the format, the person on camera, the rules and the variants.

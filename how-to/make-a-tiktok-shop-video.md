@@ -8,12 +8,16 @@ A shoppable or affiliate TikTok Shop video that sells and stays compliant: produ
 
 1. **[Turn a product link into a TikTok Shop video](../skills/workflow/tiktok-shop-video.md)** (`tiktok-shop-video`, varg, live) — A TikTok Shop video that sells and stays compliant: Shop styles, script, shot list, the 2026 rules.
    - Claude Code: `claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg`
+   - Example: <https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_0641ef5d7cd8.webp>
 2. **[Turn a product into scroll-stopping video hooks](../skills/workflow/product-video-hooks.md)** (`product-video-hooks`, varg, live) — The first 3 seconds of a product video: frame, line and text that agree, from a 70-line hook bank.
    - Claude Code: `claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg`
+   - Example: <https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_426d88faf90c.webp>
 3. **[Turn a product photo into a product video ad](../skills/workflow/product-photo-to-video.md)** (`product-photo-to-video`, varg, live) — Product photos into a video that keeps the real product: storyboard, PRODUCT LOCK, repair, real packshot.
    - Claude Code: `claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg`
+   - Example: <https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_3c48771987e6.webp>
 4. **[Turn raw product footage into a TikTok ad with FFmpeg](../skills/guide/ecommerce-video-edit.md)** (`ecommerce-video-edit`, varg, live) — Footage into a 9:16 ad: hook at second 0, no dead air, text hook, CTA, -14 LUFS, one MP4 per hook.
    - Claude Code: `claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg`
+   - Example: <https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_cc1fb0a271cb.webp>
 
 ## Search it with the person's own words
 

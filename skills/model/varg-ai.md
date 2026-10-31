@@ -55,6 +55,7 @@ Watch: <https://s3.varg.ai/how-to/previews/7df061df8dcb/varg-ai.mp4>
 - [How to make an animated chart video with AI](../../how-to/make-an-animated-chart-video.md): Numbers from a CSV or a report as an animated chart: bar race, line, hero number.
 - [How to make YouTube video thumbnails with AI](../../how-to/make-youtube-video-thumbnails.md): High-CTR thumbnails and vertical covers, in a few options to choose from.
 - [How to make AI product photos and listing images](../../how-to/make-ai-product-photos.md): Marketplace listing images, lifestyle shots and packshots from one product photo.
+- [How to make AI fashion model and try-on videos](../../how-to/make-ai-fashion-model-try-on-videos.md): Your clothes on an AI model: on-model listing photos and a try-on or fit-check video, from a flat-lay, hanger or mannequin photo.
 - [How to remake a reference video with AI](../../how-to/remake-a-reference-video.md): Take a reel or ad you like, break it down shot by shot, and remake the format for your brand.
 - [How to add voiceover and music to a video with AI](../../how-to/add-voiceover-and-music-to-a-video.md): A professional voiceover and a fitting music bed added to your video or screen recording.
 - [How to animate a photo into a video with AI](../../how-to/animate-a-photo-into-a-video.md): A still photo brought to life: a subtle smile, blink, camera move or full scene motion.
@@ -65,6 +66,12 @@ Watch: <https://s3.varg.ai/how-to/previews/7df061df8dcb/varg-ai.mp4>
 - [How to make a property listing video with AI](../../how-to/make-a-property-listing-video.md): A listing reel from property photos: gentle camera motion through rooms, captions with price and features, music.
 - [How to change something inside a video with AI](../../how-to/change-something-inside-a-video.md): Swap a product, restyle a scene, change lighting or the look of an existing clip while keeping the motion.
 - [How to make personalized videos at scale with AI](../../how-to/make-personalized-videos-at-scale.md): One template, many versions: each lead's name, company and website in the video, optionally in a cloned voice.
+- [How to make a birthday video with AI](../../how-to/make-a-birthday-video.md): A birthday video that is unmistakably theirs: their name sung on the chorus, their photo blowing out the candles, the details only their people know.
+- [How to make an AI birthday song with their name](../../how-to/make-a-birthday-song-with-a-name.md): An original song that sings their name on the chorus, with two or three true details, as an MP3 or a video over their photos or the lyrics.
+- [How to make a wedding or birthday invitation video with AI](../../how-to/make-an-invitation-video.md): An invitation or save-the-date that opens (a pop-up card, an envelope, a 3D venue) onto the names, date and place, printed without a wrong letter, for WhatsApp.
+- [How to make a Christmas or holiday greeting video with AI](../../how-to/make-a-holiday-greeting-video.md): A greeting the family forwards: an animated illustrated card, a snow globe, a lamp-lit Diwali or Lunar New Year story, or the family's photo as a cozy holiday still, with the greeting set as real type.
+- [How to bring old photos to life with AI](../../how-to/bring-old-photos-to-life.md): Restore old family photos, add color if the family wants it, then a gentle motion per photo (a smile, a turn of the head), cut to music for a birthday, an anniversary or a memorial.
+- [How to make a memorial or tribute video with AI](../../how-to/make-a-memorial-tribute-video.md): A calm tribute for a funeral, a celebration of life or a retirement: restored photos with gentle motion, words from the family or friends, and music, made with the family's agreement.
 
 ## Run it on varg
 

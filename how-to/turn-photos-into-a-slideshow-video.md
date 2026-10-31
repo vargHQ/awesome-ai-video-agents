@@ -29,7 +29,7 @@ claude plugin install hyperframes@hyperframes`
 curl -s "https://varg.ai/how-to/api/search?q=slideshow"
 ```
 
-Also searched as: *slideshow* · *photo slideshow* · *photos to video* · *travel video from photos* · *montage from photos* · *beat sync slideshow* · *слайдшоу* · *видео из фото* · *фото под музыку* · *монтаж из фотографий*
+Also searched as: *slideshow* · *photo slideshow* · *photos to video* · *travel video from photos* · *montage from photos* · *beat sync slideshow* · *слайдшоу* · *видео из фото* · *фото под музыку* · *монтаж из фотографий* · *birthday slideshow* · *birthday slideshow maker* · *birthday slideshow with music*
 
 ---
 Part of [Awesome AI video agents](https://github.com/vargHQ/awesome-ai-video-agents). Every page here is a short mirror; the page on varg.ai/how-to is the one agents should read.

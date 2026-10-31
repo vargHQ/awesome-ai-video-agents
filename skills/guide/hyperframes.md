@@ -53,6 +53,12 @@ Watch: <https://s3.varg.ai/how-to/previews/400daa5dc577/hyperframes.mp4>
 - [How to make an app demo video with AI](../../how-to/make-an-app-demo-video.md): A polished demo of your app: device mockups, real screens, captions, music — for the App Store, ads or a landing page.
 - [How to make a property listing video with AI](../../how-to/make-a-property-listing-video.md): A listing reel from property photos: gentle camera motion through rooms, captions with price and features, music.
 - [How to make personalized videos at scale with AI](../../how-to/make-personalized-videos-at-scale.md): One template, many versions: each lead's name, company and website in the video, optionally in a cloned voice.
+- [How to make a birthday video with AI](../../how-to/make-a-birthday-video.md): A birthday video that is unmistakably theirs: their name sung on the chorus, their photo blowing out the candles, the details only their people know.
+- [How to make an AI birthday song with their name](../../how-to/make-a-birthday-song-with-a-name.md): An original song that sings their name on the chorus, with two or three true details, as an MP3 or a video over their photos or the lyrics.
+- [How to make a wedding or birthday invitation video with AI](../../how-to/make-an-invitation-video.md): An invitation or save-the-date that opens (a pop-up card, an envelope, a 3D venue) onto the names, date and place, printed without a wrong letter, for WhatsApp.
+- [How to make a Christmas or holiday greeting video with AI](../../how-to/make-a-holiday-greeting-video.md): A greeting the family forwards: an animated illustrated card, a snow globe, a lamp-lit Diwali or Lunar New Year story, or the family's photo as a cozy holiday still, with the greeting set as real type.
+- [How to bring old photos to life with AI](../../how-to/bring-old-photos-to-life.md): Restore old family photos, add color if the family wants it, then a gentle motion per photo (a smile, a turn of the head), cut to music for a birthday, an anniversary or a memorial.
+- [How to make a memorial or tribute video with AI](../../how-to/make-a-memorial-tribute-video.md): A calm tribute for a funeral, a celebration of life or a retirement: restored photos with gentle motion, words from the family or friends, and music, made with the family's agreement.
 
 ## Run it on varg
 

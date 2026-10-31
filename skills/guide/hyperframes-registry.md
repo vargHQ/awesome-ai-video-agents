@@ -37,6 +37,7 @@ Watch: <https://s3.varg.ai/how-to/previews/e45347961f24/hyperframes-registry.mp4
 - [How to make a SaaS launch video with AI](../../how-to/make-a-saas-launch-video.md): A polished launch film for an app or website: UI cards, device mockups, kinetic type, music.
 - [How to make a logo animation with AI](../../how-to/make-a-logo-animation.md): Your logo animated into a short intro or outro: 3D chrome, liquid, shader, glitch or clean motion.
 - [How to make an animated chart video with AI](../../how-to/make-an-animated-chart-video.md): Numbers from a CSV or a report as an animated chart: bar race, line, hero number.
+- [How to make a Christmas or holiday greeting video with AI](../../how-to/make-a-holiday-greeting-video.md): A greeting the family forwards: an animated illustrated card, a snow globe, a lamp-lit Diwali or Lunar New Year story, or the family's photo as a cozy holiday still, with the greeting set as real type.
 
 ## Run it on varg
 
