@@ -1,6 +1,6 @@
 {
  "site": "https://varg.ai/how-to",
- "generatedAt": "2026-11-05T03:24:11.594Z",
+ "generatedAt": "2026-11-06T06:33:53.218Z",
  "search": {
   "markdown": "https://varg.ai/how-to/api/search?q={query}",
   "json": "https://varg.ai/how-to/api/search.json?q={query}"
@@ -3687,6 +3687,228 @@
    ],
    "url": "https://varg.ai/how-to/skills/video-project-github",
    "md": "https://varg.ai/how-to/skills/video-project-github.md"
+  },
+  {
+   "slug": "gpt-image-2-6",
+   "name": "GPT Image 2.6 skills for Claude Code and AI agents",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "image",
+   "tags": [
+    "gpt-image-2-6",
+    "image-generation",
+    "infographic",
+    "poster",
+    "character-sheet",
+    "storyboard",
+    "upscale",
+    "prompting"
+   ],
+   "summary": "Prompt, size and price GPT Image 2.6: Flare vs Sunburst, what the API rejects, recipes for posters and sheets.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/gpt-image-2-6",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill gpt-image-2-6 -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill gpt-image-2-6 -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill gpt-image-2-6 -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/gpt-image-2-6",
+   "md": "https://varg.ai/how-to/skills/gpt-image-2-6.md",
+   "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_1f342c4da9ac.mp4"
+  },
+  {
+   "slug": "gpt-image-gif",
+   "name": "Turn any still into a looping GIF",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "gif",
+    "animated-gif",
+    "looping",
+    "mascot",
+    "gpt-image-2-6",
+    "sprite-sheet",
+    "webp"
+   ],
+   "summary": "A still, mascot or prompt to a looping GIF on GPT Image 2.6: frame sizes that fit, loop wording, WebP export.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/gpt-image-gif",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill gpt-image-gif -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill gpt-image-gif -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill gpt-image-gif -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/gpt-image-gif",
+   "md": "https://varg.ai/how-to/skills/gpt-image-gif.md",
+   "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_88ae397abd82.mp4"
+  },
+  {
+   "slug": "gpt-image-markup-edit",
+   "name": "Turn circles on a picture into exact edits",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "image",
+   "tags": [
+    "image-editing",
+    "markup",
+    "inpainting",
+    "gpt-image-2-6",
+    "circle-to-edit",
+    "mask"
+   ],
+   "summary": "Circle what to change, name each colour, and GPT Image 2.6 edits only the marked spots. Script draws the marks.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/gpt-image-markup-edit",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill gpt-image-markup-edit -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill gpt-image-markup-edit -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill gpt-image-markup-edit -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/gpt-image-markup-edit",
+   "md": "https://varg.ai/how-to/skills/gpt-image-markup-edit.md",
+   "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_9819f61a5ef8.mp4"
+  },
+  {
+   "slug": "gpt-image-sprite-sheet",
+   "name": "Turn a character into a game sprite sheet",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "sprite-sheet",
+    "game-assets",
+    "2d-animation",
+    "phaser",
+    "godot",
+    "texture-atlas",
+    "gpt-image-2-6"
+   ],
+   "summary": "2D game sprite sheets on GPT Image 2.6: a 4x4 spec that slices cleanly into frames, a GIF and a Phaser atlas.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/gpt-image-sprite-sheet",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill gpt-image-sprite-sheet -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill gpt-image-sprite-sheet -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill gpt-image-sprite-sheet -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/gpt-image-sprite-sheet",
+   "md": "https://varg.ai/how-to/skills/gpt-image-sprite-sheet.md",
+   "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_ce8d189f2cd3.mp4"
+  },
+  {
+   "slug": "gpt-image-sticker-pack",
+   "name": "Turn a photo into an animated sticker pack",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "image",
+   "tags": [
+    "stickers",
+    "sticker-pack",
+    "animated-stickers",
+    "telegram",
+    "whatsapp",
+    "line",
+    "wechat",
+    "gpt-image-2-6"
+   ],
+   "summary": "A photo to an animated sticker pack on GPT Image 2.6, exported for Telegram, WhatsApp, LINE, WeChat and more.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/gpt-image-sticker-pack",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill gpt-image-sticker-pack -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill gpt-image-sticker-pack -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill gpt-image-sticker-pack -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/gpt-image-sticker-pack",
+   "md": "https://varg.ai/how-to/skills/gpt-image-sticker-pack.md",
+   "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_80e6309a51da.mp4"
+  },
+  {
+   "slug": "make-a-woke-profile-with-chatgpt",
+   "name": "Turn a selfie into a woke profile with GPT Image 2.6",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "image",
+   "tags": [
+    "woke",
+    "wokify",
+    "selfie",
+    "profile-picture",
+    "chatgpt",
+    "gpt-image-2-6",
+    "collage",
+    "action-figure",
+    "trading-card",
+    "gif",
+    "satire",
+    "x-twitter"
+   ],
+   "summary": "One selfie to 11 woke AI versions of you, 4 GIFs and a 4:5 X collage. ~$0.78 on varg, or paste the prompts in ChatGPT.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/make-a-woke-profile-with-chatgpt",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill make-a-woke-profile-with-chatgpt -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill make-a-woke-profile-with-chatgpt -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill make-a-woke-profile-with-chatgpt -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/make-a-woke-profile-with-chatgpt",
+   "md": "https://varg.ai/how-to/skills/make-a-woke-profile-with-chatgpt.md",
+   "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_68a4b4d8dc57.mp4"
   },
   {
    "slug": "hyperframes-figma",
@@ -20822,6 +21044,43 @@
    "url": "https://varg.ai/how-to/skills/video-talkcraft",
    "md": "https://varg.ai/how-to/skills/video-talkcraft.md",
    "example": "https://raw.githubusercontent.com/Vincentwei1021/video-talkcraft/main/assets/gallery-zh.png"
+  },
+  {
+   "slug": "tinycharts",
+   "name": "Tinycharts by April Zhu",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "explainers",
+   "tags": [
+    "statechart",
+    "diagram",
+    "flowchart",
+    "explainer",
+    "hand-drawn",
+    "isometric",
+    "interactive",
+    "infographic",
+    "process-diagram",
+    "timeline",
+    "comic-strip",
+    "html",
+    "tinycharts",
+    "april-zhu"
+   ],
+   "summary": "Hand-drawn diagrams of how things work that you can play: a real statechart behind every button, nine chart types.",
+   "publisher": "April Zhu",
+   "source": "https://april-zhu.com/tinycharts",
+   "license": "April Zhu: free for personal, non-commercial use, no redistribution; pen, pencil tile and doll adapted from statechart-art (MIT)",
+   "install": {
+    "claude-code": "mkdir -p ~/.claude/skills && curl -fsSL https://april-zhu.com/tinycharts/tinycharts.tar.gz | tar -xz -C ~/.claude/skills"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/tinycharts",
+   "md": "https://varg.ai/how-to/skills/tinycharts.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_07f3c6ef9e9f.mp4"
   },
   {
    "slug": "want-notes-app-ad",

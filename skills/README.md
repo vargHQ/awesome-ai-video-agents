@@ -1,10 +1,10 @@
-# 884 AI video skills for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw
+# 891 AI video skills for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw
 
 Every card has its install command per agent, its source, license and an example. Click a shelf.
 
 | Shelf | Cards | What it holds |
 |---|---:|---|
-| [Workflows](#workflow) | 180 | End-to-end pipelines: brief in, finished video out. |
+| [Workflows](#workflow) | 187 | End-to-end pipelines: brief in, finished video out. |
 | [Prompts](#prompt) | 85 | Prompt packs for video and image models: camera moves, shot sizes, lighting, characters, hooks. |
 | [Effects](#effect) | 243 | Transitions, captions, titles, device mockups, shaders and every named edit, with the code that makes it. |
 | [Styles](#style) | 25 | Looks, LUTs, fonts and art directions a model or a render can follow. |
@@ -88,8 +88,10 @@ End-to-end pipelines: brief in, finished video out. On varg how to: <https://var
 | [pixelfx: 244 pixel-art effects + effect-making skill](workflow/pixelfx-pixel-effects.md) | 244 code-drawn pixel-art effects (fire, explosions, magic, weather, UI, pickups) you can recolor and export as sprite sheets, plus a skill that makes new ones: | patch-gg | Claude Code, Codex |
 | [Session Story](workflow/hyperframes-session-story.md) | A 40–70 s watercolor film of a typical session with your agent, told in your real messages, with its own score. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
 | [Story to Hand-drawn Video](workflow/story-to-handdrawn-video.md) | Chinese stories or ordered images into silent hand-drawn diary-comic animations, with a curated 30-style menu. | gnipbao | Claude Code, Codex |
+| [Turn a character into a game sprite sheet](workflow/gpt-image-sprite-sheet.md) | 2D game sprite sheets on GPT Image 2.6: a 4x4 spec that slices cleanly into frames, a GIF and a Phaser atlas. | varg | Claude Code, Codex, Cursor, Gemini CLI |
 | [Turn a Product Photo into a Claymation Video Ad](workflow/claymation-video-ad-from-product-photo.md) | Vertical 10-11 scene claymation ad from a product photo and an angle: GPT Image 2 keyframes, Gemini Omni Flash clips, ElevenLabs voice on fal.ai, ~$6-8. | mikefutia | Claude Code |
 | [Turn an Image into a Seamless Loop Animation with Seedance](workflow/seedance-seamless-loop-animation.md) | Animates a reference image into a seamless 5-second loop MP4 with Seedance 2.0 via kie.ai, plus a ready HTML embed snippet. | kevinrivm | Claude Code |
+| [Turn any still into a looping GIF](workflow/gpt-image-gif.md) | A still, mascot or prompt to a looping GIF on GPT Image 2.6: frame sizes that fit, loop wording, WebP export. | varg | Claude Code, Codex, Cursor, Gemini CLI |
 | [Turn One Sentence into an AI Cartoon Series Episode](workflow/ai-cartoon-series-episode.md) | 30-second wordless cartoon episodes with recurring original characters: character sheets, a 9-panel storyboard and one Seedance 2.5 render. | 10291124jcjc-dotcom | Claude Code |
 
 ### Audio
@@ -173,6 +175,7 @@ End-to-end pipelines: brief in, finished video out. On varg how to: <https://var
 | [HyperFrames Slideshow](workflow/hyperframes-slideshow.md) | Build a live, navigable deck with fragment reveals, branching hotspots and presenter notes instead of an MP4. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
 | [Manim Skills (3Blue1Brown Style)](workflow/manim-skill.md) | Plan and code 3Blue1Brown-style math animations: a scene composer plus ManimCE and ManimGL best practices. | Adithya S K | Claude Code |
 | [Plain-Sight Explainer](workflow/hyperframes-vox-explainer.md) | 60–90 s collage explainers about everyday things, or mined from your documents and links, with numeric seam checks. | HeyGen | Claude Code, Codex, Cursor, Gemini CLI |
+| [Tinycharts by April Zhu](workflow/tinycharts.md) | Hand-drawn diagrams of how things work that you can play: a real statechart behind every button, nine chart types. | April Zhu | Claude Code |
 | [Vibe Knowledge Film (Douyin knowledge shorts)](workflow/vibe-knowledge-film.md) | Makes the viral Douyin "Vibe knowledge" short: drop a topic or script, it picks a style (Nocturne for hard science, Fable for behaviour), writes the caption scr | HeyChengC | Claude Code, Codex |
 
 ### Image
@@ -180,9 +183,13 @@ End-to-end pipelines: brief in, finished video out. On varg how to: <https://var
 | Skill | What it does | By | Install |
 |---|---|---|---|
 | [Baoyu Cover Image](workflow/baoyu-cover-image.md) | Article cover images built from five dimensions (type, palette, rendering, text, mood) in 2.35:1, 16:9 or 1:1. | Jim Liu | Claude Code, Codex |
+| [GPT Image 2.6 skills for Claude Code and AI agents](workflow/gpt-image-2-6.md) | Prompt, size and price GPT Image 2.6: Flare vs Sunburst, what the API rejects, recipes for posters and sheets. | varg | Claude Code, Codex, Cursor, Gemini CLI |
 | [Guizang Social Cards: Rednote carousels and WeChat covers](workflow/guizang-social-cards.md) | Builds Xiaohongshu/Rednote carousel sets, Live Photo cards and WeChat 21:9 + 1:1 cover pairs from an article, notes, screenshots or video subtitles. | Guizang (op7418) | Claude Code, Codex |
 | [Higgsfield YouTube Thumbnail](workflow/higgsfield-youtube-thumbnail.md) | Design truthful, high-CTR YouTube thumbnails and vertical covers with up to three consistent faces. | Higgsfield | Claude Code, Codex, Cursor, Gemini CLI |
 | [Slack GIF Creator](workflow/anthropic-slack-gif-creator.md) | Make animated GIFs that pass Slack's limits: 128×128 emoji or 480×480 message GIFs, validated on export. | Anthropic | Claude Code, Codex, Cursor, Gemini CLI |
+| [Turn a photo into an animated sticker pack](workflow/gpt-image-sticker-pack.md) | A photo to an animated sticker pack on GPT Image 2.6, exported for Telegram, WhatsApp, LINE, WeChat and more. | varg | Claude Code, Codex, Cursor, Gemini CLI |
+| [Turn a selfie into a woke profile with GPT Image 2.6](workflow/make-a-woke-profile-with-chatgpt.md) | One selfie to 11 woke AI versions of you, 4 GIFs and a 4:5 X collage. ~$0.78 on varg, or paste the prompts in ChatGPT. | varg | Claude Code, Codex, Cursor, Gemini CLI |
+| [Turn circles on a picture into exact edits](workflow/gpt-image-markup-edit.md) | Circle what to change, name each colour, and GPT Image 2.6 edits only the marked spots. Script draws the marks. | varg | Claude Code, Codex, Cursor, Gemini CLI |
 
 ### Launch
 
