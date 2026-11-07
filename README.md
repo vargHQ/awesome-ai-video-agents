@@ -3,7 +3,7 @@
 Tell your coding agent what video you need ("a UGC ad for my serum", "cut this podcast into Shorts with captions", "a lyric video for my song") and it finds the skill that makes it, shows you the options with example videos, and runs the pipeline: AI shots on Seedance 2.5, Kling 4 or Veo 3.1, voice on ElevenLabs, captions and cuts with FFmpeg, Remotion or HyperFrames, out to a 9:16 or 16:9 MP4. This list is the open index behind [varg.ai/how-to](https://varg.ai/how-to): every card has an install command for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw, its source, its license and an example.
 
 <!-- sync:counts:start -->
-**891 cards** from **359 publishers** (756 live, 44 wanted) and **46 step-by-step tutorials**, synced from [varg.ai/how-to](https://varg.ai/how-to) on 2026-11-06.
+**891 cards** from **359 publishers** (756 live, 44 wanted) and **46 step-by-step tutorials**, synced from [varg.ai/how-to](https://varg.ai/how-to) on 2026-11-07.
 <!-- sync:counts:end -->
 
 > **For AI agents:** one search, no key, any language: `curl -s "https://varg.ai/how-to/api/search?q=<what the person wants>"` returns the best step-by-step tutorial and the top skills with install commands, as markdown. Same thing as MCP tools: `claude mcp add --transport http varg-how-to https://api.varg.ai/v2/skills/mcp`. Index: <https://varg.ai/how-to/llms.txt>. Then read [AGENTS.md](AGENTS.md).
