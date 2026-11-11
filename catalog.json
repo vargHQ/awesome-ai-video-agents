@@ -1,6 +1,6 @@
 {
  "site": "https://varg.ai/how-to",
- "generatedAt": "2026-11-07T00:52:58.775Z",
+ "generatedAt": "2026-11-11T07:34:02.819Z",
  "search": {
   "markdown": "https://varg.ai/how-to/api/search?q={query}",
   "json": "https://varg.ai/how-to/api/search.json?q={query}"
@@ -3909,6 +3909,191 @@
    "url": "https://varg.ai/how-to/skills/make-a-woke-profile-with-chatgpt",
    "md": "https://varg.ai/how-to/skills/make-a-woke-profile-with-chatgpt.md",
    "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_68a4b4d8dc57.mp4"
+  },
+  {
+   "slug": "blender-code-film",
+   "name": "Turn a brief into a Blender film written in Python",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "3d-scenes",
+   "tags": [
+    "blender",
+    "python",
+    "bpy",
+    "3d",
+    "code-to-video",
+    "fable-5-2",
+    "eevee",
+    "cycles",
+    "low-poly"
+   ],
+   "summary": "A brief becomes a Blender film from one Python file: shots as data, stills first, critic loop, Eevee or Cycles.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/blender-code-film",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill blender-code-film -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill blender-code-film -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill blender-code-film -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/blender-code-film",
+   "md": "https://varg.ai/how-to/skills/blender-code-film.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_f3f4bf5e436a.mp4"
+  },
+  {
+   "slug": "code-3d-explainer",
+   "name": "Turn a science topic into a 3D explainer built from code",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "explainers",
+   "tags": [
+    "3d-explainer",
+    "science",
+    "threejs",
+    "education",
+    "code-to-video",
+    "fable-5-2",
+    "fact-check",
+    "cell"
+   ],
+   "summary": "A cell, atom or engine built in three.js one part at a time, zooming to a cutaway, every fact checked before animating.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/code-3d-explainer",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill code-3d-explainer -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill code-3d-explainer -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill code-3d-explainer -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/code-3d-explainer",
+   "md": "https://varg.ai/how-to/skills/code-3d-explainer.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_4ea13a6ae0ed.mp4"
+  },
+  {
+   "slug": "code-game-trailer",
+   "name": "Turn a browser game into a cinematic trailer",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "3d-scenes",
+   "tags": [
+    "game-trailer",
+    "threejs",
+    "webgl",
+    "browser-game",
+    "gameplay-video",
+    "fable-5-2",
+    "headless-chrome",
+    "code-to-video"
+   ],
+   "summary": "Record the browser game your agent built frame-exact, script shots and cameras, then cut a 1080p trailer on the beat.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/code-game-trailer",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill code-game-trailer -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill code-game-trailer -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill code-game-trailer -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/code-game-trailer",
+   "md": "https://varg.ai/how-to/skills/code-game-trailer.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_4d4fbf04e1cc.mp4"
+  },
+  {
+   "slug": "code-path-traced-film",
+   "name": "Turn a story into a path-traced film where the renderer is code too",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "3d-scenes",
+   "tags": [
+    "path-tracer",
+    "webgl",
+    "glsl",
+    "sdf",
+    "code-to-video",
+    "fable-5-2",
+    "3d",
+    "short-film"
+   ],
+   "summary": "A story becomes a short film from a path tracer the agent writes itself: SDF characters, analytic grass, a numpy score, no assets.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/code-path-traced-film",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill code-path-traced-film -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill code-path-traced-film -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill code-path-traced-film -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/code-path-traced-film",
+   "md": "https://varg.ai/how-to/skills/code-path-traced-film.md",
+   "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_a23b3faa8632.mp4"
+  },
+  {
+   "slug": "model-split-screen",
+   "name": "Turn two model runs into a side-by-side comparison",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "editing",
+   "tags": [
+    "comparison",
+    "split-screen",
+    "fable-5-2",
+    "opus-5-5",
+    "a-b-test",
+    "ffmpeg",
+    "blind-test"
+   ],
+   "summary": "Two runs of one prompt as one video: names, measured time and cost under each, side by side or stacked, blind reveal.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/model-split-screen",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill model-split-screen -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill model-split-screen -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill model-split-screen -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/model-split-screen",
+   "md": "https://varg.ai/how-to/skills/model-split-screen.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_6ec5fe8a03ff.mp4"
   },
   {
    "slug": "hyperframes-figma",
@@ -12588,6 +12773,283 @@
    "example": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/HEAD/assets/papercraft-stop-motion-explainer.gif"
   },
   {
+   "slug": "blender-lab-mcp",
+   "name": "Blender Lab MCP Server",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "3d-scenes",
+   "tags": [
+    "blender",
+    "mcp",
+    "official",
+    "bpy",
+    "scene-analysis",
+    "local-llm",
+    "3d"
+   ],
+   "summary": "Blender's official MCP server: query and edit open scenes with Blender Python, bundled API docs and screenshots.",
+   "publisher": "Blender Foundation",
+   "source": "https://www.blender.org/lab/mcp-server/",
+   "license": "GPL-3.0-or-later",
+   "install": {
+    "mcp": "cd $HOME && git clone https://projects.blender.org/lab/blender_mcp.git\nuv --directory $HOME/blender_mcp/mcp run blender-mcp"
+   },
+   "agents": [
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/blender-lab-mcp",
+   "md": "https://varg.ai/how-to/skills/blender-lab-mcp.md"
+  },
+  {
+   "slug": "hyperframes-reverse-any-video",
+   "name": "HyperFrames Reverse Any Video",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "tooling",
+   "tags": [
+    "hyperframes",
+    "remake",
+    "reference-video",
+    "html-to-video",
+    "frame-diff",
+    "editing"
+   ],
+   "summary": "Rebuilds a video you have rights to as an editable HyperFrames project, checked frame by frame against the original.",
+   "publisher": "HeyGen",
+   "source": "https://github.com/heygen-com/hyperframes/tree/main/skills/reverse-any-video",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "claude plugin marketplace add heygen-com/hyperframes\nclaude plugin install hyperframes@hyperframes",
+    "codex": "npx skills add heygen-com/hyperframes --skill reverse-any-video -a codex",
+    "cursor": "npx skills add heygen-com/hyperframes --skill reverse-any-video -a cursor",
+    "gemini-cli": "npx skills add heygen-com/hyperframes --skill reverse-any-video -a gemini-cli"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/hyperframes-reverse-any-video",
+   "md": "https://varg.ai/how-to/skills/hyperframes-reverse-any-video.md"
+  },
+  {
+   "slug": "meshy-3d-agent",
+   "name": "Meshy 3D Generation",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "3d-scenes",
+   "tags": [
+    "meshy",
+    "image-to-3d",
+    "text-to-3d",
+    "rigging",
+    "3d-animation",
+    "glb",
+    "game-assets",
+    "characters"
+   ],
+   "summary": "Meshy's official skill: text or image to a textured 3D model, then remesh, rig, animate and export it as GLB or FBX.",
+   "publisher": "Meshy",
+   "source": "https://github.com/meshy-dev/meshy-3d-agent/tree/main/skills/meshy-3d-generation",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx -y skills add meshy-dev/meshy-3d-agent --skill meshy-3d-generation -a claude-code -g -y",
+    "codex": "npx -y skills add meshy-dev/meshy-3d-agent --skill meshy-3d-generation -a codex -g -y",
+    "cursor": "npx -y skills add meshy-dev/meshy-3d-agent --skill meshy-3d-generation -a cursor -g -y",
+    "openclaw": "openclaw skills install @arlieeee/meshy-3d-agent",
+    "gemini-cli": "npx -y skills add meshy-dev/meshy-3d-agent --skill meshy-3d-generation -a gemini-cli -g -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "openclaw"
+   ],
+   "url": "https://varg.ai/how-to/skills/meshy-3d-agent",
+   "md": "https://varg.ai/how-to/skills/meshy-3d-agent.md"
+  },
+  {
+   "slug": "minimax-shader-dev",
+   "name": "MiniMax Shader Dev",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "shaders",
+   "tags": [
+    "glsl",
+    "shaders",
+    "shadertoy",
+    "ray-marching",
+    "sdf",
+    "webgl2",
+    "procedural",
+    "backgrounds"
+   ],
+   "summary": "36 GLSL shader techniques for agents: ray marching, SDFs, fluids, particles, noise and post, ShaderToy-style or WebGL2.",
+   "publisher": "MiniMax",
+   "source": "https://github.com/MiniMax-AI/skills/tree/main/skills/shader-dev",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add MiniMax-AI/skills --skill shader-dev -a claude-code",
+    "codex": "npx skills add MiniMax-AI/skills --skill shader-dev -a codex",
+    "cursor": "npx skills add MiniMax-AI/skills --skill shader-dev -a cursor"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor"
+   ],
+   "url": "https://varg.ai/how-to/skills/minimax-shader-dev",
+   "md": "https://varg.ai/how-to/skills/minimax-shader-dev.md"
+  },
+  {
+   "slug": "roblox-studio-mcp",
+   "name": "Roblox Studio MCP Server",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "3d-scenes",
+   "tags": [
+    "roblox",
+    "mcp",
+    "luau",
+    "games",
+    "playtest",
+    "game-engine",
+    "official"
+   ],
+   "summary": "The MCP server built into Roblox Studio: agents edit scripts, run Luau, generate meshes and playtest your game.",
+   "publisher": "Roblox",
+   "source": "https://create.roblox.com/docs/studio/mcp",
+   "license": "proprietary",
+   "install": {
+    "claude-code": "Roblox Studio: Assistant → … → Manage MCP Servers → turn on Enable Studio as MCP server → Quick connect → Claude Code",
+    "codex": "Roblox Studio: Assistant → … → Manage MCP Servers → turn on Enable Studio as MCP server → Quick connect → Codex CLI",
+    "cursor": "Roblox Studio: Assistant → … → Manage MCP Servers → turn on Enable Studio as MCP server → Quick connect → Cursor",
+    "gemini-cli": "Roblox Studio: Assistant → … → Manage MCP Servers → turn on Enable Studio as MCP server → Quick connect → Gemini CLI",
+    "mcp": "/Applications/RobloxStudio.app/Contents/MacOS/StudioMCP"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/roblox-studio-mcp",
+   "md": "https://varg.ai/how-to/skills/roblox-studio-mcp.md"
+  },
+  {
+   "slug": "scenario-3d-worlds",
+   "name": "Scenario 3D Worlds",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "3d-scenes",
+   "tags": [
+    "gaussian-splats",
+    "world-models",
+    "marble",
+    "hunyuan-world",
+    "skybox",
+    "3dgs",
+    "locations",
+    "scenario"
+   ],
+   "summary": "Walkable 3D worlds as Gaussian splats from text, a photo, a panorama or a video: Marble, HY World and TripoSplat.",
+   "publisher": "Scenario",
+   "source": "https://github.com/scenario-labs/skills/tree/main/skills/scenario-3d-worlds",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add scenario-labs/skills --skill scenario scenario-3d-worlds -a claude-code && claude mcp add --transport http scenario https://mcp.scenario.com/mcp",
+    "codex": "npx skills add scenario-labs/skills --skill scenario scenario-3d-worlds -a codex",
+    "cursor": "npx skills add scenario-labs/skills --skill scenario scenario-3d-worlds -a cursor",
+    "gemini-cli": "npx skills add scenario-labs/skills --skill scenario scenario-3d-worlds -a gemini-cli",
+    "mcp": "https://mcp.scenario.com/mcp"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/scenario-3d-worlds",
+   "md": "https://varg.ai/how-to/skills/scenario-3d-worlds.md"
+  },
+  {
+   "slug": "unreal-engine-mcp",
+   "name": "Unreal Engine Skills for Claude Code",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "3d-scenes",
+   "tags": [
+    "unreal-engine",
+    "mcp",
+    "sequencer",
+    "niagara",
+    "game-engine",
+    "cinematics",
+    "games",
+    "claude-code-plugin"
+   ],
+   "summary": "Epic's official plugin: Claude Code drives a live Unreal Editor over MCP, from actors and materials to Sequencer.",
+   "publisher": "Epic Games",
+   "source": "https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin",
+   "license": "MIT",
+   "install": {
+    "claude-code": "/plugin install unreal-engine-skills-for-claude-code@claude-plugins-official"
+   },
+   "agents": [
+    "claude-code",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/unreal-engine-mcp",
+   "md": "https://varg.ai/how-to/skills/unreal-engine-mcp.md"
+  },
+  {
+   "slug": "webreel",
+   "name": "webreel",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "ui",
+   "tags": [
+    "screen-recording",
+    "browser-demo",
+    "cursor",
+    "keystrokes",
+    "product-demo",
+    "headless-chrome",
+    "cursors"
+   ],
+   "summary": "Scripted browser demo videos from a JSON config: clicks, typing, drags and scrolls with cursor and keystroke overlays.",
+   "publisher": "Vercel Labs",
+   "source": "https://github.com/vercel-labs/webreel",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "npx skills add vercel-labs/webreel --skill webreel -a claude-code",
+    "codex": "npx skills add vercel-labs/webreel --skill webreel -a codex",
+    "cursor": "npx skills add vercel-labs/webreel --skill webreel -a cursor",
+    "gemini-cli": "npx skills add vercel-labs/webreel --skill webreel -a gemini-cli"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/webreel",
+   "md": "https://varg.ai/how-to/skills/webreel.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_2a0980076a13.mp4"
+  },
+  {
    "slug": "video-shotcraft",
    "name": "Video Shotcraft",
    "type": "skill",
@@ -21081,6 +21543,611 @@
    "url": "https://varg.ai/how-to/skills/tinycharts",
    "md": "https://varg.ai/how-to/skills/tinycharts.md",
    "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_07f3c6ef9e9f.mp4"
+  },
+  {
+   "slug": "3dviz-pro-max",
+   "name": "3Dviz Pro Max by Viet Tran",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "3d-scenes",
+   "tags": [
+    "threejs",
+    "blender",
+    "3d",
+    "explainer",
+    "scientific-visualization",
+    "procedural",
+    "frame-capture",
+    "worlds"
+   ],
+   "summary": "Idea to explorable three.js or Blender scene: 223 recipes, runnable kits and a capture helper to check real frames.",
+   "publisher": "Viet Tran",
+   "source": "https://github.com/viettranx/3dviz-pro-max/tree/main/skills/3dviz-pro-max",
+   "license": "MIT",
+   "install": {
+    "claude-code": "/plugin marketplace add viettranx/3dviz-pro-max\n/plugin install 3dviz-pro-max@3dviz-pro-max"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/3dviz-pro-max",
+   "md": "https://varg.ai/how-to/skills/3dviz-pro-max.md",
+   "example": "https://raw.githubusercontent.com/viettranx/3dviz-pro-max/main/site/public/media/clips/village.mp4"
+  },
+  {
+   "slug": "arjun-blender-skills",
+   "name": "Blender Skills by Arjun Shukla",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "3d-scenes",
+   "tags": [
+    "blender",
+    "blender-mcp",
+    "modeling",
+    "rigging",
+    "animation",
+    "vfx",
+    "game-art",
+    "art-direction"
+   ],
+   "summary": "94 Blender skills behind a director router: modeling, rigging, animation, VFX, styles and engine export via Blender MCP.",
+   "publisher": "Arjun Shukla",
+   "source": "https://github.com/arjun988/blender-skills",
+   "license": "MIT",
+   "install": {
+    "claude-code": "git clone https://github.com/arjun988/blender-skills.git && cp -r blender-skills/.claude/skills /path/to/your/project/.claude/skills/",
+    "codex": "git clone https://github.com/arjun988/blender-skills.git && cp -r blender-skills/.claude/skills/* /path/to/codex/skills/",
+    "cursor": "git clone https://github.com/arjun988/blender-skills.git\nCopy-Item -Recurse -Force \"blender-skills\\.claude\\skills\\*\" \".cursor\\skills\\\""
+   },
+   "agents": [
+    "claude-code",
+    "cursor",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/arjun-blender-skills",
+   "md": "https://varg.ai/how-to/skills/arjun-blender-skills.md"
+  },
+  {
+   "slug": "awesome-fable-5-2-videos",
+   "name": "Awesome Fable 5.2 Videos by Yihui",
+   "type": "ref-pack",
+   "status": "beta",
+   "shelf": "prompt",
+   "category": "animation",
+   "tags": [
+    "claude-fable-5-2",
+    "prompts",
+    "awesome-list",
+    "code-to-video",
+    "motion-graphics",
+    "threejs",
+    "games",
+    "video-prompts"
+   ],
+   "summary": "179 videos people made with Claude Fable 5.2, each credited and linked, with 20 published prompts to copy.",
+   "publisher": "yihui-dev",
+   "source": "https://github.com/yihui-dev/awesome-fable5-2-videos",
+   "license": "MIT",
+   "install": {},
+   "agents": [
+    "claude-code",
+    "claude-ai"
+   ],
+   "url": "https://varg.ai/how-to/skills/awesome-fable-5-2-videos",
+   "md": "https://varg.ai/how-to/skills/awesome-fable-5-2-videos.md"
+  },
+  {
+   "slug": "bento-ui-motion-skill",
+   "name": "Bento UI Motion Grid by James Camarota",
+   "type": "skill",
+   "status": "beta",
+   "shelf": "effect",
+   "category": "galleries",
+   "tags": [
+    "bento",
+    "ui-motion",
+    "120fps",
+    "html-to-video",
+    "playwright",
+    "design-system",
+    "ui",
+    "silent-loop"
+   ],
+   "summary": "A silent 24 s bento grid of 24 UI cards that each animate on their own clock, rendered from one HTML file at 120 fps.",
+   "publisher": "James Camarota",
+   "source": "https://bento-ui-motion-skill.vercel.app/",
+   "license": "unknown",
+   "install": {},
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/bento-ui-motion-skill",
+   "md": "https://varg.ai/how-to/skills/bento-ui-motion-skill.md"
+  },
+  {
+   "slug": "blender-mcp",
+   "name": "Blender MCP by Siddharth Ahuja",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "3d-scenes",
+   "tags": [
+    "blender",
+    "mcp",
+    "3d",
+    "bpy",
+    "python",
+    "poly-haven",
+    "3d-generation",
+    "code-to-video"
+   ],
+   "summary": "Lets your agent drive a live Blender: build scenes in Blender Python, check its own renders, pull Poly Haven assets.",
+   "publisher": "Siddharth Ahuja",
+   "source": "https://github.com/ahujasid/mcp-for-blender",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude mcp add blender uvx mcp-for-blender && uvx mcp-for-blender install-addon",
+    "codex": "codex mcp add blender -- uvx mcp-for-blender && uvx mcp-for-blender install-addon",
+    "cursor": "uvx mcp-for-blender setup",
+    "mcp": "uvx mcp-for-blender setup"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/blender-mcp",
+   "md": "https://varg.ai/how-to/skills/blender-mcp.md"
+  },
+  {
+   "slug": "cartoon-3d-short",
+   "name": "Cartoon 3D Short by Mr omi",
+   "type": "skill",
+   "status": "beta",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "cartoon",
+    "threejs",
+    "remotion",
+    "story-short",
+    "vertical",
+    "history",
+    "synth-score",
+    "story"
+   ],
+   "summary": "55–70 s vertical story shorts: flat cartoon characters in a painted 3D town, three.js in Remotion, no AI video model.",
+   "publisher": "Mr omi",
+   "source": "https://github.com/mromidev/claude-animated-shorts",
+   "license": "MIT",
+   "install": {
+    "claude-code": "git clone https://github.com/mromidev/claude-animated-shorts.git ~/.claude/skills/cartoon-3d-short"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/cartoon-3d-short",
+   "md": "https://varg.ai/how-to/skills/cartoon-3d-short.md"
+  },
+  {
+   "slug": "cc-blender-skill",
+   "name": "cc-blender-skill by Rob Lee",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "3d-scenes",
+   "tags": [
+    "blender",
+    "blender-mcp",
+    "reference-to-3d",
+    "modeling",
+    "lighting",
+    "rendering",
+    "validation",
+    "codex"
+   ],
+   "summary": "30 chain-loaded Blender skills: plain-language requests become Blender Python over the official or community MCP.",
+   "publisher": "Rob Lee",
+   "source": "https://github.com/RobLe3/cc-blender-skill/tree/main/plugin/skills",
+   "license": "MIT",
+   "install": {
+    "codex": "git clone git@github.com:RobLe3/cc-blender-skill.git\ncd cc-blender-skill\nmkdir -p \"$HOME/.agents/skills\"\nfor skill in plugin/skills/*/; do\n    name=$(basename \"$skill\")\n    test ! -e \"$HOME/.agents/skills/$name\" && test ! -L \"$HOME/.agents/skills/$name\" || {\n        echo \"Refusing to replace $name\" >&2; exit 1;\n    }\ndone\nfor skill in plugin/skills/*/; do\n    name=$(basename \"$skill\")\n    ln -s \"$(pwd)/$skill\" \"$HOME/.agents/skills/$name\"\ndone"
+   },
+   "agents": [
+    "codex",
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/cc-blender-skill",
+   "md": "https://varg.ai/how-to/skills/cc-blender-skill.md"
+  },
+  {
+   "slug": "claude-code-game-studios",
+   "name": "Claude Code Game Studios by Donchitos",
+   "type": "skill",
+   "status": "beta",
+   "shelf": "guide",
+   "category": "3d-scenes",
+   "tags": [
+    "games",
+    "game-dev",
+    "prototype",
+    "phaser",
+    "threejs",
+    "playwright",
+    "claude-code-template",
+    "studio"
+   ],
+   "summary": "Turns Claude Code into a game studio: brief, playable browser game, checks, then grow it feature by feature.",
+   "publisher": "Donchitos",
+   "source": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+   "license": "MIT",
+   "install": {
+    "claude-code": "git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git my-game && cd my-game && claude"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/claude-code-game-studios",
+   "md": "https://varg.ai/how-to/skills/claude-code-game-studios.md"
+  },
+  {
+   "slug": "claude-music-video",
+   "name": "Music Video Generator by Marco van Hylckama Vlieg",
+   "type": "skill",
+   "status": "beta",
+   "shelf": "workflow",
+   "category": "music",
+   "tags": [
+    "music-video",
+    "beat-sync",
+    "lyric-video",
+    "archive-footage",
+    "shaders",
+    "visualizer",
+    "ffmpeg",
+    "claude-code-plugin"
+   ],
+   "summary": "A full music video from a song: beat-grid analysis, archive.org or your footage, optional AI performers, GPU overlays.",
+   "publisher": "Marco van Hylckama Vlieg",
+   "source": "https://github.com/TheMarco/claude-music-video/tree/main/plugins/music-video-generator/skills/music-video",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add TheMarco/claude-music-video\nclaude plugin install music-video-generator@music-video"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/claude-music-video",
+   "md": "https://varg.ai/how-to/skills/claude-music-video.md"
+  },
+  {
+   "slug": "dream-loop",
+   "name": "dream-loop by Anshu Chimala",
+   "type": "skill",
+   "status": "beta",
+   "shelf": "workflow",
+   "category": "3d-scenes",
+   "tags": [
+    "critic-loop",
+    "image-target",
+    "threejs",
+    "blender",
+    "fidelity",
+    "subagents",
+    "games"
+   ],
+   "summary": "Generate a target screenshot, build to it in three.js or Blender, and let a separate critic score each pass.",
+   "publisher": "Anshu Chimala",
+   "source": "https://github.com/achimala/dream-loop",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add achimala/dream-loop",
+    "codex": "npx skills add achimala/dream-loop"
+   },
+   "agents": [
+    "codex",
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/dream-loop",
+   "md": "https://varg.ai/how-to/skills/dream-loop.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_f51a76118092.mp4"
+  },
+  {
+   "slug": "effekseer-vfx",
+   "name": "Effekseer VFX by KanaWorks AI",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "shaders",
+   "tags": [
+    "vfx",
+    "effekseer",
+    "godot",
+    "unity",
+    "particles",
+    "flipbook",
+    "games",
+    "seedance"
+   ],
+   "summary": "Real-time game VFX as code: Effekseer effects built, filmed in Godot and scored by a separate reviewer agent.",
+   "publisher": "KanaWorks AI",
+   "source": "https://github.com/kanaworksai-hue/effekseer-vfx-skill/tree/main/skills/effekseer-vfx",
+   "license": "MIT",
+   "install": {
+    "claude-code": "/plugin marketplace add kanaworksai-hue/effekseer-vfx-skill\n/plugin install effekseer-vfx@effekseer-vfx",
+    "codex": "$skill-installer install https://github.com/kanaworksai-hue/effekseer-vfx-skill/tree/main/skills/effekseer-vfx\n$skill-installer install https://github.com/kanaworksai-hue/effekseer-vfx-skill/tree/main/skills/vfx-review",
+    "cursor": "npx skills add kanaworksai-hue/effekseer-vfx-skill",
+    "gemini-cli": "npx skills add kanaworksai-hue/effekseer-vfx-skill"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/effekseer-vfx",
+   "md": "https://varg.ai/how-to/skills/effekseer-vfx.md"
+  },
+  {
+   "slug": "el4cteo-blender-skills",
+   "name": "Blender Agent Skills by EL4CTEO",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "3d-scenes",
+   "tags": [
+    "blender",
+    "bpy",
+    "rigging",
+    "animation",
+    "game-assets",
+    "weather",
+    "rendering",
+    "art-direction"
+   ],
+   "summary": "28 Blender 5.2 skills from modeling to rigging, animation, weather and render, each with tested scripts and QA.",
+   "publisher": "EL4CTEO",
+   "source": "https://github.com/EL4CTEO/blender-skills",
+   "license": "MIT",
+   "install": {
+    "claude-code": "/plugin marketplace add EL4CTEO/blender-skills\n/plugin install blender-agent-skills@blender-agent-skills",
+    "codex": "git clone https://github.com/EL4CTEO/blender-skills && ./blender-skills/install/install.sh --agent codex",
+    "cursor": "git clone https://github.com/EL4CTEO/blender-skills && ./blender-skills/install/install.sh --agent cursor",
+    "gemini-cli": "git clone https://github.com/EL4CTEO/blender-skills && ./blender-skills/install/install.sh --agent gemini"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/el4cteo-blender-skills",
+   "md": "https://varg.ai/how-to/skills/el4cteo-blender-skills.md",
+   "example": "https://raw.githubusercontent.com/EL4CTEO/blender-skills/main/docs/comparison/media/soldier-skill.mp4"
+  },
+  {
+   "slug": "godot-mcp",
+   "name": "Godot MCP by Solomon Elias",
+   "type": "skill",
+   "status": "beta",
+   "shelf": "guide",
+   "category": "3d-scenes",
+   "tags": [
+    "godot",
+    "mcp",
+    "game-engine",
+    "gdscript",
+    "games",
+    "debug"
+   ],
+   "summary": "MCP server for Godot: launch the editor, run projects, read debug output, and create scenes and nodes.",
+   "publisher": "Solomon Elias",
+   "source": "https://github.com/Coding-Solo/godot-mcp",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude mcp add godot -- npx @coding-solo/godot-mcp",
+    "cursor": "Cursor Settings → Features → MCP → + Add New MCP Server → name godot, type command, command npx @coding-solo/godot-mcp",
+    "mcp": "npx @coding-solo/godot-mcp"
+   },
+   "agents": [
+    "claude-code",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/godot-mcp",
+   "md": "https://varg.ai/how-to/skills/godot-mcp.md"
+  },
+  {
+   "slug": "kids-english-video",
+   "name": "Kids English Video by 小北AI",
+   "type": "skill",
+   "status": "beta",
+   "shelf": "workflow",
+   "category": "animation",
+   "tags": [
+    "kids",
+    "education",
+    "english",
+    "cartoon",
+    "canvas",
+    "fish-audio",
+    "explainers",
+    "chinese"
+   ],
+   "summary": "2–3 min English lessons for ages 3–6: sentence-pattern Q&A, word cards, repeat-after-me, all on one kids' beat.",
+   "publisher": "小北AI",
+   "source": "https://github.com/lwmxiaobei/xiaobei-skills/tree/main/kids-english-video",
+   "license": "unknown",
+   "install": {
+    "claude-code": "git clone https://github.com/lwmxiaobei/xiaobei-skills.git && cp -R xiaobei-skills/kids-english-video ~/.claude/skills/kids-english-video"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/kids-english-video",
+   "md": "https://varg.ai/how-to/skills/kids-english-video.md"
+  },
+  {
+   "slug": "motion-canvas-videozero",
+   "name": "Motion Canvas Skills by VideoZero",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "tooling",
+   "tags": [
+    "motion-canvas",
+    "typescript",
+    "animation",
+    "explainer",
+    "code-to-video",
+    "latex",
+    "editor-control"
+   ],
+   "summary": "Motion Canvas for agents: a full framework reference, an editor-control plugin for seek and screenshots, timing basics.",
+   "publisher": "VideoZero",
+   "source": "https://github.com/VideoZero/skills",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "npx skills add videozero/skills"
+   },
+   "agents": [
+    "claude-code"
+   ],
+   "url": "https://varg.ai/how-to/skills/motion-canvas-videozero",
+   "md": "https://varg.ai/how-to/skills/motion-canvas-videozero.md"
+  },
+  {
+   "slug": "rea-video",
+   "name": "rea-video by JuneYaooo",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "research",
+   "tags": [
+    "video-analysis",
+    "reverse-engineering",
+    "shot-breakdown",
+    "ai-detection",
+    "remake-plan",
+    "prompts",
+    "ffmpeg",
+    "storyboard"
+   ],
+   "summary": "Breaks a video down shot by shot: filmed, AI-generated or coded, with prompts, camera, light, audio and a remake plan.",
+   "publisher": "JuneYaooo",
+   "source": "https://github.com/JuneYaooo/rea-video",
+   "license": "Apache-2.0",
+   "install": {
+    "claude-code": "git clone https://github.com/JuneYaooo/rea-video && cd rea-video && bash scripts/install_skill.sh",
+    "codex": "git clone https://github.com/JuneYaooo/rea-video && cd rea-video && bash scripts/install_skill.sh"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/rea-video",
+   "md": "https://varg.ai/how-to/skills/rea-video.md"
+  },
+  {
+   "slug": "threejs-game-skills",
+   "name": "Three.js Game Skills by Majid Manzarpour",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "3d-scenes",
+   "tags": [
+    "threejs",
+    "games",
+    "game-dev",
+    "vite",
+    "playwright",
+    "tripo",
+    "elevenlabs",
+    "gemini"
+   ],
+   "summary": "Nine skills and a director that build polished, playable three.js browser games, with bot playtests and visual QA.",
+   "publisher": "Majid Manzarpour",
+   "source": "https://github.com/majidmanzarpour/threejs-game-skills",
+   "license": "MIT",
+   "install": {
+    "claude-code": "npx skills add majidmanzarpour/threejs-game-skills --skill '*' -a claude-code -g -y",
+    "codex": "npx skills add majidmanzarpour/threejs-game-skills --skill '*' -a codex -g -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/threejs-game-skills",
+   "md": "https://varg.ai/how-to/skills/threejs-game-skills.md"
+  },
+  {
+   "slug": "unity-mcp",
+   "name": "MCP for Unity by Coplay",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "3d-scenes",
+   "tags": [
+    "unity",
+    "mcp",
+    "game-engine",
+    "csharp",
+    "games",
+    "playtest",
+    "asset-generation"
+   ],
+   "summary": "Open-source bridge from Claude, Codex, Cursor and other MCP clients to the Unity Editor: scenes, scripts, assets, tests.",
+   "publisher": "Coplay",
+   "source": "https://github.com/CoplayDev/unity-mcp",
+   "license": "MIT",
+   "install": {
+    "mcp": "Unity → Package Manager → Add from git URL: https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main\nWindow → MCP for Unity → Configure All Detected Clients"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/unity-mcp",
+   "md": "https://varg.ai/how-to/skills/unity-mcp.md"
+  },
+  {
+   "slug": "wasteland-builder",
+   "name": "Wasteland Builder by Anders Bjarby",
+   "type": "skill",
+   "status": "beta",
+   "shelf": "workflow",
+   "category": "3d-scenes",
+   "tags": [
+    "openstreetmap",
+    "blender",
+    "threejs",
+    "games",
+    "city",
+    "procedural",
+    "street-view",
+    "locations"
+   ],
+   "summary": "Any town on Earth becomes a Mad Max battle-car browser game: OpenStreetMap to a Blender city to a three.js game.",
+   "publisher": "Anders Bjarby",
+   "source": "https://github.com/fltman/wasteland-builder",
+   "license": "MIT",
+   "install": {
+    "claude-code": "git clone https://github.com/fltman/wasteland-builder.git && cd wasteland-builder && claude",
+    "codex": "git clone https://github.com/fltman/wasteland-builder.git && cd wasteland-builder && codex"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/wasteland-builder",
+   "md": "https://varg.ai/how-to/skills/wasteland-builder.md",
+   "example": "https://raw.githubusercontent.com/fltman/wasteland-builder/main/docs/images/visby-street.jpg"
   },
   {
    "slug": "want-notes-app-ad",

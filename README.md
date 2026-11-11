@@ -3,7 +3,7 @@
 Tell your coding agent what video you need ("a UGC ad for my serum", "cut this podcast into Shorts with captions", "a lyric video for my song") and it finds the skill that makes it, shows you the options with example videos, and runs the pipeline: AI shots on Seedance 2.5, Kling 4 or Veo 3.1, voice on ElevenLabs, captions and cuts with FFmpeg, Remotion or HyperFrames, out to a 9:16 or 16:9 MP4. This list is the open index behind [varg.ai/how-to](https://varg.ai/how-to): every card has an install command for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw, its source, its license and an example.
 
 <!-- sync:counts:start -->
-**891 cards** from **359 publishers** (756 live, 44 wanted) and **46 step-by-step tutorials**, synced from [varg.ai/how-to](https://varg.ai/how-to) on 2026-11-07.
+**923 cards** from **382 publishers** (779 live, 44 wanted) and **46 step-by-step tutorials**, synced from [varg.ai/how-to](https://varg.ai/how-to) on 2026-11-11.
 <!-- sync:counts:end -->
 
 > **For AI agents:** one search, no key, any language: `curl -s "https://varg.ai/how-to/api/search?q=<what the person wants>"` returns the best step-by-step tutorial and the top skills with install commands, as markdown. Same thing as MCP tools: `claude mcp add --transport http varg-how-to https://api.varg.ai/v2/skills/mcp`. Index: <https://varg.ai/how-to/llms.txt>. Then read [AGENTS.md](AGENTS.md).
@@ -110,16 +110,16 @@ The same cards cut by what they are. Full index with every card by category: [sk
 <!-- sync:shelves:start -->
 | Shelf | Cards | What it holds | For example |
 |---|---:|---|---|
-| [Workflows](skills/README.md#workflow) | 187 | End-to-end pipelines: brief in, finished video out. | [iMessage Video](skills/workflow/varg-imessage-video.md), [Turn a product into a dropshipping guide reel](skills/workflow/varg-dropship-reel.md), [Turn product photos into a viral product hook](skills/workflow/varg-product-hook.md) |
-| [Prompts](skills/README.md#prompt) | 85 | Prompt packs for video and image models: camera moves, shot sizes, lighting, characters, hooks. | [How to prompt Kling 4 for cinematic AI video](skills/prompt/kling-4-prompting.md), [fal Cinematography](skills/prompt/fal-cinematography.md), [fal Prompting](skills/prompt/fal-prompting.md) |
-| [Effects](skills/README.md#effect) | 243 | Transitions, captions, titles, device mockups, shaders and every named edit, with the code that makes it. | [iPhone Duo Fold](skills/effect/iphone-duo-fold.md), [Paper Shaders Backgrounds](skills/effect/craft-paper-shaders.md), [Hard Cut](skills/effect/hard-cut.md) |
+| [Workflows](skills/README.md#workflow) | 197 | End-to-end pipelines: brief in, finished video out. | [iMessage Video](skills/workflow/varg-imessage-video.md), [Turn a product into a dropshipping guide reel](skills/workflow/varg-dropship-reel.md), [Turn product photos into a viral product hook](skills/workflow/varg-product-hook.md) |
+| [Prompts](skills/README.md#prompt) | 86 | Prompt packs for video and image models: camera moves, shot sizes, lighting, characters, hooks. | [How to prompt Kling 4 for cinematic AI video](skills/prompt/kling-4-prompting.md), [fal Cinematography](skills/prompt/fal-cinematography.md), [fal Prompting](skills/prompt/fal-prompting.md) |
+| [Effects](skills/README.md#effect) | 248 | Transitions, captions, titles, device mockups, shaders and every named edit, with the code that makes it. | [iPhone Duo Fold](skills/effect/iphone-duo-fold.md), [Turn two model runs into a side-by-side comparison](skills/effect/model-split-screen.md), [Paper Shaders Backgrounds](skills/effect/craft-paper-shaders.md) |
 | [Styles](skills/README.md#style) | 25 | Looks, LUTs, fonts and art directions a model or a render can follow. | [Video Moodboard](skills/style/video-moodboard.md), [fal Game Dev](skills/style/fal-gamedev.md), [Brand Guidelines](skills/style/anthropic-brand-guidelines.md) |
-| [Guides](skills/README.md#guide) | 166 | Best practices and references agents read before they generate or edit. | [Turn one winning video ad into 20 AI ad variations](skills/guide/ai-ad-variations.md), [Turn product photos into an AI ASMR unboxing video](skills/guide/ai-unboxing-video.md), [Turn one video ad into 8 languages with AI dubbing](skills/guide/ai-video-ad-translation.md) |
-| [Models & tools](skills/README.md#model) | 141 | Model and tool skills: the services that generate, edit, transcribe or render. | [varg AI](skills/model/varg-ai.md), [Local-first video downloader: private, no subscription](skills/model/media-download.md), [Higgsfield Generate](skills/model/higgsfield-generate.md) |
+| [Guides](skills/README.md#guide) | 179 | Best practices and references agents read before they generate or edit. | [Turn one winning video ad into 20 AI ad variations](skills/guide/ai-ad-variations.md), [Turn product photos into an AI ASMR unboxing video](skills/guide/ai-unboxing-video.md), [Turn one video ad into 8 languages with AI dubbing](skills/guide/ai-video-ad-translation.md) |
+| [Models & tools](skills/README.md#model) | 144 | Model and tool skills: the services that generate, edit, transcribe or render. | [varg AI](skills/model/varg-ai.md), [Local-first video downloader: private, no subscription](skills/model/media-download.md), [Higgsfield Generate](skills/model/higgsfield-generate.md) |
 <!-- sync:shelves:end -->
 
 Publishers in the list: <!-- sync:publishers:start -->
-HeyGen (139) · varg (123) · inference.sh (52) · Higgsfield (41) · dlazyai (20) · fal (15) · Calesthio (15) · Kapish Dima · remocn (15) · Remotion (12) · Magic UI (11) · Black Forest Labs (10) · ElevenLabs (8) · PixiJS (8) · Runway (8) · Refs (7) · Anthropic (6) · gre · GL Transitions (6) · Aceternity UI (6) · Replicate (5) · LottieFiles (5) · Scenario (5) · Daniel Petho (5) · Krea (4) · GSAP (GreenSock) (3)
+HeyGen (140) · varg (128) · inference.sh (52) · Higgsfield (41) · dlazyai (20) · fal (15) · Calesthio (15) · Kapish Dima · remocn (15) · Remotion (12) · Magic UI (11) · Black Forest Labs (10) · ElevenLabs (8) · PixiJS (8) · Runway (8) · Refs (7) · Anthropic (6) · Scenario (6) · gre · GL Transitions (6) · Aceternity UI (6) · Replicate (5) · LottieFiles (5) · Daniel Petho (5) · Krea (4) · GSAP (GreenSock) (3)
 <!-- sync:publishers:end -->
 
 ## Contribute: submit your skill, prompt, effect or tutorial
