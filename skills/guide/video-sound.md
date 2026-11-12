@@ -31,6 +31,10 @@ npx skills add vargHQ/skills --skill video-sound -a gemini-cli -y
 
 Watch: <https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_32cbafbd0791.mp4>
 
+## Step-by-step tutorials that use it
+
+- [How to make an app launch video with AI](../../how-to/make-an-app-launch-video.md): A launch video for your app from a real screen recording plus generated shots: about 30 s with a hook, one workflow and a call to action, voiceover and music.
+
 ## Run it on varg
 
 Generation (images, video, voice, music, lip-sync, captions, render) runs with one account on [varg.ai](https://varg.ai): the `varg-ai` skill (`npx skills add vargHQ/skills --skill varg-ai`) or the MCP server `https://mcp.varg.ai/mcp`. Quote the cost first with `estimate_cost`. 1 credit = $0.01, free plan, no card.

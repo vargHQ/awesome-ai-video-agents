@@ -1,6 +1,6 @@
 {
  "site": "https://varg.ai/how-to",
- "generatedAt": "2026-11-11T07:34:02.819Z",
+ "generatedAt": "2026-11-11T19:32:08.631Z",
  "search": {
   "markdown": "https://varg.ai/how-to/api/search?q={query}",
   "json": "https://varg.ai/how-to/api/search.json?q={query}"
@@ -938,6 +938,40 @@
    ]
   },
   {
+   "id": "silence-cut-zoom",
+   "title": "Cut silences and add zooms",
+   "howTo": "How to cut silences and add zooms to a video with AI",
+   "summary": "A talking video in, a tighter cut out: every pause over 0.55 s removed and a punch-in zoom on every other cut, in one FFmpeg run on your machine.",
+   "url": "https://varg.ai/how-to/cut-silences-and-add-zooms",
+   "md": "https://varg.ai/how-to/cut-silences-and-add-zooms.md",
+   "picks": [
+    "varg-video-edit-library",
+    "herk-edit-kit",
+    "openmontage-jump-cut-reframe",
+    "capcut-smartcut-mcp",
+    "ffmpeg-skill",
+    "short-form-ffmpeg-cookbook",
+    "caption-styles"
+   ],
+   "queries": [
+    "cut silences and add zooms",
+    "cut the silences out of my video and add zooms",
+    "cut silences",
+    "remove silence from video",
+    "silence remover",
+    "auto cut silence",
+    "remove pauses from video",
+    "cut dead air",
+    "auto zoom",
+    "punch in zoom",
+    "jump cut zoom",
+    "jump cuts",
+    "ffmpeg remove silence",
+    "ffmpeg silencedetect",
+    "talking head zoom cuts"
+   ]
+  },
+  {
    "id": "remake-reference",
    "title": "Remake a reference video",
    "howTo": "How to remake a reference video with AI",
@@ -1164,6 +1198,38 @@
     "видео для app store",
     "демо приложения",
     "промо приложения"
+   ]
+  },
+  {
+   "id": "app-launch-video",
+   "title": "App launch video",
+   "howTo": "How to make an app launch video with AI",
+   "summary": "A launch video for your app from a real screen recording plus generated shots: about 30 s with a hook, one workflow and a call to action, voiceover and music.",
+   "url": "https://varg.ai/how-to/make-an-app-launch-video",
+   "md": "https://varg.ai/how-to/make-an-app-launch-video.md",
+   "picks": [
+    "hyperframes",
+    "launch-clip-remotion-four-critics",
+    "openmontage-screen-demo",
+    "launch-film-real-ui-verified",
+    "varg-ai",
+    "video-script",
+    "varg-video-edit-library",
+    "video-sound"
+   ],
+   "queries": [
+    "app launch video",
+    "launch video for my app",
+    "make a launch video for my app",
+    "app launch video maker",
+    "mobile app launch video",
+    "ios app launch video",
+    "launch video from a screen recording",
+    "screen recording to launch video",
+    "product hunt launch video",
+    "app promo video",
+    "app announcement video",
+    "indie app launch video"
    ]
   },
   {

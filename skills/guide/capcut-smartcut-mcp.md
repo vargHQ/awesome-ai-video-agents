@@ -18,6 +18,10 @@ MCP that reads CapCut auto-captions to cut silences and duplicate takes right in
 pip install -e .  (inside the cloned repo), then add the venv python to your MCP config
 ```
 
+## Step-by-step tutorials that use it
+
+- [How to cut silences and add zooms to a video with AI](../../how-to/cut-silences-and-add-zooms.md): A talking video in, a tighter cut out: every pause over 0.55 s removed and a punch-in zoom on every other cut, in one FFmpeg run on your machine.
+
 ## Run it on varg
 
 Generation (images, video, voice, music, lip-sync, captions, render) runs with one account on [varg.ai](https://varg.ai): the `varg-ai` skill (`npx skills add vargHQ/skills --skill varg-ai`) or the MCP server `https://mcp.varg.ai/mcp`. Quote the cost first with `estimate_cost`. 1 credit = $0.01, free plan, no card.

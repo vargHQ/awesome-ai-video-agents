@@ -1,4 +1,4 @@
-# How to make any video with AI agents: 46 step-by-step tutorials
+# How to make any video with AI agents: 48 step-by-step tutorials
 
 Each tutorial names the best skill, the alternatives, the 2–4 choices to show the person before spending anything (with example videos) and the numbered steps. The full pages live on [varg.ai/how-to](https://varg.ai/how-to); every one has a markdown twin (add `.md`). Index for agents: <https://varg.ai/how-to/llms.txt>.
 
@@ -31,6 +31,7 @@ Each tutorial names the best skill, the alternatives, the 2–4 choices to show 
 - [How to make AI product photos and listing images](make-ai-product-photos.md): Marketplace listing images, lifestyle shots and packshots from one product photo.
 - [How to make AI fashion model and try-on videos](make-ai-fashion-model-try-on-videos.md): Your clothes on an AI model: on-model listing photos and a try-on or fit-check video, from a flat-lay, hanger or mannequin photo.
 - [How to edit your own video footage with AI](edit-your-own-video-footage.md): Cut silences and flubs, reframe 16:9 to 9:16, add captions and b-roll to footage you shot.
+- [How to cut silences and add zooms to a video with AI](cut-silences-and-add-zooms.md): A talking video in, a tighter cut out: every pause over 0.55 s removed and a punch-in zoom on every other cut, in one FFmpeg run on your machine.
 - [How to remake a reference video with AI](remake-a-reference-video.md): Take a reel or ad you like, break it down shot by shot, and remake the format for your brand.
 - [How to add voiceover and music to a video with AI](add-voiceover-and-music-to-a-video.md): A professional voiceover and a fitting music bed added to your video or screen recording.
 - [How to animate a photo into a video with AI](animate-a-photo-into-a-video.md): A still photo brought to life: a subtle smile, blink, camera move or full scene motion.
@@ -39,6 +40,7 @@ Each tutorial names the best skill, the alternatives, the 2–4 choices to show 
 - [How to make AI b-roll for your video](make-ai-b-roll-for-your-video.md): Cutaway footage for every mention in a voiceover or interview: generated clips, collage or stock-style shots, cut in on time.
 - [How to make TikTok photo carousels with AI](make-tiktok-photo-carousels.md): Swipeable photo slideshows with hook text — the format app founders use for organic growth.
 - [How to make an app demo video with AI](make-an-app-demo-video.md): A polished demo of your app: device mockups, real screens, captions, music — for the App Store, ads or a landing page.
+- [How to make an app launch video with AI](make-an-app-launch-video.md): A launch video for your app from a real screen recording plus generated shots: about 30 s with a hook, one workflow and a call to action, voiceover and music.
 - [How to make a property listing video with AI](make-a-property-listing-video.md): A listing reel from property photos: gentle camera motion through rooms, captions with price and features, music.
 - [How to change something inside a video with AI](change-something-inside-a-video.md): Swap a product, restyle a scene, change lighting or the look of an existing clip while keeping the motion.
 - [How to make personalized videos at scale with AI](make-personalized-videos-at-scale.md): One template, many versions: each lead's name, company and website in the video, optionally in a cloned voice.

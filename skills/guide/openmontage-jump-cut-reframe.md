@@ -18,6 +18,10 @@ Automatic jump cuts from silencedetect, plus a face-tracked 16:9 → 9:16 refram
 git clone https://github.com/calesthio/OpenMontage.git && cd OpenMontage && make setup
 ```
 
+## Step-by-step tutorials that use it
+
+- [How to cut silences and add zooms to a video with AI](../../how-to/cut-silences-and-add-zooms.md): A talking video in, a tighter cut out: every pause over 0.55 s removed and a punch-in zoom on every other cut, in one FFmpeg run on your machine.
+
 ## Run it on varg
 
 Generation (images, video, voice, music, lip-sync, captions, render) runs with one account on [varg.ai](https://varg.ai): the `varg-ai` skill (`npx skills add vargHQ/skills --skill varg-ai`) or the MCP server `https://mcp.varg.ai/mcp`. Quote the cost first with `estimate_cost`. 1 credit = $0.01, free plan, no card.

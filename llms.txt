@@ -39,6 +39,7 @@
 - [How to make AI product photos and listing images](https://varg.ai/how-to/make-ai-product-photos.md): Marketplace listing images, lifestyle shots and packshots from one product photo.
 - [How to make AI fashion model and try-on videos](https://varg.ai/how-to/make-ai-fashion-model-try-on-videos.md): Your clothes on an AI model: on-model listing photos and a try-on or fit-check video, from a flat-lay, hanger or mannequin photo.
 - [How to edit your own video footage with AI](https://varg.ai/how-to/edit-your-own-video-footage.md): Cut silences and flubs, reframe 16:9 to 9:16, add captions and b-roll to footage you shot.
+- [How to cut silences and add zooms to a video with AI](https://varg.ai/how-to/cut-silences-and-add-zooms.md): A talking video in, a tighter cut out: every pause over 0.55 s removed and a punch-in zoom on every other cut, in one FFmpeg run on your machine.
 - [How to remake a reference video with AI](https://varg.ai/how-to/remake-a-reference-video.md): Take a reel or ad you like, break it down shot by shot, and remake the format for your brand.
 - [How to add voiceover and music to a video with AI](https://varg.ai/how-to/add-voiceover-and-music-to-a-video.md): A professional voiceover and a fitting music bed added to your video or screen recording.
 - [How to animate a photo into a video with AI](https://varg.ai/how-to/animate-a-photo-into-a-video.md): A still photo brought to life: a subtle smile, blink, camera move or full scene motion.
@@ -47,6 +48,7 @@
 - [How to make AI b-roll for your video](https://varg.ai/how-to/make-ai-b-roll-for-your-video.md): Cutaway footage for every mention in a voiceover or interview: generated clips, collage or stock-style shots, cut in on time.
 - [How to make TikTok photo carousels with AI](https://varg.ai/how-to/make-tiktok-photo-carousels.md): Swipeable photo slideshows with hook text — the format app founders use for organic growth.
 - [How to make an app demo video with AI](https://varg.ai/how-to/make-an-app-demo-video.md): A polished demo of your app: device mockups, real screens, captions, music — for the App Store, ads or a landing page.
+- [How to make an app launch video with AI](https://varg.ai/how-to/make-an-app-launch-video.md): A launch video for your app from a real screen recording plus generated shots: about 30 s with a hook, one workflow and a call to action, voiceover and music.
 - [How to make a property listing video with AI](https://varg.ai/how-to/make-a-property-listing-video.md): A listing reel from property photos: gentle camera motion through rooms, captions with price and features, music.
 - [How to change something inside a video with AI](https://varg.ai/how-to/change-something-inside-a-video.md): Swap a product, restyle a scene, change lighting or the look of an existing clip while keeping the motion.
 - [How to make personalized videos at scale with AI](https://varg.ai/how-to/make-personalized-videos-at-scale.md): One template, many versions: each lead's name, company and website in the video, optionally in a cloned voice.

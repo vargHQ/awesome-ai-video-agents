@@ -31,6 +31,7 @@ Watch: <https://s3.varg.ai/how-to/previews/bb31cdd5a172/herk-edit-kit.mp4>
 - [How to make a SaaS launch video with AI](../../how-to/make-a-saas-launch-video.md): A polished launch film for an app or website: UI cards, device mockups, kinetic type, music.
 - [How to turn release notes into a changelog video with AI](../../how-to/turn-release-notes-into-a-changelog-video.md): Release notes, a PR or a GitHub repo turned into a short video for X or LinkedIn.
 - [How to edit your own video footage with AI](../../how-to/edit-your-own-video-footage.md): Cut silences and flubs, reframe 16:9 to 9:16, add captions and b-roll to footage you shot.
+- [How to cut silences and add zooms to a video with AI](../../how-to/cut-silences-and-add-zooms.md): A talking video in, a tighter cut out: every pause over 0.55 s removed and a punch-in zoom on every other cut, in one FFmpeg run on your machine.
 
 ## Run it on varg
 

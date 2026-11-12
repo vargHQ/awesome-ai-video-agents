@@ -3,7 +3,7 @@
 Tell your coding agent what video you need ("a UGC ad for my serum", "cut this podcast into Shorts with captions", "a lyric video for my song") and it finds the skill that makes it, shows you the options with example videos, and runs the pipeline: AI shots on Seedance 2.5, Kling 4 or Veo 3.1, voice on ElevenLabs, captions and cuts with FFmpeg, Remotion or HyperFrames, out to a 9:16 or 16:9 MP4. This list is the open index behind [varg.ai/how-to](https://varg.ai/how-to): every card has an install command for Claude Code, Codex, Cursor, Gemini CLI and OpenClaw, its source, its license and an example.
 
 <!-- sync:counts:start -->
-**923 cards** from **382 publishers** (779 live, 44 wanted) and **46 step-by-step tutorials**, synced from [varg.ai/how-to](https://varg.ai/how-to) on 2026-11-11.
+**923 cards** from **382 publishers** (779 live, 44 wanted) and **48 step-by-step tutorials**, synced from [varg.ai/how-to](https://varg.ai/how-to) on 2026-11-11.
 <!-- sync:counts:end -->
 
 > **For AI agents:** one search, no key, any language: `curl -s "https://varg.ai/how-to/api/search?q=<what the person wants>"` returns the best step-by-step tutorial and the top skills with install commands, as markdown. Same thing as MCP tools: `claude mcp add --transport http varg-how-to https://api.varg.ai/v2/skills/mcp`. Index: <https://varg.ai/how-to/llms.txt>. Then read [AGENTS.md](AGENTS.md).
@@ -84,6 +84,7 @@ Each tutorial names the best skill, the alternatives, the choices to show the pe
 - [How to make AI product photos and listing images](how-to/make-ai-product-photos.md) — Marketplace listing images, lifestyle shots and packshots from one product photo.
 - [How to make AI fashion model and try-on videos](how-to/make-ai-fashion-model-try-on-videos.md) — Your clothes on an AI model: on-model listing photos and a try-on or fit-check video, from a flat-lay, hanger or mannequin photo.
 - [How to edit your own video footage with AI](how-to/edit-your-own-video-footage.md) — Cut silences and flubs, reframe 16:9 to 9:16, add captions and b-roll to footage you shot.
+- [How to cut silences and add zooms to a video with AI](how-to/cut-silences-and-add-zooms.md) — A talking video in, a tighter cut out: every pause over 0.55 s removed and a punch-in zoom on every other cut, in one FFmpeg run on your machine.
 - [How to remake a reference video with AI](how-to/remake-a-reference-video.md) — Take a reel or ad you like, break it down shot by shot, and remake the format for your brand.
 - [How to add voiceover and music to a video with AI](how-to/add-voiceover-and-music-to-a-video.md) — A professional voiceover and a fitting music bed added to your video or screen recording.
 - [How to animate a photo into a video with AI](how-to/animate-a-photo-into-a-video.md) — A still photo brought to life: a subtle smile, blink, camera move or full scene motion.
@@ -92,6 +93,7 @@ Each tutorial names the best skill, the alternatives, the choices to show the pe
 - [How to make AI b-roll for your video](how-to/make-ai-b-roll-for-your-video.md) — Cutaway footage for every mention in a voiceover or interview: generated clips, collage or stock-style shots, cut in on time.
 - [How to make TikTok photo carousels with AI](how-to/make-tiktok-photo-carousels.md) — Swipeable photo slideshows with hook text — the format app founders use for organic growth.
 - [How to make an app demo video with AI](how-to/make-an-app-demo-video.md) — A polished demo of your app: device mockups, real screens, captions, music — for the App Store, ads or a landing page.
+- [How to make an app launch video with AI](how-to/make-an-app-launch-video.md) — A launch video for your app from a real screen recording plus generated shots: about 30 s with a hook, one workflow and a call to action, voiceover and music.
 - [How to make a property listing video with AI](how-to/make-a-property-listing-video.md) — A listing reel from property photos: gentle camera motion through rooms, captions with price and features, music.
 - [How to change something inside a video with AI](how-to/change-something-inside-a-video.md) — Swap a product, restyle a scene, change lighting or the look of an existing clip while keeping the motion.
 - [How to make personalized videos at scale with AI](how-to/make-personalized-videos-at-scale.md) — One template, many versions: each lead's name, company and website in the video, optionally in a cloned voice.

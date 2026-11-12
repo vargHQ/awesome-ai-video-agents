@@ -63,6 +63,7 @@ Watch: <https://s3.varg.ai/how-to/previews/7df061df8dcb/varg-ai.mp4>
 - [How to make AI b-roll for your video](../../how-to/make-ai-b-roll-for-your-video.md): Cutaway footage for every mention in a voiceover or interview: generated clips, collage or stock-style shots, cut in on time.
 - [How to make TikTok photo carousels with AI](../../how-to/make-tiktok-photo-carousels.md): Swipeable photo slideshows with hook text — the format app founders use for organic growth.
 - [How to make an app demo video with AI](../../how-to/make-an-app-demo-video.md): A polished demo of your app: device mockups, real screens, captions, music — for the App Store, ads or a landing page.
+- [How to make an app launch video with AI](../../how-to/make-an-app-launch-video.md): A launch video for your app from a real screen recording plus generated shots: about 30 s with a hook, one workflow and a call to action, voiceover and music.
 - [How to make a property listing video with AI](../../how-to/make-a-property-listing-video.md): A listing reel from property photos: gentle camera motion through rooms, captions with price and features, music.
 - [How to change something inside a video with AI](../../how-to/change-something-inside-a-video.md): Swap a product, restyle a scene, change lighting or the look of an existing clip while keeping the motion.
 - [How to make personalized videos at scale with AI](../../how-to/make-personalized-videos-at-scale.md): One template, many versions: each lead's name, company and website in the video, optionally in a cloned voice.

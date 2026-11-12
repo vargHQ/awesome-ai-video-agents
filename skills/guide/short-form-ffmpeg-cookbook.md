@@ -27,6 +27,7 @@ npx skills add vargHQ/skills --skill short-form-ffmpeg-cookbook -a cursor -y
 ## Step-by-step tutorials that use it
 
 - [How to edit a product video for TikTok and Reels with AI](../../how-to/edit-a-product-video-for-tiktok.md): Raw product footage (a creator clip, an unboxing, last month's winning ad) recut into a 9:16 ad: hook at second 0, no dead air, captions, one CTA, one file per hook.
+- [How to cut silences and add zooms to a video with AI](../../how-to/cut-silences-and-add-zooms.md): A talking video in, a tighter cut out: every pause over 0.55 s removed and a punch-in zoom on every other cut, in one FFmpeg run on your machine.
 
 ## Run it on varg
 

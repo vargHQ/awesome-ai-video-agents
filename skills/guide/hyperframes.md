@@ -51,6 +51,7 @@ Watch: <https://s3.varg.ai/how-to/previews/400daa5dc577/hyperframes.mp4>
 - [How to add voiceover and music to a video with AI](../../how-to/add-voiceover-and-music-to-a-video.md): A professional voiceover and a fitting music bed added to your video or screen recording.
 - [How to make TikTok photo carousels with AI](../../how-to/make-tiktok-photo-carousels.md): Swipeable photo slideshows with hook text — the format app founders use for organic growth.
 - [How to make an app demo video with AI](../../how-to/make-an-app-demo-video.md): A polished demo of your app: device mockups, real screens, captions, music — for the App Store, ads or a landing page.
+- [How to make an app launch video with AI](../../how-to/make-an-app-launch-video.md): A launch video for your app from a real screen recording plus generated shots: about 30 s with a hook, one workflow and a call to action, voiceover and music.
 - [How to make a property listing video with AI](../../how-to/make-a-property-listing-video.md): A listing reel from property photos: gentle camera motion through rooms, captions with price and features, music.
 - [How to make personalized videos at scale with AI](../../how-to/make-personalized-videos-at-scale.md): One template, many versions: each lead's name, company and website in the video, optionally in a cloned voice.
 - [How to make a birthday video with AI](../../how-to/make-a-birthday-video.md): A birthday video that is unmistakably theirs: their name sung on the chorus, their photo blowing out the candles, the details only their people know.

@@ -31,6 +31,7 @@ Watch: <https://s3.varg.ai/how-to/previews/564622beb60d/ffmpeg-skill.mp4>
 ## Step-by-step tutorials that use it
 
 - [How to edit your own video footage with AI](../../how-to/edit-your-own-video-footage.md): Cut silences and flubs, reframe 16:9 to 9:16, add captions and b-roll to footage you shot.
+- [How to cut silences and add zooms to a video with AI](../../how-to/cut-silences-and-add-zooms.md): A talking video in, a tighter cut out: every pause over 0.55 s removed and a punch-in zoom on every other cut, in one FFmpeg run on your machine.
 
 ## Run it on varg
 
