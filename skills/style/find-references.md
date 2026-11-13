@@ -1,6 +1,6 @@
 # Find References
 
-Real references before anything is made: seven sources, four kinds of reference with this week's numbers, ten visual ideas and a board to pick from.
+A video request becomes query packs over 22 open sources and a board of three human-made, provenance-checked references per job.
 
 - **Type:** Styles · Style Refs
 - **Status:** live

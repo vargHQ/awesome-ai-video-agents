@@ -1,6 +1,6 @@
 # Bang Motion
 
-Browser motion graphics that move like video, not slides: openers, promos, bumpers, kinetic type and explainers.
+Free MIT skill: your agent builds openers, promos, kinetic type and explainers as one HTML file that plays like video.
 
 - **Type:** Effects · Animation
 - **Status:** live
@@ -17,6 +17,15 @@ Browser motion graphics that move like video, not slides: openers, promos, bumpe
 # Claude Code
 /plugin marketplace add bangtutorial/bang-motion
 /plugin install bang-motion@bang-motion
+
+# Codex
+npx skills add https://github.com/bangtutorial/bang-motion --skill bang-motion -a codex -y
+
+# Cursor
+npx skills add https://github.com/bangtutorial/bang-motion --skill bang-motion -a cursor -y
+
+# Gemini CLI
+npx skills add https://github.com/bangtutorial/bang-motion --skill bang-motion -a gemini-cli -y
 ```
 
 ## Example

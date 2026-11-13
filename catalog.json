@@ -1,6 +1,6 @@
 {
  "site": "https://varg.ai/how-to",
- "generatedAt": "2026-11-11T19:32:08.631Z",
+ "generatedAt": "2026-11-13T09:04:32.940Z",
  "search": {
   "markdown": "https://varg.ai/how-to/api/search?q={query}",
   "json": "https://varg.ai/how-to/api/search.json?q={query}"
@@ -3284,6 +3284,39 @@
    "example": "https://s3.varg.ai/files/194b94d0-58ff-4e8b-91de-4f1959d04013/file_d45406f8d0db.mp4"
   },
   {
+   "slug": "how-to-make-ai-video",
+   "name": "How to Make Any AI Video",
+   "type": "skill",
+   "status": "live",
+   "shelf": "model",
+   "category": "research",
+   "tags": [
+    "finder",
+    "search",
+    "ten-steps",
+    "workflow",
+    "official"
+   ],
+   "summary": "A video request becomes the right skill with its install line and options, or the ten-step route for a whole video made from scratch.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/how-to-make-ai-video",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill how-to-make-ai-video -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill how-to-make-ai-video -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill how-to-make-ai-video -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/how-to-make-ai-video",
+   "md": "https://varg.ai/how-to/skills/how-to-make-ai-video.md"
+  },
+  {
    "slug": "kling-4-action-montage",
    "name": "Turn key frames into a 30-second action montage with Kling 4",
    "type": "skill",
@@ -3526,6 +3559,80 @@
    "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_45185dd5fef3.webp"
   },
   {
+   "slug": "code-to-video-previz",
+   "name": "Code to Video Previz",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "cinematic",
+   "tags": [
+    "previz",
+    "blockout",
+    "threejs",
+    "blender",
+    "camera-solve",
+    "guide-clip",
+    "seedance",
+    "pre-production"
+   ],
+   "summary": "A brief, reference clip or painting becomes a 3D scene in real metres, checked stills and a guide clip for a video model.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/code-to-video-previz",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill code-to-video-previz -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill code-to-video-previz -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill code-to-video-previz -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/code-to-video-previz",
+   "md": "https://varg.ai/how-to/skills/code-to-video-previz.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_289d09773e14.jpg"
+  },
+  {
+   "slug": "edit-footage-with-code",
+   "name": "Edit Footage with Code",
+   "type": "skill",
+   "status": "live",
+   "shelf": "effect",
+   "category": "editing",
+   "tags": [
+    "editing",
+    "rough-cut",
+    "dead-air",
+    "talking-head",
+    "podcast",
+    "ffmpeg",
+    "hyperframes",
+    "remotion"
+   ],
+   "summary": "Raw talking takes become a reviewed edit list and a clean cut between words, then captions, B-roll and sound, checked by numbers.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/edit-footage-with-code",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill edit-footage-with-code -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill edit-footage-with-code -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill edit-footage-with-code -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/edit-footage-with-code",
+   "md": "https://varg.ai/how-to/skills/edit-footage-with-code.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_e6872632eb3f.jpg"
+  },
+  {
    "slug": "find-references",
    "name": "Find References",
    "type": "skill",
@@ -3542,7 +3649,7 @@
     "look-development",
     "pre-production"
    ],
-   "summary": "Real references before anything is made: seven sources, four kinds of reference with this week's numbers, ten visual ideas and a board to pick from.",
+   "summary": "A video request becomes query packs over 22 open sources and a board of three human-made, provenance-checked references per job.",
    "publisher": "varg",
    "source": "https://github.com/vargHQ/skills/tree/main/find-references",
    "license": "MIT",
@@ -3561,6 +3668,43 @@
    "url": "https://varg.ai/how-to/skills/find-references",
    "md": "https://varg.ai/how-to/skills/find-references.md",
    "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_c65707aa401c.webp"
+  },
+  {
+   "slug": "media-judge",
+   "name": "Media Judge",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "tooling",
+   "tags": [
+    "qa",
+    "review",
+    "video-quality",
+    "llm-judge",
+    "take-ranking",
+    "banding",
+    "ocr",
+    "ffmpeg"
+   ],
+   "summary": "A finished video, image or track becomes a list of timed, measured defects with evidence frames, and takes ranked by defects.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/media-judge",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill media-judge -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill media-judge -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill media-judge -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/media-judge",
+   "md": "https://varg.ai/how-to/skills/media-judge.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_cee9681521af.jpg"
   },
   {
    "slug": "video-animate",
@@ -4160,6 +4304,43 @@
    "url": "https://varg.ai/how-to/skills/model-split-screen",
    "md": "https://varg.ai/how-to/skills/model-split-screen.md",
    "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_6ec5fe8a03ff.mp4"
+  },
+  {
+   "slug": "stickman-video",
+   "name": "Turn a topic into a stickman video",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "shorts",
+   "tags": [
+    "stickman",
+    "stick-figure",
+    "faceless",
+    "survival-story",
+    "pov",
+    "animation",
+    "hyperframes",
+    "code-video"
+   ],
+   "summary": "Viral stickman reels drawn in code: a jointed figure that walks and reacts, rules on screen, a choice ending.",
+   "publisher": "varg",
+   "source": "https://github.com/vargHQ/skills/tree/main/stickman-video",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude plugin marketplace add vargHQ/skills && claude plugin install varg@varg",
+    "codex": "npx skills add vargHQ/skills --skill stickman-video -a codex -y",
+    "cursor": "npx skills add vargHQ/skills --skill stickman-video -a cursor -y",
+    "gemini-cli": "npx skills add vargHQ/skills --skill stickman-video -a gemini-cli -y"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli"
+   ],
+   "url": "https://varg.ai/how-to/skills/stickman-video",
+   "md": "https://varg.ai/how-to/skills/stickman-video.md",
+   "example": "https://s3.varg.ai/files/4325c578-378d-4c43-ae53-3cc3218df1ea/file_6f3002ab335b.mp4"
   },
   {
    "slug": "hyperframes-figma",
@@ -13315,12 +13496,15 @@
     "html-video",
     "kinetic-type"
    ],
-   "summary": "Browser motion graphics that move like video, not slides: openers, promos, bumpers, kinetic type and explainers.",
+   "summary": "Free MIT skill: your agent builds openers, promos, kinetic type and explainers as one HTML file that plays like video.",
    "publisher": "Bang Tutorial",
    "source": "https://github.com/bangtutorial/bang-motion",
    "license": "MIT",
    "install": {
-    "claude-code": "/plugin marketplace add bangtutorial/bang-motion\n/plugin install bang-motion@bang-motion"
+    "claude-code": "/plugin marketplace add bangtutorial/bang-motion\n/plugin install bang-motion@bang-motion",
+    "codex": "npx skills add https://github.com/bangtutorial/bang-motion --skill bang-motion -a codex -y",
+    "cursor": "npx skills add https://github.com/bangtutorial/bang-motion --skill bang-motion -a cursor -y",
+    "gemini-cli": "npx skills add https://github.com/bangtutorial/bang-motion --skill bang-motion -a gemini-cli -y"
    },
    "agents": [
     "claude-code",
@@ -17473,16 +17657,19 @@
     "editing",
     "app"
    ],
-   "summary": "Self-hostable OpusClip alternative: long video in, captioned vertical clips out, no watermark.",
+   "summary": "Open-source OpusClip alternative: long video in, scored 9:16 clips with face crop and captions out. Self-host or MCP.",
    "publisher": "FujiwaraChoki",
    "source": "https://github.com/FujiwaraChoki/supoclip",
    "license": "AGPL-3.0",
    "install": {
-    "claude-code": "git clone https://github.com/FujiwaraChoki/supoclip.git  then docker-compose up (see docs/setup.md)"
+    "claude-code": "claude mcp add --transport http supoclip https://mcp.supoclip.com/mcp --header \"Authorization: Bearer sk_...\""
    },
    "agents": [
     "claude-code",
-    "codex"
+    "cursor",
+    "claude-ai",
+    "chatgpt",
+    "mcp"
    ],
    "url": "https://varg.ai/how-to/skills/supoclip",
    "md": "https://varg.ai/how-to/skills/supoclip.md",
@@ -21409,17 +21596,19 @@
     "psd",
     "open-source"
    ],
-   "summary": "Open-source Rust photo editor (PSD layers, masks, adjustment layers) whose 500+ commands an agent can run over MCP or CLI, e.g. batch-grade a folder of images.",
+   "summary": "Open-source Photoshop-class editor in Rust; its built-in MCP server lets an agent run all 500+ commands on your images.",
    "publisher": "ArtCraft (storytold)",
    "source": "https://github.com/storytold/photocraft",
-   "license": "Apache-2.0",
+   "license": "MIT OR Apache-2.0",
    "install": {
-    "claude-code": "claude mcp add photocraft -- photocraft-cli mcp",
-    "codex": "codex mcp add photocraft -- photocraft-cli mcp"
+    "claude-code": "claude mcp add photocraft -- photocraft-cli mcp --automation-read-root <dir> --automation-write-root <dir>",
+    "codex": "codex mcp add photocraft -- photocraft-cli mcp --automation-read-root <dir> --automation-write-root <dir>"
    },
    "agents": [
     "claude-code",
-    "codex"
+    "codex",
+    "cursor",
+    "mcp"
    ],
    "url": "https://varg.ai/how-to/skills/photocraft-mcp",
    "md": "https://varg.ai/how-to/skills/photocraft-mcp.md",
@@ -21439,13 +21628,13 @@
     "game-juice",
     "canvas"
    ],
-   "summary": "244 code-drawn pixel-art effects (fire, explosions, magic, weather, UI, pickups) you can recolor and export as sprite sheets, plus a skill that makes new ones: ",
+   "summary": "244 code-drawn pixel-art effects (fire, explosions, magic, UI) to recolor and export as sprite sheets, plus a skill.",
    "publisher": "patch-gg",
    "source": "https://github.com/patch-gg/pixelfx",
    "license": "MIT",
    "install": {
     "claude-code": "/plugin marketplace add patch-gg/pixelfx\n/plugin install pixelfx@pixelfx",
-    "codex": "npx skills add patch-gg/pixelfx"
+    "codex": "npx skills add patch-gg/pixelfx -a codex -y"
    },
    "agents": [
     "claude-code",
@@ -21503,12 +21692,14 @@
    "source": "https://github.com/kaomei/stickman-video-director",
    "license": "MIT",
    "install": {
-    "claude-code": "npx skills add kaomei/stickman-video-director",
-    "codex": "npx skills add kaomei/stickman-video-director"
+    "claude-code": "npx skills add kaomei/stickman-video-director --skill directing-stickman-videos -a claude-code -y",
+    "codex": "npx skills add kaomei/stickman-video-director --skill directing-stickman-videos -a codex -y",
+    "cursor": "npx skills add kaomei/stickman-video-director --skill directing-stickman-videos -a cursor -y"
    },
    "agents": [
+    "codex",
     "claude-code",
-    "codex"
+    "cursor"
    ],
    "url": "https://varg.ai/how-to/skills/stickman-video-director",
    "md": "https://varg.ai/how-to/skills/stickman-video-director.md",
@@ -22214,6 +22405,177 @@
    "url": "https://varg.ai/how-to/skills/wasteland-builder",
    "md": "https://varg.ai/how-to/skills/wasteland-builder.md",
    "example": "https://raw.githubusercontent.com/fltman/wasteland-builder/main/docs/images/visby-street.jpg"
+  },
+  {
+   "slug": "anything2explainer",
+   "name": "anything2explainer",
+   "type": "skill",
+   "status": "live",
+   "shelf": "workflow",
+   "category": "explainers",
+   "tags": [
+    "explainer",
+    "remotion",
+    "motion-graphics",
+    "tts",
+    "faceless",
+    "educational",
+    "multi-agent",
+    "animation"
+   ],
+   "summary": "Claude Code / Codex skill: a topic in, a narrated black-canvas motion-graphics explainer MP4 out, drawn in Remotion.",
+   "publisher": "Yihao (Vincentwei1021)",
+   "source": "https://github.com/Vincentwei1021/anything2explainer",
+   "license": "PolyForm-Noncommercial-1.0.0",
+   "install": {
+    "claude-code": "git clone https://github.com/Vincentwei1021/anything2explainer.git\nln -s \"$PWD/anything2explainer\" ~/.claude/skills/anything2explainer",
+    "codex": "git clone https://github.com/Vincentwei1021/anything2explainer.git\nln -s \"$PWD/anything2explainer\" ~/.codex/skills/anything2explainer"
+   },
+   "agents": [
+    "claude-code",
+    "codex"
+   ],
+   "url": "https://varg.ai/how-to/skills/anything2explainer",
+   "md": "https://varg.ai/how-to/skills/anything2explainer.md"
+  },
+  {
+   "slug": "autoclip",
+   "name": "AutoClip",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "shorts",
+   "tags": [
+    "clipping",
+    "podcast",
+    "desktop-app",
+    "mcp",
+    "captions",
+    "douyin",
+    "xiaohongshu",
+    "editing",
+    "self-host"
+   ],
+   "summary": "Free MIT desktop app, CLI and MCP: a link or long video in, platform-ready clips with covers and post copy out.",
+   "publisher": "zhouxiaoka",
+   "source": "https://github.com/zhouxiaoka/autoclip",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude mcp add-json autoclip '{\"command\":\"uvx\",\"args\":[\"autoclip-mcp\"],\"env\":{\"AUTOCLIP_API_KEY\":\"${AUTOCLIP_API_KEY}\"}}'"
+   },
+   "agents": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/autoclip",
+   "md": "https://varg.ai/how-to/skills/autoclip.md"
+  },
+  {
+   "slug": "effectcraft-mcp",
+   "name": "EffectCraft MCP (open-source After Effects alternative)",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "animation",
+   "tags": [
+    "motion-graphics",
+    "mcp",
+    "compositing",
+    "after-effects-alternative",
+    "lottie",
+    "vfx",
+    "titles",
+    "open-source",
+    "tooling"
+   ],
+   "summary": "Open-source After Effects-style compositor in Rust; its MCP server lets an agent build comps, keys and effects.",
+   "publisher": "ArtCraft (storytold)",
+   "source": "https://github.com/storytold/effectcraft",
+   "license": "MIT OR Apache-2.0",
+   "install": {
+    "claude-code": "claude mcp add effectcraft -- effectcraft-cli mcp"
+   },
+   "agents": [
+    "claude-code",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/effectcraft-mcp",
+   "md": "https://varg.ai/how-to/skills/effectcraft-mcp.md",
+   "example": "https://raw.githubusercontent.com/storytold/effectcraft/main/docs/images/effectcraft-hero.png"
+  },
+  {
+   "slug": "openshorts",
+   "name": "OpenShorts",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "shorts",
+   "tags": [
+    "clipping",
+    "opus-clip-alternative",
+    "self-host",
+    "mcp",
+    "captions",
+    "reframe",
+    "editing",
+    "ads",
+    "api"
+   ],
+   "summary": "Open-source OpusClip alternative (MIT): long video in, 9:16 clips with face tracking and captions out. MCP, API.",
+   "publisher": "Juan Carlos Cavero (mutonby)",
+   "source": "https://github.com/mutonby/openshorts",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude mcp add --transport http openshorts https://mcp.openshorts.app/mcp --header \"Authorization: Bearer osk_...\"",
+    "openclaw": "openclaw skills install @mutonby/openshorts"
+   },
+   "agents": [
+    "claude-code",
+    "claude-ai",
+    "chatgpt",
+    "cursor",
+    "openclaw",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/openshorts",
+   "md": "https://varg.ai/how-to/skills/openshorts.md",
+   "example": "https://raw.githubusercontent.com/mutonby/openshorts/main/screenshots/clip-results.png"
+  },
+  {
+   "slug": "photoshop-mcp",
+   "name": "Photoshop MCP",
+   "type": "skill",
+   "status": "live",
+   "shelf": "guide",
+   "category": "image",
+   "tags": [
+    "photoshop",
+    "mcp",
+    "image-editing",
+    "retouch",
+    "background-removal",
+    "batch",
+    "firefly",
+    "carousel"
+   ],
+   "summary": "Unofficial MIT MCP server: Claude, Cursor or its own chat drive your running Adobe Photoshop with 128 tools.",
+   "publisher": "Ali Sait Teke",
+   "source": "https://github.com/alisaitteke/photoshop-mcp",
+   "license": "MIT",
+   "install": {
+    "claude-code": "claude mcp add photoshop -- npx -y @alisaitteke/photoshop-mcp"
+   },
+   "agents": [
+    "claude-code",
+    "cursor",
+    "mcp"
+   ],
+   "url": "https://varg.ai/how-to/skills/photoshop-mcp",
+   "md": "https://varg.ai/how-to/skills/photoshop-mcp.md",
+   "example": "https://raw.githubusercontent.com/alisaitteke/photoshop-mcp/master/images/readme-hero-v2.png"
   },
   {
    "slug": "want-notes-app-ad",

@@ -1,6 +1,6 @@
 # pixelfx: 244 pixel-art effects + effect-making skill
 
-244 code-drawn pixel-art effects (fire, explosions, magic, weather, UI, pickups) you can recolor and export as sprite sheets, plus a skill that makes new ones: 
+244 code-drawn pixel-art effects (fire, explosions, magic, UI) to recolor and export as sprite sheets, plus a skill.
 
 - **Type:** Workflows · Animation
 - **Status:** live
@@ -19,7 +19,7 @@
 /plugin install pixelfx@pixelfx
 
 # Codex
-npx skills add patch-gg/pixelfx
+npx skills add patch-gg/pixelfx -a codex -y
 ```
 
 ## Example

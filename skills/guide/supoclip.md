@@ -1,13 +1,13 @@
 # SupoClip
 
-Self-hostable OpusClip alternative: long video in, captioned vertical clips out, no watermark.
+Open-source OpusClip alternative: long video in, scored 9:16 clips with face crop and captions out. Self-host or MCP.
 
 - **Type:** Guides · Editing
 - **Status:** live
 - **Publisher:** FujiwaraChoki
 - **License:** AGPL-3.0
 - **Source:** <https://github.com/FujiwaraChoki/supoclip>
-- **Works in:** Claude Code, Codex
+- **Works in:** Claude Code, Cursor, claude-ai, chatgpt, mcp
 - **Tags:** `shorts` `clipping` `self-host` `api` `editing` `app`
 - **Full card, kept current:** <https://varg.ai/how-to/skills/supoclip.md>
 
@@ -15,7 +15,7 @@ Self-hostable OpusClip alternative: long video in, captioned vertical clips out,
 
 ```bash
 # Claude Code
-git clone https://github.com/FujiwaraChoki/supoclip.git  then docker-compose up (see docs/setup.md)
+claude mcp add --transport http supoclip https://mcp.supoclip.com/mcp --header "Authorization: Bearer sk_..."
 ```
 
 ## Example

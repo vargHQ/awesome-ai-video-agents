@@ -7,7 +7,7 @@ Turns a topic, article or script into a multi-style animated stickman video (vis
 - **Publisher:** kaomei
 - **License:** MIT
 - **Source:** <https://github.com/kaomei/stickman-video-director>
-- **Works in:** Claude Code, Codex
+- **Works in:** Codex, Claude Code, Cursor
 - **Tags:** `stickman` `faceless` `explainer` `storyboard` `channel`
 - **Full card, kept current:** <https://varg.ai/how-to/skills/stickman-video-director.md>
 
@@ -15,10 +15,13 @@ Turns a topic, article or script into a multi-style animated stickman video (vis
 
 ```bash
 # Claude Code
-npx skills add kaomei/stickman-video-director
+npx skills add kaomei/stickman-video-director --skill directing-stickman-videos -a claude-code -y
 
 # Codex
-npx skills add kaomei/stickman-video-director
+npx skills add kaomei/stickman-video-director --skill directing-stickman-videos -a codex -y
+
+# Cursor
+npx skills add kaomei/stickman-video-director --skill directing-stickman-videos -a cursor -y
 ```
 
 ## Example
